@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="../images/yarn.png" type="image/png" />
+  <title>Textile & Yarn Tools</title>
+  <link rel="stylesheet" href="textile.css" />
+</head>
+<body>
+  <button id="helpBtn" class="help-btn">🤔</button>
+  <div id="helpModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>🧵 Textile & Yarn Tools - Help</h2>
+      <div class="modal-body">
+        <h3>Textile Calculator</h3>
+        <ul>
+          <li><strong>GSM Calculator:</strong> Enter fabric weight and area to calculate GSM.</li>
+          <li><strong>Denier ↔ Tex Converter:</strong> Converts between denier and tex.</li>
+          <li><strong>Thread Count Calculator:</strong> Sum of warp and weft densities.</li>
+          <li><strong>Fabric Cost Calculator:</strong> Estimate fabric cost using GSM, area, and cost per gram.</li>
+          <li><strong>Yarn Count Converter:</strong> Convert between Ne and Nm using standard conversion rates.</li>
+        </ul>
+        <h3>Yarn Twist Visualizer</h3>
+        <ul>
+          <li><strong>TPI:</strong> Set twists per inch with the slider.</li>
+          <li><strong>Yarn Count:</strong> Adjust thickness (Ne count).</li>
+          <li><strong>Twist Direction:</strong> Choose between S and Z twist styles.</li>
+          <li><strong>Zoom & Pan:</strong> Scroll to zoom, drag to move visualization.</li>
+          <li><strong>Export:</strong> Save the current twist image as PNG.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="main-container">
+    <div class="calculator-container">
+      <h1>🧵 Textile Calculator</h1>
+      <div class="calc-section">
+        <h2>GSM Calculator</h2>
+        <input type="number" id="fabricWeight" placeholder="Fabric Weight (grams)" />
+        <input type="number" id="fabricArea" placeholder="Fabric Area (m²)" />
+        <button onclick="calculateGSM()">Calculate GSM</button>
+        <p id="gsmResult"></p>
+      </div>
+      <div class="calc-section">
+        <h2>Denier ↔ Tex Converter</h2>
+        <input type="number" id="inputValue" placeholder="Value" />
+        <select id="conversionType">
+          <option value="denierToTex">Denier ➜ Tex</option>
+          <option value="texToDenier">Tex ➜ Denier</option>
+        </select>
+        <button onclick="convert()">Convert</button>
+        <p id="conversionResult"></p>
+      </div>
+      <div class="calc-section">
+        <h2>Thread Count Calculator</h2>
+        <input type="number" id="warpDensity" placeholder="Warp Density (threads/inch)" />
+        <input type="number" id="weftDensity" placeholder="Weft Density (threads/inch)" />
+        <button onclick="calculateThreadCount()">Calculate Thread Count</button>
+        <p id="threadCountResult"></p>
+      </div>
+      <div class="calc-section">
+        <h2>Fabric Cost Calculator</h2>
+        <input type="number" id="gsmCost" placeholder="GSM (g/m²)" />
+        <input type="number" id="costArea" placeholder="Area (m²)" />
+        <input type="number" id="costPerGram" placeholder="Cost per gram ($)" />
+        <button onclick="calculateCost()">Calculate Cost</button>
+        <p id="costResult"></p>
+      </div>
+      <div class="calc-section">
+        <h2>Yarn Count Converter</h2>
+        <input type="number" id="yarnInput" placeholder="Yarn Count" />
+        <select id="yarnType">
+          <option value="neToNm">Ne ➜ Nm</option>
+          <option value="nmToNe">Nm ➜ Ne</option>
+        </select>
+        <button onclick="convertYarn()">Convert</button>
+        <p id="yarnResult"></p>
+      </div>
+    </div>
+    <div class="visualizer-container">
+      <h1>🧶 Yarn Twist Visualizer</h1>
+      <div class="controls">
+        <label>TPI: <span id="tpiVal">10</span></label>
+        <input type="range" id="tpi" min="1" max="30" value="10" />
+        <label>Yarn Count (Ne): <span id="countVal">20</span></label>
+        <input type="range" id="yarnCount" min="1" max="40" value="20" />
+        <label>Twist Direction:</label>
+        <select id="twistType">
+          <option value="S">S-Twist</option>
+          <option value="Z">Z-Twist</option>
+        </select>
+        <button onclick="exportPNG()">Export to PNG</button>
+      </div>
+      <div id="svgWrapper" class="zoom-wrapper">
+        <svg id="yarnSVG" width="300" height="300" viewBox="0 0 300 300"></svg>
+      </div>
+      <p id="twistInfo"></p>
+      <div id="quoteSection" class="quote-container">
+        <h2 class="quote-header">Random Textile Quote</h2>
+        <p id="quoteDisplay" class="quote-text">"Loading quote..."</p>
+        <button id="generateQuoteBtn" class="quote-btn">Generate New Quote</button>
+      </div>
+      <p id="mentionDonate" class="mention-donate">
+        If you find these tools helpful, please consider mentioning or <a href="https://objkt.com/tokens/KT1FwYYCV376MSWuNoevwgnrBugeB6dTh8y6/0" target="_blank" class="donate-link">donating</a> to support us. Your contribution helps keep these tools available for everyone!
+      </p>
+    </div> 
+  </div>
+  <footer class="footer">
+    <p>© 2025 Reyrove. All rights spun tight—just like our yarn.</p>
+  </footer> 
+  <script src="textile.js"></script>
+</body>
+</html>

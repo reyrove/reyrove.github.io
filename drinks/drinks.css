@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #121212; 
+    color: #e0e0e0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: hidden; 
+}
+
+.header-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 2em; 
+    font-family: 'Playfair Display', serif;
+    color: #ffeb3b;
+}
+
+.header-container p {
+    font-size: 1em; 
+    margin-top: 10px;
+    color: #e0e0e0;
+}
+
+.back-arrow {
+    position: fixed;
+    left: 20px; 
+    bottom: 20px; 
+    background-color: #1f1f1f; 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(255, 235, 59, 0.3); 
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.back-arrow i {
+    font-size: 30px; 
+    color: #ffeb3b; 
+    transition: transform 0.3s;
+}
+
+.back-arrow:hover {
+    transform: scale(1.1); 
+}
+
+.back-arrow:hover i {
+    color: #ffd700; 
+}
+
+.chapter-intro {
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #e0e0e0; 
+}
+
+.chapter-drink-image {
+    display: block;
+    margin: 0 auto;
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    box-shadow: 0 4px 8px rgba(255, 235, 59, 0.3); 
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-bottom: 40px;
+    text-align: justify;
+    color: #e0e0e0; 
+}
+
+
+h2, h3 {
+    color: #ffeb3b; 
+    margin-top: 20px;
+    font-size: 1.4em; 
+}
+
+@media (max-width: 768px) {
+    h2, h3 {
+        font-size: 1.2em; 
+    }
+}
+
+pre {
+    background-color: #2e2e2e; 
+    color: #ffeb3b; 
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto; 
+    font-family: 'Courier New', monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%; 
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    background-color: #2e2e2e; 
+    color: #ffeb3b;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.footer, header {
+    background-color: #1f1f1f; 
+    color:  #e0e0e0; 
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1; 
+}
+
+.social-media {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    color: #ffeb3b; 
+    font-size: 20px;
+    margin: 0 10px;
+    transition: transform 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    color: #ffd700; 
+}
+
+.chapter {
+    margin: 0 auto; 
+    padding: 20px;
+    max-width: 1000px; 
+    background-color: #1a1a1a;
+    border: 1px solid #444444; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+@media (max-width: 768px) {
+    .chapter {
+        padding: 15px; 
+        max-width: 95%; 
+    }
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background: #ffeb3b;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+  transition: all 0.3s ease;
+  color: #121212;
+  font-family: 'Orbitron', 'Segoe UI', sans-serif;
+  box-shadow:
+    0 0 10px rgba(255, 235, 59, 0.6),
+    0 0 18px rgba(255, 235, 59, 0.4);
+}
+
+#backToTop.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+#backToTop:hover {
+  background: #ffd700;
+  box-shadow:
+    0 0 12px rgba(255, 215, 0, 0.7),
+    0 0 22px rgba(255, 235, 59, 0.6);
+  transform: scale(1.08);
+}
+
+#backToTop:active {
+  background: #b38f00;
+  transform: scale(0.92);
+}
+
+#backToTop i {
+  font-size: 28px;
+  transition: transform 0.3s ease;
+  text-shadow: 0 0 6px rgba(18, 18, 18, 0.7);
+}
+
+#backToTop.reverse {
+  background: #ffeb3b;
+  animation: softPulse 2s ease-in-out infinite;
+  color: #121212;
+}
+
+@keyframes softPulse {
+  0%, 100% {
+    box-shadow:
+      0 0 10px rgba(255, 235, 59, 0.4),
+      0 0 20px rgba(255, 235, 59, 0.3);
+  }
+  50% {
+    box-shadow:
+      0 0 16px rgba(255, 215, 0, 0.6),
+      0 0 28px rgba(255, 235, 59, 0.5);
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  #backToTop {
+    width: 68px;
+    height: 68px;
+    bottom: 25px;
+    right: 25px;
+  }
+
+  #backToTop i {
+    font-size: 32px;
+  }
+}

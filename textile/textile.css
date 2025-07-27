@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('../images/background-2.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fefefe;
+  margin: 0;
+  padding: 1rem;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.calculator-container,
+.visualizer-container {
+  background: linear-gradient(145deg, #2a003f, #2e0017);
+  padding: 2rem;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 30px rgba(255, 0, 90, 0.3);
+  border: 2px solid #ff0077;
+}
+
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ffe600;
+  text-shadow: 0 0 5px #ff00ff;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.controls input,
+.controls select,
+.controls label {
+  font-size: 1rem;
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 0.6rem;
+  background: linear-gradient(90deg, #ff007f, #ff0099);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 4px #000;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #ff0044, #ff0033);
+  transform: scale(1.03) rotate(-1deg);
+}
+
+.zoom-wrapper {
+  border: 2px dashed #ff00ff;
+  overflow: hidden;
+  cursor: grab;
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  margin: auto;
+  background: repeating-linear-gradient(
+    45deg,
+    #1f1f1f,
+    #1f1f1f 10px,
+    #2a003f 10px,
+    #2a003f 20px
+  );
+}
+
+.zoom-wrapper:active {
+  cursor: grabbing;
+}
+
+#twistInfo {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #ff72ff;
+  text-align: center;
+}
+
+.calc-section {
+  margin-bottom: 2rem;
+  border-top: 2px dashed #ff1493;
+  padding-top: 1rem;
+}
+
+.calc-section:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.calc-section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #ff5edf;
+  text-shadow: 0 0 4px #f0f;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #ff00a2;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #1e1e1e;
+  color: #ff7b00;
+}
+
+p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #ff5e00;
+}
+
+.help-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: radial-gradient(circle, #ff1493, #9400d3);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  box-shadow: 0 0 15px #ff00ff;
+  z-index: 1000;
+}
+
+.help-btn:hover {
+  background: radial-gradient(circle, #ff00cc, #ff0055);
+  box-shadow: 0 0 25px #fff700;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 80px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(10, 0, 15, 0.95);
+}
+
+.modal-content {
+  background: linear-gradient(135deg, #330033, #440022);
+  margin: auto;
+  padding: 2rem;
+  border: 2px solid #f0f;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  color: #f8dfff;
+  box-shadow: 0 0 30px rgba(255, 0, 255, 0.3);
+}
+
+.close-btn {
+  color: #ff88ff;
+  float: right;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #fff;
+}
+
+.footer {
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Courier New', monospace;
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer p{
+  color: #fefefe;
+}
+
+.quote-container {
+  background: linear-gradient(145deg, #2a003f, #2e0017);
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 0 30px rgba(255, 0, 90, 0.3);
+  border: 2px solid #ff0077;
+  max-width: 500px;
+  margin: 2rem auto;
+  text-align: center;
+  color: #fff;
+}
+
+.quote-header {
+  font-size: 1.5rem;
+  color: #ffe600;
+  text-shadow: 0 0 5px #ff00ff;
+  margin-bottom: 1rem;
+}
+
+.quote-text {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.quote-btn {
+  padding: 0.6rem 1.2rem;
+  background: linear-gradient(90deg, #ff007f, #ff0099);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 4px #000;
+}
+
+.quote-btn:hover {
+  background: linear-gradient(90deg, #ff0044, #ff0033);
+  transform: scale(1.03) rotate(-1deg);
+}
+
+.mention-donate {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  margin-top: 2rem; 
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255, 0, 90, 0.3);
+}
+
+.mention-donate a {
+  color: #ff5e00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mention-donate a:hover {
+  color: #ff72ff;
+}

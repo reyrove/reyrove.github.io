@@ -1,0 +1,498 @@
+body {
+  background: #0a0a0f;
+  color: #eee;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+h2.section-title {
+  color: #ff4ecb;
+  font-size: 2rem;
+  border-bottom: 2px solid #ff4ecb;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.header {
+  position: relative;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  padding: 1.5rem 0;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.full-width-bg {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100%;
+  background-color: #000000;
+  background-image:
+    radial-gradient(circle 1.2px at 10px 10px, rgba(255, 105, 180, 0.7) 80%, transparent 100%),
+    radial-gradient(circle 1.2px at 40px 40px, rgba(255, 165, 0, 0.6) 70%, transparent 100%),
+    radial-gradient(circle 1.2px at 70px 20px, rgba(255, 182, 193, 0.5) 75%, transparent 100%),
+    radial-gradient(circle 1.2px at 80px 60px, rgba(255, 140, 0, 0.4) 70%, transparent 100%);
+  background-repeat: repeat;
+  background-size: 90px 90px;
+  animation: moveStars 10s linear infinite;
+}
+
+@keyframes moveStars {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 90px 90px;
+  }
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('images/background-1.png') center/cover no-repeat;
+  filter: blur(5px);
+  z-index: 0;
+}
+
+.header > * {
+  position: relative;
+  z-index: 1;
+}
+
+.artist-statement p {
+  margin-bottom: 1.25rem;
+  font-size: 1.56rem;
+  line-height: 1.7;
+  color: #ffffff;
+  font-family: 'Dancing Script', cursive;
+}
+
+.tagline {
+  font-style: italic;
+  color: #ff9f59;
+  font-weight: 600;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 1rem;
+  letter-spacing: 0.08em;
+  font-size: 1.75rem;
+  text-shadow:
+    0 0 5px rgba(255, 159, 89, 0.6),
+    0 0 10px rgba(255, 159, 89, 0.5),
+    0 0 15px rgba(255, 159, 89, 0.4);
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  margin: 1rem auto;
+  box-shadow: 0 0 60px rgba(215, 84, 206, 0.6), 0 0 40px rgba(234, 114, 22, 0.4);
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+
+.profile-pic:hover,
+.profile-pic:active,
+.profile-pic:focus {
+  transform: rotate(5deg) scale(1.05);
+  box-shadow: 0 0 10px 4px rgba(255, 0, 150, 0.6),
+              0 0 20px 6px rgba(0, 200, 255, 0.4);
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  width: 100%;
+  position: static !important;
+  box-shadow: none !important;
+  z-index: auto !important;
+}
+
+.navbar .nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-size: 1rem;
+  position: relative;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.navbar .nav-link:hover {
+  color: #ff9f59 !important;
+  text-decoration: none;
+  text-shadow: 0 0 6px #ff9f59, 0 0 12px #ff9f59;
+}
+
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #ff4ecb, #a463f2, #ff9f59);
+  transition: transform 0.4s ease;
+  border-radius: 1px;
+}
+
+.navbar .nav-link:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    justify-content: center;
+  }
+
+  .navbar .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar .nav-link {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+}
+
+.bg-primary {
+  background: linear-gradient(90deg, #ff4ecb, #a463f2, #ff9f59) !important;
+  color: #0e0e0e !important;
+  font-weight: 600;
+  box-shadow: 0 0 8px rgba(255, 78, 203, 0.4);
+  border-radius: 999px;
+}
+
+a.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+a.project-link:hover .project-card {
+  box-shadow: 0 0 15px #ff4ecb;
+  transform: scale(1.03);
+}
+
+.projects-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.project-card {
+  display: flex;
+   box-sizing: border-box;
+  flex-direction: column;
+  width: 320px;
+  padding: 1rem;
+  border: 1px solid #6e3e8a;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  font-family: 'Dancing Script', cursive;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 15px #ff4ecb;
+  transform: scale(1.03) translateY(-5px);
+}
+
+.project-card p {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.project-card img {
+  border-radius: 8px;
+  width: 100%;
+  aspect-ratio: 16 / 9; 
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+}
+
+.project-card h3 {
+  margin-top: auto;
+  margin-bottom: 0;
+  color: #ff9f59;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 767.98px) {
+  .projects-grid {
+    justify-content: center !important;
+  }
+
+  .projects-grid > [class*="col-"] {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem; 
+  margin-top: 2rem;
+  font-family: 'Dancing Script', cursive;
+  padding: 1rem;
+}
+
+.skills-grid span {
+  background: #1a0e2a;
+  color: #ff4ecb;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px; 
+  font-weight: 600;
+  font-size: 1rem;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.skills-grid span:hover {
+  background: #ff4ecb;
+  color: #1a0e2a;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(255, 78, 203, 0.4);
+}
+
+#team .section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #ff4ecb;
+  text-align: center;
+}
+
+#team .card {
+  background: linear-gradient(135deg, #3b0a5e, #1e102a, #742795);
+  background-size: 400% 400%;
+  animation: magicGlow 10s ease infinite;
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-top: 1rem;
+  font-family: 'Dancing Script', cursive;
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.6);
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes magicGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#team .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+#team .card-img-top {
+  border: 3px solid #ff9f59;
+  padding: 5px;
+  background-color: #2a2a2a;
+}
+
+#team .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+#team .card-text {
+  color: #bbb;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+#team a {
+  font-size: 1.2rem;
+  color: #aaa;
+  transition: color 0.2s ease;
+}
+
+#team a:hover {
+  color: #fff;
+}
+
+#team .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.contact-list li {
+  padding: 0.75rem 1rem;
+  min-width: 140px;
+}
+
+.contact-list a {
+  color: #ff4ecb; 
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+.contact-list a:hover {
+  color: #ff9f59; 
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.text-pink {
+  color: #ff4ecb !important;
+}
+
+.text-orange {
+  color: #ff9f59 !important;
+}
+
+.border-orange {
+  border-color: #ff9f59 !important;
+}
+
+.btn-magical {
+  background: linear-gradient(135deg, #ff6a88 0%, #9b59b6 100%);
+  color: #fff;
+  font: 600 1.25rem/1 'Dancing Script', cursive;
+  letter-spacing: 0.04em;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 
+    0 4px 8px rgba(155, 89, 182, 0.3),
+    0 0 8px rgba(255, 106, 136, 0.4),
+    0 0 16px rgba(155, 89, 182, 0.2);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  user-select: none;
+  text-shadow: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-magical:hover {
+  transform: scale(1.04);
+  box-shadow: 
+    0 6px 12px rgba(155, 89, 182, 0.5),
+    0 0 12px rgba(255, 106, 136, 0.6),
+    0 0 24px rgba(155, 89, 182, 0.3);
+}
+
+.btn-magical:active {
+  transform: scale(0.97);
+  box-shadow: 
+    0 3px 6px rgba(155, 89, 182, 0.25),
+    0 0 6px rgba(255, 106, 136, 0.3),
+    0 0 12px rgba(155, 89, 182, 0.2);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(30, 0, 60, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  cursor: pointer; 
+}
+
+.modal-popup {
+  color: #e0c9ff;
+  font-family: 'Cursive', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 80vw;
+  padding: 2rem;
+  text-align: center;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  line-height: 1.5;
+  text-shadow:
+    0 0 6px #b399ff,
+    0 0 12px #9a4dff,
+    0 0 24px #7a1aff;
+  cursor: default; 
+  position: relative;
+}
