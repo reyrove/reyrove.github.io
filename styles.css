@@ -496,3 +496,87 @@ a.project-link:hover .project-card {
   cursor: default; 
   position: relative;
 }
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  gap: 10px;
+  z-index: 10000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(255, 106, 136, 0.8), rgba(155, 89, 182, 0.8));
+  backdrop-filter: blur(5px);
+  border: 2px solid #ff9f59;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 
+    0 4px 8px rgba(155, 89, 182, 0.3),
+    0 0 8px rgba(255, 106, 136, 0.4);
+  font-family: 'Dancing Script', cursive;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top:hover {
+  background: linear-gradient(135deg, rgba(255, 106, 136, 1), rgba(155, 89, 182, 1));
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 
+    0 6px 12px rgba(155, 89, 182, 0.5),
+    0 0 12px rgba(255, 106, 136, 0.6);
+}
+
+.back-to-top:active {
+  transform: translateY(-2px) scale(0.95);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.back-to-top.visible {
+  animation: float 3s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+  .external-resources {
+    flex-direction: column;
+    align-items: flex-end;
+    bottom: 10px;
+    left: 10px;
+  }
+}
+
+.external-resources {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10000;
+}
+
+@media (max-width: 768px) {
+  .external-resources {
+    flex-direction: column;
+    align-items: flex-end;
+    bottom: 10px;
+    right: 10px;
+  }
+}
