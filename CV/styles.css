@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #1a1a1a;
+  color: #e0e0e0;      
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #f2b6d0;
+}
+
+header span {
+  font-size: 1rem;
+  color: #d48ba3; 
+}
+
+header p {
+  margin: 5px 0;
+}
+
+#about-me p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.links a {
+  color: #f2b6d0; 
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  border-bottom: 2px solid #f2b6d0; 
+  padding-bottom: 5px;
+  color: #ffcce5;
+}
+
+ul {
+  list-style: disc inside;
+  margin-top: 10px;
+}
+
+a {
+  color: #f2b6d0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #f2b6d0;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+    margin: 20px 10px;
+  }
+  .profile-pic {
+    width: 90px;
+    height: 90px;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #b3b3b3;
+  padding-top: 30px;
+}
+
+@media print {
+  body {
+    background: #000 !important;
+    color: #f0f0f0 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .container {
+    box-shadow: none !important;
+    padding: 15px;
+    margin: 10mm auto;
+    border-radius: 0;
+    width: auto;
+  }
+
+  header, section, footer {
+    page-break-inside: avoid;
+  }
+
+  a,
+  .links a {
+    color: #f7c9dd !important;
+  }
+
+  .links {
+    display: block !important;
+    font-size: 12px;
+  }
+
+  .profile-pic {
+    border: 3px solid #f7c9dd !important;
+  }
+
+  section h2 {
+    border-bottom: 2px solid #f7c9dd !important;
+    color: #f0f0f0 !important;
+  }
+
+  footer {
+    color: #f0f0f0 !important;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 10mm;
+}
