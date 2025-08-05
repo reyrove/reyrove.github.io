@@ -30,3 +30,7 @@ Look, I’m not claiming to reinvent the wheel here—but if you’re into:
 - **Fork it!** Go wild.  
 - **Open an issue!** Tell me what’s broken (or what’s awesome).  
 - **Star it!** Because validation feels nice.  
+
+## 📜 License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
