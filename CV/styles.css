@@ -5,7 +5,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 15px; 
   background: #1a1a1a;
   color: #e0e0e0;      
   line-height: 1.6;
@@ -75,73 +75,116 @@ a:hover {
   margin-bottom: 15px;
 }
 
-@media (max-width: 600px) {
-  .container {
-    padding: 10px;
-    margin: 20px 10px;
-  }
-  .profile-pic {
-    width: 90px;
-    height: 90px;
-  }
-  header h1 {
-    font-size: 1.5rem;
-  }
+.pdf-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #f2b6d0;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pdf-button:hover {
+  background-color: #d48ba3;
 }
 
 footer {
   text-align: center;
-  margin-top: 40px;
   font-size: 0.9rem;
   color: #b3b3b3;
-  padding-top: 30px;
 }
 
 @media print {
+  * {
+    box-sizing: border-box;
+  }
+
   body {
-    background: #000 !important;
-    color: #f0f0f0 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 15px;
+    background: #1a1a1a !important;
+    color: #e0e0e0 !important;
+    line-height: 1.5;
+    font-size: 12pt;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
 
-  .container {
-    box-shadow: none !important;
-    padding: 15px;
-    margin: 10mm auto;
-    border-radius: 0;
-    width: auto;
+  header {
+    text-align: center;
+    margin-bottom: 15px;
+    page-break-after: avoid;
   }
 
-  header, section, footer {
-    page-break-inside: avoid;
+  header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #f2b6d0 !important;
   }
 
-  a,
-  .links a {
-    color: #f7c9dd !important;
-  }
-
-  .links {
-    display: block !important;
-    font-size: 12px;
+  header span {
+    font-size: 0.9rem;
+    color: #d48ba3 !important;
   }
 
   .profile-pic {
-    border: 3px solid #f7c9dd !important;
+    width: 100px;
+    height: 100px;
+    border-color: #f2b6d0 !important;
+  }
+
+  section {
+    margin-bottom: 20px;
+    page-break-inside: avoid;
   }
 
   section h2 {
-    border-bottom: 2px solid #f7c9dd !important;
-    color: #f0f0f0 !important;
+    border-bottom: 2px solid #f2b6d0 !important;
+    color: #ffcce5 !important;
+    font-size: 1.3rem;
+  }
+
+  #about-me p {
+    text-align: justify;
+  }
+
+  .links a, a {
+    color: #f2b6d0 !important;
+    margin: 0 5px;
+  }
+
+  .pdf-button {
+    display: none;
   }
 
   footer {
-    color: #f0f0f0 !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8rem;
+    color: #666;
   }
-}
 
-@page {
-  size: A4;
-  margin: 10mm;
+  .page-break {
+    page-break-after: always;
+  }
+
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  section {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+  
+  ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
