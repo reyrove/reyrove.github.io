@@ -10,12 +10,20 @@ body {
     overflow-x: hidden; 
 }
 
+/* Ensure all content containers don't exceed viewport width */
+.header-container, .chapter, .content, .footer, header {
+    width: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+
 .header-container {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center; 
+    padding: 0 15px;
 }
 
 .header-container h1 {
@@ -23,12 +31,14 @@ body {
     font-size: 2em; 
     font-family: 'Playfair Display', serif;
     color: #42a5f5; 
+    word-wrap: break-word;
 }
 
 .header-container p {
     font-size: 1em;
     margin-top: 10px;
     color: #e0e0e0;
+    word-wrap: break-word;
 }
 
 .back-arrow {
@@ -67,6 +77,8 @@ body {
     text-align: justify;
     margin-bottom: 20px;
     color: #e0e0e0; 
+    padding: 0 15px;
+    word-wrap: break-word;
 }
 
 .chapter-dessert-image {
@@ -78,24 +90,22 @@ body {
     object-fit: cover; 
     box-shadow: 0 4px 8px rgba(66, 165, 245, 0.3); 
     margin-bottom: 10px;
+    max-width: 100%;
 }
 
 .content {
     margin-bottom: 40px;
     text-align: justify;
     color: #e0e0e0; 
+    padding: 0 15px;
+    word-wrap: break-word;
 }
 
 h2, h3 {
     color: #42a5f5; 
     margin-top: 20px;
     font-size: 1.4em; 
-}
-
-@media (max-width: 768px) {
-    h2, h3 {
-        font-size: 1.2em; 
-    }
+    word-wrap: break-word;
 }
 
 pre {
@@ -108,6 +118,8 @@ pre {
     margin-top: 10px;
     margin-bottom: 10px;
     max-width: 100%; 
+    word-wrap: break-word;
+    white-space: pre-wrap;
 }
 
 code {
@@ -116,6 +128,8 @@ code {
     color: #42a5f5; 
     padding: 2px 4px;
     border-radius: 3px;
+    word-wrap: break-word;
+    white-space: normal;
 }
 
 .footer, header {
@@ -130,6 +144,7 @@ code {
     position: relative;
     z-index: 1; 
     position: relative; 
+    padding: 15px;
 }
 
 .social-media {
@@ -137,6 +152,7 @@ code {
     display: flex;
     justify-content: center;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .social-icon {
@@ -159,12 +175,209 @@ code {
     background-color: #1a1a1a; 
     border: 1px solid #444444; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    box-sizing: border-box;
 }
 
+/* Mobile responsiveness - Center everything */
 @media (max-width: 768px) {
+    body {
+        align-items: center;
+        justify-content: center;
+    }
+    
     .chapter {
-        padding: 15px; 
-        max-width: 95%; 
+        padding: 20px 15px; 
+        max-width: 95%;
+        margin: 0 auto;
+        border: 1px solid #444444; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header-container {
+        text-align: center;
+        align-items: center;
+    }
+    
+    .chapter-intro {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+    
+    .content {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h2, h3 {
+        font-size: 1.2em; 
+        text-align: center;
+        width: 100%;
+    }
+    
+    .header-container h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .header-container p {
+        font-size: 0.9em;
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    .chapter-dessert-image {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 15px auto;
+    }
+    
+    .back-arrow {
+        left: 15px;
+        bottom: 15px;
+        padding: 8px;
+    }
+    
+    .back-arrow i {
+        font-size: 24px;
+    }
+    
+    pre, code {
+        font-size: 0.9em;
+        text-align: left;
+        width: 100%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    pre {
+        text-align: left;
+        width: calc(100% - 30px);
+    }
+    
+    .social-icon {
+        font-size: 18px;
+        margin: 0 8px;
+    }
+    
+    #backToTop {
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    #backToTop i {
+        font-size: 24px;
+    }
+    
+    /* Center all paragraphs and lists */
+    p, ul, ol {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    ul, ol {
+        padding-left: 0;
+        list-style-position: inside;
+        display: inline-block;
+        text-align: left;
+    }
+    
+    li {
+        text-align: left;
+        margin-bottom: 5px;
+    }
+}
+
+/* Extra small devices - Enhanced centering */
+@media (max-width: 480px) {
+    .header-container h1 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    .header-container p {
+        font-size: 0.85em;
+        text-align: center;
+    }
+    
+    .chapter-intro, .content {
+        font-size: 0.95em;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .content p {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h2, h3 {
+        font-size: 1.1em;
+        text-align: center;
+    }
+    
+    .chapter-dessert-image {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 10px auto;
+    }
+    
+    .social-media {
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .social-icon {
+        font-size: 16px;
+        margin: 0 5px;
+    }
+    
+    #backToTop {
+        width: 45px;
+        height: 45px;
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    #backToTop i {
+        font-size: 20px;
+    }
+    
+    /* Ensure everything is centered */
+    .chapter > * {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* Center code blocks but keep text left-aligned */
+    pre {
+        text-align: left;
+        margin: 10px auto;
+        width: calc(100% - 20px);
+    }
+    
+    /* Center the back arrow more on very small screens */
+    .back-arrow {
+        left: 10px;
+        bottom: 10px;
     }
 }
 
@@ -246,4 +459,55 @@ code {
   #backToTop i {
     font-size: 32px;
   }
+}
+
+/* Prevent horizontal scrolling on all elements */
+* {
+    max-width: 100%;
+}
+
+img, video, iframe, canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ensure tables don't cause horizontal scrolling */
+table {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Fix for long words/URLs */
+p, li, span, div {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+/* Desktop - Keep original layout */
+@media (min-width: 769px) {
+    .chapter-intro, .content {
+        text-align: justify;
+    }
+    
+    .content p, .chapter-intro p {
+        text-align: justify;
+    }
+    
+    h2, h3 {
+        text-align: left;
+    }
+    
+    ul, ol {
+        text-align: left;
+        list-style-position: outside;
+        padding-left: 20px;
+    }
+    
+    li {
+        text-align: left;
+    }
 }

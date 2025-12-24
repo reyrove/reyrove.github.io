@@ -2,528 +2,1785 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reyrove</title>
-  <meta name="description" content="Explore the work of Reyhaneh Daneshdoost (Reyrove), a textile engineer turned computational media researcher. Discover projects, tutorials, articles, and creative coding blending technology with human experience."/> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Reyrove | Reyhaneh Daneshdoost – Textile Engineer & Computational Designer</title>
+  <meta name="description" content="Explore the work of Reyhaneh Daneshdoost (Reyrove), a textile engineer turned Computational Designer. Discover projects, tutorials, articles, and creative coding blending technology with human experience."/> 
   <meta name="author" content="Reyhaneh Daneshdoost" />
-  <meta property="og:title" content="Reyrove | Reyhaneh Daneshdoost – Textile Engineer & Computational Media Researcher" />
+  <meta property="og:title" content="Reyrove | Reyhaneh Daneshdoost – Textile Engineer & Computational Designer" />
   <meta property="og:description" content="Discover the interdisciplinary journey of Reyhaneh Daneshdoost, combining textile engineering, polymer science, and computational media to create meaningful technology experiences." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://reyrove.github.io/"/>
   <meta property="og:image" content="https://reyrove.github.io/Reyrove/Reyhan.png"/>
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Reyrove | Reyhaneh Daneshdoost – Textile Engineer & Computational Media Researcher" />
+  <meta name="twitter:title" content="Reyrove | Reyhaneh Daneshdoost – Textile Engineer & Computational Designer" />
   <meta name="twitter:description" content="Explore projects, articles, and tutorials by Reyhaneh Daneshdoost, blending textile science with creative coding and AI." />
   <meta name="twitter:image" content="https://reyrove.github.io/Reyrove/Reyhan.png"/>
-  <link rel="icon" href="images/Reyhan.png" type="image/png" />
-<div class="external-resources">
+  <link rel="icon" href="images/Reyrove/icon.png" type="image/png" />
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" as="style">
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style">
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
-</div>
-  <link href="styles.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-black text-white">
-<nav class="navbar navbar-dark bg-black sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top" aria-label="Main navigation">
   <div class="container">
-<ul class="nav">
-  <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
-  <li class="nav-item"><a class="nav-link text-white" href="#Gallery">Gallery</a></li>
-  <li class="nav-item"><a class="nav-link text-white" href="#articles">Articles</a></li>
-  <li class="nav-item"><a class="nav-link text-white" href="#tutorials">Tutorials</a></li>
-  <li class="nav-item"><a class="nav-link text-white" href="#certifications">Certifications</a></li>
-  <li class="nav-item"><a class="nav-link text-white" href="#team">Team</a></li>
-  <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
-  <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
-</ul>
-  </div>
-</nav>
-<header class="header text-center">
-  <div class="container d-flex flex-column align-items-center text-center">
-    <img src="images/Reyhan.png" alt="Profile Picture" class="profile-pic mb-4" loading="lazy"/>
-    <div class="text-center my-3">
-    <a href="/CV/index.html"class="btn btn-magical btn-sm px-3 py-2">
-    <i class="bi me-1"></i> View My CV
-  </a>
-</div>
-    <h1 class="display-4 fw-bold">Reyhaneh Daneshdoost (Reyrove)</h1>
-    <p class="tagline fs-3 mb-4">B.Eng. Textile Engineering | Computational Media Researcher</p>
-<div class="artist-statement px-3" id="artistStatement">
-<p>Welcome to my space — where curiosity and code come together. My path started in textile engineering, then moved into polymer science, learning to understand materials and molecules. Later, I taught myself web development, creative coding, and AI to explore how technology connects with being human. For me, computational media is about creating systems that make you feel — blending logic, ethics, and emotion. I’m always asking, “What does this mean for people?” and working with those who want to break rules and design with purpose!</p>
-</div>
-  </div>
-</header>
-<main class="full-width-bg py-5">
-  <div class="container">
-<section id="projects" class="mb-5">
-  <h2 class="section-title">Projects</h2>
-  <div class="row g-4 projects-grid">
-    <div class="col-sm-6 col-lg-4">
-  <a href="https://sparrow-hawk-code-art-generator.vercel.app/" class="project-link">
-    <div class="project-card h-100">
-      <span class="badge bg-primary mb-2">AI Art</span>
-      <img src="images/Sparrow Hawk-CodeArtGenerator.png" alt="Sparrow Hawk CodeArt Generator" class="img-fluid" loading="lazy"/>
-      <h3>Sparrow Hawk CodeArt Generator</h3>
-      <p>Your new favorite brutally honest AI collaborator for generative art and coding projects.</p>
-    </div>
-  </a>
-</div>
- <div class="col-sm-6 col-lg-4">
-    <a href="https://sparrow-hawk-news-sidekick.vercel.app/" class="project-link">
-      <div class="project-card h-100">
-        <span class="badge bg-primary mb-2">News Aggregator</span>
-        <img src="images/news-sidekick.png" alt="Sparrow Hawk News Sidekick" class="img-fluid" loading="lazy"/>
-        <h3>Sparrow Hawk News Sidekick</h3>
-        <p>Cutting-edge tech news aggregator with glassmorphism UI and AI-powered curation.</p>
-      </div>
-    </a>
-  </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="textile/textile.html" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Textile Tools</span>
-          <img src="images/textile-verse.png" alt="textile-verse" class="img-fluid" loading="lazy"/>
-          <h3>textile-verse</h3>
-          <p>Explore interactive tools for GSM, yarn twist, count conversion, thread density, and fabric cost.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="gizmo/gizmo.html" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Comic</span>
-          <img src="images/Gizmo Webbook.png" alt="Gizmo Webbook" class="img-fluid" loading="lazy"/>
-          <h3>Gizmo Webbook</h3>
-          <p>A comic book by Sparrow Hawk AI featuring Gizmo—fun, chaos, and unexpected adventures!</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="blog/blog.html" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Blog</span>
-          <img src="images/Blog.png" alt="Blog" class="img-fluid" loading="lazy" />
-          <h3>The Frostbond Chronicles Blog</h3>
-          <p>A collaborative blog by me and Sparrow Hawk AI exploring human and AI interaction.</p>
-        </div>
-      </a>
-    </div>
-       <div class="col-sm-6 col-lg-4">
-      <a href="https://open.spotify.com/show/547kj2u0v3nWNMPdrPnQ6c" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Podcast</span>
-          <img src="images/AI Storytelling Podcast.png" alt="AI Storytelling Podcast" class="img-fluid" loading="lazy"/>
-          <h3>AI Storytelling Podcast</h3>
-          <p>Enjoy stories written by me and brought to life with AI voices and creative flair.</p>
-        </div>
-      </a>
-    </div>
-        <div class="col-sm-6 col-lg-4">
-      <a href="https://www.udio.com/creators/reyrove" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">AI Music</span>
-          <img src="images/AI-Generated Music.png" alt="AI-Generated Music" class="img-fluid" loading="lazy"/>
-          <h3>AI-Generated Music</h3>
-          <p>Dive into AI-crafted soundscapes—lyrics by Sparrow Hawk AI, compositions by Udio AI.</p>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
-<section id="Gallery" class="mb-5">
-  <h2 class="section-title">Gallery</h2>
-  <div class="row g-4 projects-grid">
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.fxhash.xyz/u/reyrove" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Generative Art</span>
-          <img src="images/fxhash.png" alt="fxhash" class="img-fluid" loading="lazy"/>
-          <h3>fxhash</h3>
-          <p>Dive into generative art NFTs on fxhash — crafted with JS, HTML, CSS, in collab with other devs, plus Sparrow Hawk AI.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://objkt.com/users/tz1RXsijmPeeF1kPyrhd8Hkm2RskJAeU3si5" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Generative Art</span>
-          <img src="images/objkt.png" alt="objkt" class="img-fluid" loading="lazy"/>
-          <h3>objkt</h3>
-          <p>Dive into generative art NFTs on objkt — crafted with JS, HTML, CSS, in collab with other devs, plus Sparrow Hawk AI.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://opensea.io/0xda2a5b86ada47d8bfde511ecd52aaf6881505088" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Generative Art</span>
-          <img src="images/OpenSea.png" alt="OpenSea" class="img-fluid" loading="lazy"/>
-          <h3>OpenSea</h3>
-          <p>Dive into generative art NFTs on OpenSea — crafted with JS, HTML, CSS, in collab with other devs, plus Sparrow Hawk AI.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.artblocks.io/creator/reyrove" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Generative Art</span>
-          <img src="images/ArtBlocks.png" alt="ArtBlocks" class="img-fluid" loading="lazy"/>
-          <h3>ArtBlocks</h3>
-          <p>Dive into generative art NFTs on ArtBlocks — crafted with JS, HTML, CSS, in collab with other devs, plus Sparrow Hawk AI.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://exchange.art/series/ascii%20body/nfts" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">ASCII Art</span>
-          <img src="images/Exchange.art.png" alt="Exchange.art" class="img-fluid" loading="lazy"/>
-          <h3>Exchange.art</h3>
-          <p>Dive into Minimalist ASCII art NFTs of the feminine form , crafted with JS, HTML, and CSS on Exchange.art platform.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://zora.co/@reyrove" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">AI Art</span>
-          <img src="images/Zora.png" alt="Zora" class="img-fluid" loading="lazy"/>
-          <h3>Zora</h3>
-          <p>Dive into Unique generative NFTs on Zora, crafted with AI to showcase innovative digital creativity.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://dribbble.com/Reyrove" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Generative Art</span>
-          <img src="images/Dribbble.png" alt="Dribbble" class="img-fluid" loading="lazy"/>
-          <h3>Dribbble</h3>
-          <p>Explore a curated collection of generative artworks on Dribbble, blending code and creativity through algorithmic design.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://hug.art/artists/reyrove/portfolio" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Digital Art</span>
-          <img src="images/hug-art.png" alt="hug.art" class="img-fluid" loading="lazy"/>
-          <h3>hug.art</h3>
-          <p>Explore a diverse portfolio of digital artworks on hug.art, showcasing unique creative expressions and styles.</p>
-        </div>
-      </a>
-    </div>
-  </div>
-
-</section>
-<section id="articles" class="mb-5">
-  <h2 class="section-title">Articles & Journals</h2>
-  <div class="row g-4 projects-grid">
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.fxhash.xyz/u/reyrove/creation/articles" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">fxhash</span>
-          <img src="images/Articles on fxhash.png" alt="Articles on fxhash" class="img-fluid" loading="lazy"/>
-          <h3>Articles on fxhash</h3>
-          <p>Dive into tech, AI, and generative art through curated articles on fxhash.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://medium.com/@reyhanehdaneshdoost" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Medium</span>
-          <img src="images/Articles on Medium.png" alt="Articles on Medium" class="img-fluid" loading="lazy"/>
-          <h3>Articles on Medium</h3>
-          <p>Dive into tech, AI, and generative art through curated articles on Medium.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://app.daily.dev/reyrove/posts" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Daily.dev</span>
-          <img src="images/Articles on Daily.dev.png" alt="Articles on Daily.dev" class="img-fluid" loading="lazy"/>
-          <h3>Articles on Daily.dev</h3>
-          <p>Dive into tech, AI, and generative art through curated articles on Daily.dev.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://visualartjournal.com/2025/07/09/issue-31-july-2025/" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Visual Art Journal</span>
-          <img src="images/Visual-Art-Journal.png" alt="Visual Art Journal Feature" class="img-fluid" loading="lazy"/>
-          <h3>Visual Art Journal Feature</h3>
-          <p>Generative artworks published in Issue 31 of Visual Art Journal.</p>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
-  <section id="tutorials" class="mb-5">
-  <h2 class="section-title">Tutorials</h2>
-  <div class="row g-4 projects-grid">
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.youtube.com/watch?v=cyThxBP_I1I&list=PLzPYCB_3Ed9f_8IZq943sm71hR5bJWLgq" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">FORTRAN (Persian Video)</span>
-          <img src="images/FORTRAN.jpg" alt="FORTRAN" class="img-fluid" loading="lazy"/>
-          <h3>FORTRAN</h3>
-          <p>Fortran in 27 steps, 9 hours—built for number nerds with a numerical computing edge.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.youtube.com/watch?v=l7GZEXO_D_E&list=PLzPYCB_3Ed9d2lL-fIn6mnob0QtjaTGdp" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">LaTeX (Persian Video)</span>
-          <img src="images/LaTeX.jpg" alt="LaTeX" class="img-fluid" loading="lazy"/>
-          <h3>LaTeX</h3>
-          <p>LaTeX in 40 steps, 17 hours—write and edit text with power and precision.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.youtube.com/watch?v=Xl-8u4jj4cc&list=PLzPYCB_3Ed9clkiowbYAh9ViJ_JEAVjJu" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Typesetting (Persian Video)</span>
-          <img src="images/History of Typesetting.jpg" alt="History of Typesetting" class="img-fluid" loading="lazy"/>
-          <h3>History of Typesetting</h3>
-          <p>Typesetting history in 10 episodes, 2 hours— from print roots to digital age.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.youtube.com/watch?v=VdvQ18tciIo&list=PLzPYCB_3Ed9ctNYuTWZ3Nz5r58W9sOYAz" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">JavaScript (Persian Video)</span>
-          <img src="images/JavaScript Persian.jpg" alt="JavaScript Persian" class="img-fluid" loading="lazy"/>
-          <h3>JavaScript</h3>
-          <p>JavaScript basics step by step, coming soon!</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.youtube.com/watch?v=5R4cRmjvgtE&list=PL1ZFH58Rwb78qLSnmv3VFhcHE8TKWowtX" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">JavaScript (English Video)</span>
-          <img src="images/JavaScript English.png" alt="JavaScript English" class="img-fluid" loading="lazy"/>
-          <h3>JavaScript</h3>
-          <p>JavaScript basics step by step, coming soon!</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.youtube.com/watch?v=X2xVtn_5h4U&list=PL1ZFH58Rwb7-WwBoqJsEx3g_gFYzC9zKy" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Crypto (English Video)</span>
-          <img src="images/Crypto News & Trends.jpg" alt="Crypto News & Trends" class="img-fluid" loading="lazy"/>
-          <h3>Crypto News & Trends</h3>
-          <p>Stay in the loop on all the juicy crypto news.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="meals/meals.html" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">HTML (English Script)</span>
-          <img src="images/meal4.png" alt="HTML Basics" class="img-fluid" loading="lazy"/>
-          <h3>HTML Basics</h3>
-          <p>HTML creates the content on web pages.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-     <a href="desserts/desserts.html" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">CSS (English Script)</span>
-          <img src="images/dessert5.png" alt="CSS Fundamentals" class="img-fluid" loading="lazy"/>
-          <h3>CSS Fundamentals</h3>
-          <p>Learn CSS to design layouts and fonts.</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="drinks/drinks.html" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">JavaScript (English Script)</span>
-          <img src="images/drink15.png" alt="JavaScript Essentials" class="img-fluid" loading="lazy"/>
-          <h3>JavaScript Essentials</h3>
-          <p>Learn JavaScript to create interactive features.</p>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
-<section id="certifications" class="mb-5">
-  <h2 class="section-title">Certifications</h2>
-  <div class="row g-4 projects-grid">
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.freecodecamp.org/certification/reyrove/responsive-web-design" target="_blank" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Responsive Web Design</span>
-          <img src="images/responsive-web-design.png" alt="Responsive Web Design Certification" class="img-fluid" loading="lazy"/>
-          <h3>Responsive Web Design</h3>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.freecodecamp.org/certification/reyrove/javascript-algorithms-and-data-structures-v8" target="_blank" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">JavaScript Algorithms</span>
-          <img src="images/javascript-algorithms.png" alt="JavaScript Algorithms and Data Structures Certification" class="img-fluid" loading="lazy"/>
-          <h3>JavaScript Algorithms</h3>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.freecodecamp.org/certification/reyrove/front-end-development-libraries" target="_blank" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Front End Libraries</span>
-          <img src="images/front-end-libraries.png" alt="Front End Development Libraries Certification" class="img-fluid" loading="lazy"/>
-          <h3>Front End Libraries</h3>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.freecodecamp.org/certification/reyrove/data-visualization" target="_blank" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Data Visualization</span>
-          <img src="images/data-visualization.png" alt="Data Visualization Certification" class="img-fluid" loading="lazy"/>
-          <h3>Data Visualization</h3>
-        </div>
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4">
-      <a href="https://www.freecodecamp.org/certification/reyrove/back-end-development-and-apis" target="_blank" class="project-link">
-        <div class="project-card h-100">
-          <span class="badge bg-primary mb-2">Back End APIs</span>
-          <img src="images/back-end-apis.png" alt="Back End Development and APIs Certification" class="img-fluid" loading="lazy"/>
-          <h3>Back End APIs</h3>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
-<section id="team" class="mb-5 text-center">
-  <h2 class="section-title">Team</h2>
-  <div class="d-flex flex-wrap justify-content-center align-items-stretch gap-4">
-    <div class="col-12 col-sm-6 col-lg-3 d-flex">
-      <div class="card bg-dark text-white border-0 h-100 text-center w-100">
-        <img src="images/pedi.jpg" class="card-img-top rounded-circle mx-auto mt-4" alt="Pedram Safarinia" style="width: 120px; height: 120px; object-fit: cover;" loading="lazy">
-        <div class="card-body">
-          <h5 class="card-title">Pedram Safarinia</h5>
-          <p class="card-text">Programmer and AI Enthusiast</p>
-          <div>
-            <a href="mailto:pesafari@gmail.com" class="text-white me-2"><i class="bi bi-envelope"></i></a>
-            <a href="https://github.com/pesafari" class="text-white me-2"><i class="bi bi-github"></i></a>
-            <a href="https://freyjafa.github.io/FreyjaFa/" class="text-white"><i class="bi bi-globe"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-sm-6 col-lg-3 d-flex">
-      <div class="card bg-dark text-white border-0 h-100 text-center w-100">
-        <img src="images/sparrow-hawk.png" class="card-img-top rounded-circle mx-auto mt-4" alt="Sparrow Hawk" style="width: 120px; height: 120px; object-fit: cover;" loading="lazy">
-        <div class="card-body">
-          <h5 class="card-title">Sparrow Hawk</h5>
-          <p class="card-text">Your AI sidekick for design and code</p>
-          <div>
-            <a href="mailto:sparrowhawk2026@gmail.com" class="text-white me-2"><i class="bi bi-envelope"></i></a>
-            <a href="https://github.com/reyrove/Sparrow-Hawk-AI" class="text-white me-2"><i class="bi bi-github"></i></a>
-            <a href="https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2025/01/06/17/20250106173117-8TRE5XWM.json" class="text-white"><i class="bi bi-globe"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-  <section id="skills" class="mb-5">
-    <h2 class="section-title">Skills</h2>
-    <div class="skills-grid mt-3 d-flex flex-wrap gap-2">
-<span>Artificial Intelligence (AI)</span>
-<span>Blockchain</span>
-<span>Bootstrap</span>
-<span>Botpress</span>
-<span>Cascading Style Sheets (CSS)</span>
-<span>Chemical Synthesis</span>
-<span>Collaborative Innovation</span>
-<span>Content Creation</span>
-<span>Creativity and Innovation</span>
-<span>Creative Coding</span>
-<span>Fortran</span>
-<span>Generative AI</span>
-<span>Generative Art</span>
-<span>GitHub</span>
-<span>GLSL</span>
-<span>Google AI Studio</span>
-<span>HTML</span>
-<span>JavaScript</span>
-<span>jQuery</span>
-<span>LAMMPS</span>
-<span>LaTeX</span>
-<span>Material Studio</span>
-<span>Materials Modeling</span>
-<span>Microsoft Excel</span>
-<span>Microsoft PowerPoint</span>
-<span>Microsoft Word</span>
-<span>Molecular Dynamics</span>
-<span>Monte Carlo Simulation</span>
-<span>NFTs</span>
-<span>Online Lead Generation</span>
-<span>OVITO</span>
-<span>p5.js</span>
-<span>Polymer Science</span>
-<span>Polyurethane Foams</span>
-<span>Processing</span>
-<span>Public Speaking</span>
-<span>React</span>
-<span>Redux</span>
-<span>Replit</span>
-<span>Research</span>
-<span>Responsive Web Design</span>
-<span>SASS</span>
-<span>ShaderArt</span>
-<span>Textile Science</span>
-<span>TouchDesigner</span>
-<span>Typesetting</span>
-<span>VMD</span>
-<span>Web Audio API</span>
-<span>Web Development</span>
-<span>Web Technologies</span>
-<span>D3.js</span>
-<span>JSON APIs</span>
-<span>AJAX</span>
-<span>NPM</span>
-<span>Node.js</span>
-<span>Express.js</span>
-<span>MongoDB</span>
-<span>Mongoose</span>
-</main>
-<footer>
-    <div id="contact">
-      <h2 class="section-title">Connect With Me</h2>
-      <ul class="contact-list d-flex flex-wrap justify-content-center gap-3 p-0 list-unstyled">
-        <li><a href="mailto:reyhanehdaneshdoost@gmail.com"><i class="bi bi-envelope icon"></i> Email</a></li>
-        <li><a href="https://www.linkedin.com/in/reyhaneh-daneshdoost-730481160/" target="_blank"><i class="bi bi-linkedin icon"></i> LinkedIn</a></li>
-        <li><a href="https://github.com/reyrove" target="_blank"><i class="bi bi-github icon"></i> GitHub</a></li>
-        <li><a href="https://x.com/reyrove" target="_blank"><i class="bi bi-twitter-x icon"></i> Twitter</a></li>
-        <li><a href="https://discord.com/users/reyrove" target="_blank"><i class="bi bi-discord icon"></i> Discord</a></li>
-        <li><a href="https://huggingface.co/reyrove" target="_blank"><i class="fas fa-robot icon"></i> Hugging Face</a></li>
+    <a class="navbar-brand fw-bold" aria-label="Reyrove Home">Reyrove</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon navbar-toggler-icon-custom"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Generative-Designs">Generative Designs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Applications">Applications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Digital-Media">Digital Media</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Publications">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tutorials">Tutorials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
     </div>
-  <p class="text-secondary">&copy; 2025 Whipped up by Reyrove. All rights fiercely reserved.</p>
+  </div>
+</nav>
+
+<header id="Home" class="hero-section d-flex align-items-end" role="banner">
+  <div class="container">
+    <div class="hero-content pb-6 mb-5 text-center">
+      <h1 class="hero-title fw-bold mb-3">Reyhaneh Daneshdoost</h1>
+      <p class="hero-subtitle mb-4">Textile Engineer & Computational Designer</p>
+      <div class="hero-buttons mt-4">
+       <a href="documents/Reyhaneh Danesh Doost - CV.pdf" class="btn btn-primary px-4 py-2">View My CV</a>
+        <a href="#contact" class="btn btn-outline-light">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <main class="main-content py-5" role="main">  
+    <div class="container">
+      <div class="h-100 d-flex flex-column p-4">
+        <section id="About" class="mb-5" aria-labelledby="about-heading">
+          <h2 id="about-heading" class="section-title">About</h2>
+          <div class="statement-details" style="text-align: justify;">
+            <p>
+              Hey there, welcome! I'm a textile engineer turned coder who never really stopped weaving — I just shifted from fibers to functions. The same curiosity that pushed me to explore how threads twist, stretch, and form structure is the same energy I bring into code, design, and digital creation today.
+            </p>
+
+            <p>
+              On this site, you'll find everything I love making: generative art, computational experiments, creative coding projects, websites I design with intention, and apps I build to feel alive and interactive. I'm all about creating things that move, react, and breathe — blending the logic of textiles with the imagination of code.
+            </p>
+
+            <p>
+              Every pattern I generate, every interface I craft, every line of code I weave carries a bit of that textile mindset — rhythm, texture, precision, and a whole lot of curiosity. It's my way of showing how craftsmanship and computation can meet in the middle and make something unexpectedly beautiful.
+            </p>
+
+            <p>
+              So hey — welcome in! Whether you're here for the tech, the art, the design, or just to explore, I'm genuinely glad you're here. Dive in, click around, and enjoy the mix of threads and algorithms.
+            </p>
+          </div>
+        </section>
+
+<section id="Generative-Designs" class="mb-5" aria-labelledby="generative-heading">
+  <h2 id="generative-heading" class="section-title">Generative Designs</h2>
+  <div class="row g-4 justify-content-center" role="list" aria-label="Generative design projects">
+    <!-- Project 1 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Twist-1.jpg" alt="Twist-1 — Generative artwork using pure JavaScript" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Twist-1</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Generative artworks exploring twists and patterns with JavaScript algorithms, creating unique visual experiences.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/twist-1" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Wandering Eyes.jpg" alt="Wandering Eyes — generative code art with moving eyes in a wandering digital world" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Wandering Eyes</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Generative worlds where shapes drift, colors roam, and eyes wander through algorithmic digital landscapes.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> objkt</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://objkt.com/collections/KT1U9N1ffNi4ZfW4AhLybmSZANUJKEazjCix" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Fourier 1.jpg" alt="Fourier 1 — Generative artwork exploring mathematical concepts" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Fourier 1</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Generative artworks exploring mathematical patterns through Fourier transform algorithms and visualizations.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/fourier-1" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Pappus.jpg" alt="Pappus — Generative artwork exploring organic geometry" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Pappus</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Generative organic forms inspired by mathematical structures and natural geometric patterns in nature.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/pappus" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Girih 1.jpg" alt="Girih-1 — Generative Islamic geometric patterns using JavaScript" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Girih 1</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Algorithmic explorations of Islamic geometric patterns through generative coding and mathematical precision.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/girih-1" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 6 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Fourier 2.jpg" alt="Fourier 2 — Generative art exploring parametric curves and Fourier patterns" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Fourier 2</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Parametric curves and Fourier-inspired patterns creating elegant mathematical visualizations through code.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/fourier-2" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 7 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Bezier 1.jpg" alt="Bezier 1— Generative art using smooth closed Bézier curves with JavaScript" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Bezier 1</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Smooth closed Bézier curves with randomized parameters creating elegant geometric pattern variations.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/bezier-1-1" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 8 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Eyes.jpg" alt="Eyes — Generative artwork exploring abstract eye forms and patterns" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Eyes</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Abstract eye-inspired forms and patterns created through algorithmic randomness and visual geometry.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/eyes-5" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 9 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/cyPollock.jpg" alt="cyPollock — Generative artwork with randomly selected colors and branching patterns" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">cyPollock</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Random background and branch colors creating abstract expressionist-inspired algorithmic patterns.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/cypollock" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 10 -->
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    <div class="card-image-container position-relative">
+      <img src="images/Generative Designs/Symphony of Life.jpg" alt="Symphony of Life — Generative artwork visualizing life's harmonious moments of joy and sorrow" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+    </div>
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">Symphony of Life</h3>
+      <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">
+        Life is a symphony composed of harmonizing moments. This collection visualizes the interplay of joy and sorrow.
+      </p>
+      <div class="compact-meta mb-2">
+        <div class="meta-item"><strong>Platform:</strong> objkt</div>
+        <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+      </div>
+      <a href="https://objkt.com/collections/KT18jMCeMRxaoqhbA1v32XYeuE2Phx4AazDn" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+    </div>
+  </div>
+</div>
+
+    <!-- Project 11 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Citrus Mosaic.jpg" alt="Citrus Mosaic — Generative artwork creating vibrant mosaic grids from random color selections" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Citrus Mosaic</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Vibrant geometric mosaics built from randomly selected color grids and algorithmic divisions.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/citrus-mosaic" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 12 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Socialism of Shapes.jpg" alt="Socialism of Shapes — Generative artwork exploring balanced geometric systems" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Socialism of Shapes</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Balanced geometric patterns with randomized shapes creating harmonious visual compositions.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/socialism-of-shapes" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 13 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/ChaotiColor.jpg" alt="ChaotiColor — Generative artwork with vibrant chaotic color compositions" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">ChaotiColor</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Vibrant chaotic color compositions created through randomized visual dynamics and algorithms.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/chaoticolor" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 14 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Maze of Life.jpg" alt="Maze of Life — Generative artwork creating complex maze‑like structures and paths" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Maze of Life</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Complex maze-like structures and paths generated through randomized geometric algorithms.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/maze-of-life" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 15 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Game of Seeds.jpg" alt="Game of Seeds — Generative artwork with seeded pattern evolution and randomized play" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Game of Seeds</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Seeded randomization driving evolving patterns and visual play through algorithmic generation.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/game-of-seeds" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 16 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Mad Rooms.jpg" alt="Mad Rooms — Generative artwork creating abstract room‑like structures with randomized elements" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Mad Rooms</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Abstract room-like structures and spatial arrangements with randomized algorithmic elements.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/mad-rooms" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 17 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Crazy Letter.jpg" alt="Crazy Letter — Generative artwork with randomized letterforms and dynamic shapes" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Crazy Letter</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Dynamic randomized letterforms and abstract shapes through algorithmic variation and code.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/crazy-letter" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 18 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Polite Brownian Motion.jpg" alt="Polite Brownian Motion — Generative artwork inspired by Brownian motion patterns" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Polite Brownian Motion</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Soft flowing patterns inspired by Brownian motion and randomized movement algorithms.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/polite-brownian-motion" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 19 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Game Of Life.jpg" alt="Game of Life 1 — Generative artwork inspired by cellular automaton evolution" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Game of Life</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Animated cellular automaton patterns creating evolving life-like algorithmic visualizations.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/game-of-life-1" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 20 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Bezier 2.jpg" alt="Bezier 2 — Generative artwork using Bézier curves and algorithmic variation" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Bezier 2</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Dynamic Bézier curves and algorithmic shapes exploring mathematical beauty through code.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/bezier-2" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 21 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Spirograph.jpg" alt="Spirograph — Generative artwork of intricate looping spirograph curves" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Spirograph</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Intricate looping spirograph curves created through animated algorithmic pattern generation.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/spirograph-4" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 22 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Polar Memories.jpg" alt="Nature Dance — Rotating generative polygons inspired by natural colors and motion" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Polar Memories</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">
+  A generative collection where Polar Memories and emotions visually intertwine.
+</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> objkt</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://objkt.com/collections/KT1DSseVkWYYm9iDkv1YyWMHqmY1XeviK8iN" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 23 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Hank.jpg" alt="Hank — Generative artwork with dynamic algorithmic patterns" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Hank</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Dynamic algorithmic patterns created through randomized visual rules and animated code.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/hank" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 24 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Spectrum Dance.jpg" alt="Spectrum Dance — Generative artwork of animated spectral shapes and color motion" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Spectrum Dance</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Animated spectral shapes and flowing color motion through algorithmic pattern generation.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/spectrum-dance" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 25 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Brownian Graph.jpg" alt="Brownian Graph — Generative artwork inspired by Brownian motion and graph-like patterns" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Brownian Graph</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Flowing random paths inspired by Brownian motion and animated algorithmic visualization.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/brownian-graph" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 26 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Ephemeral Whirls.jpg" alt="Ephemeral Whirls — Generative artwork of transient swirling motion and soft looping patterns" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Ephemeral Whirls</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Transient swirling motion and soft looping patterns through algorithmic flow.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/ephemeral-whirls" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 27 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Fibonacci's spin.jpg" alt="Purple Golden Lines — Generative artwork of Fibonacci-inspired rotating lines in purple and gold" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Fibonacci's spin</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">A generative collection of objects rotating in Fibonacci sequence orbits.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> objkt</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://objkt.com/collections/KT1XHZqMwCwQ74xPVZkug6ykhMMoGFqEGf9z" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 28 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Fibonacci Fourier.jpg" alt="Fibonacci Fourier — Generative artwork blending Fibonacci sequence and Fourier‑inspired harmonic curves" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Fibonacci Fourier</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Fibonacci proportions blended with harmonic Fourier curves in animated algorithmic patterns.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/fibonacci-fourier" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 29 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Elliott Waves.jpg" alt="Elliott Waves — Generative artwork visualizing dynamic wave patterns inspired by Elliott wave theory" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Elliott Waves</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Dynamic wave patterns inspired by Elliott wave concepts and algorithmic visualization.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/elliott-waves" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 30 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Enigma Sudoku.jpg" alt="Enigma Sudoku — Generative artwork inspired by logical grid patterns and algorithmic variation" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Enigma Sudoku</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Logical grid patterns and algorithmic structures through randomized variation and code.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/enigma-sudoku" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 31 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Celestial Frost Arcs.jpg" alt="Celestial Frost Arcs — Generative artwork of cosmic arcs, stars, and frost particles" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Celestial Frost Arcs</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Cosmic arcs, planets, and frost particles moving in animated celestial algorithmic patterns.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js / AI</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/celestial-frost-arcs" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 32 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Dreamscape Watercolors.jpg" alt="Dreamscape Watercolors — Generative artwork blending soft watercolor‑like gradients and brushstroke effects" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Dreamscape Watercolors</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Soft watercolor gradients and dreamy brushstroke effects through algorithmic visual creation.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/dreamscape-watercolors" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 33 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Pop-Burst Dreamscape.jpg" alt="Pop-Burst Dreamscape — Generative artwork with vivid bursts of color and abstract forms" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Pop-Burst Dreamscape</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Vivid color bursts and abstract forms evoking dynamic dream-like algorithmic motion.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js / AI</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/pop-burst-dreamscape" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 34 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Frostbound Symphony.jpg" alt="Frostbound Symphony — Generative artwork with wintery symmetry and fluid pattern motion" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Frostbound Symphony</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Wintery symmetry and frost-like patterns through fluid algorithmic motion and code.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js / AI</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/frostbound-symphony" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 35 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Neon Drift.jpg" alt="Neon Drift — Generative artwork of vibrant neon shapes and dynamic motion" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Neon Drift</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Vibrant neon shapes and dynamic motion inspired by electric energy and algorithmic flow.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/neon-drift" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 36 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Celestial Grove.jpg" alt="Celestial Grove — Generative artwork blending cosmic patterns with organic grove-like symmetry" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Celestial Grove</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Cosmic patterns blended with organic symmetry through algorithmic design and generation.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/celestial-grove" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 37 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Hilbert Pulse.jpg" alt="Hilbert Pulse — Generative artwork inspired by Hilbert curve dynamics and flowing motion" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Hilbert Pulse</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Hilbert curve dynamics and flowing motion through animated algorithmic pattern generation.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/hilbert-pulse" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 38 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Fractal Symphony.jpg" alt="Fractal Symphony — Generative artwork of fractal geometry and dynamic, recursive patterns" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Fractal Symphony</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Fractal geometry and dynamic recursive patterns exploring infinite algorithmic complexity.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js / AI</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/fractal-symphony" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 39 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Triangulum.jpg" alt="Triangulum — Generative artwork of triangular shapes and geometric patterns" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Triangulum</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Triangular shapes and geometric permutations through algorithmic variation and design.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/triangulum" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 40 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Draconic Fractals.jpg" alt="Draconic Fractals — Generative artwork of fractal patterns with mythical geometry" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Draconic Fractals</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Fractal patterns with mythical geometry and recursive complexity through algorithms.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/draconic-fractals" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 41 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Crazy Knight Curve.jpg" alt="Crazy Knight Curve — Generative artwork based on dynamic curve motion and algorithmic direction changes" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Crazy Knight Curve</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Dynamic curve paths and algorithmic motion inspired by knight-like movement patterns.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/crazy-knight-curve" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 42 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Crazy Knight Line.jpg" alt="Crazy Knight Line — Generative artwork exploring dynamic line paths with algorithmic variation" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Crazy Knight Line</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Dynamic line paths and algorithmic motion with unpredictable variation through code.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/crazy-knight-line" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 43 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Pool Wind Sun.jpg" alt="Pool Wind Sun — Generative artwork of drifting forms inspired by wind and sun dynamics" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Pool Wind Sun</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Drifting forms inspired by wind motion and sun warmth through algorithmic generation.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/pool-wind-sun" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 44 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Nebula Knight.jpg" alt="Nebula Knight — Generative artwork of cosmic motion and dynamic shapes" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Nebula Knight</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Cosmic motion and dynamic shapes inspired by stellar energy and abstract space forms.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/nebula-knight" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 45 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Fixed Wave.jpg" alt="Fixed Wave — Generative artwork exploring wave patterns through algorithmic flow" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Fixed Wave</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Algorithmic wave patterns and smooth flowing motion through animated code generation.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/fixed-wave" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 46 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/The Syntax of Taste.jpg" alt="The Syntax of Taste — Generative artwork blending structured forms and aesthetic variation" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">The Syntax of Taste</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Structured forms and aesthetic variation through algorithmic design and generation.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js / AI</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/the-syntax-of-taste" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 47 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Harmonic Eccentricity.jpg" alt="Harmonic Eccentricity — Generative artwork exploring harmonic patterns and eccentric forms" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Harmonic Eccentricity</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Harmonic patterns and eccentric forms through algorithmic motion and structural code.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/harmonic-eccentricity" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 48 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Baroque Me Baby.jpg" alt="Baroque Me Baby — Generative artwork blending structured patterns and rhythmic visual motifs" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Baroque Me Baby</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Structured patterns with rhythmic visual motifs for baroque-inspired algorithmic aesthetics.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.fxhash.xyz/project/baroque-me-baby" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 49 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Digital Pollen.jpg" alt="Digital Pollen — Generative artwork visualizing floating particles and nature-inspired connections" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Digital Pollen</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Floating particles and nature-inspired connections through algorithmic spring visualization.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> editart</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.editart.xyz/series/KT1KuRkxn9vSFDCVeT1iz8Wpm4ao9WAezeTj" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 50 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Loom of Light.jpg" alt="Loom of Light — Generative artwork weaving algorithmic geometry and shifting noise fields" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Loom of Light</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Algorithmic geometry and shifting noise fields woven into dynamic light tapestries.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> editart</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.editart.xyz/series/KT1WRHf6QkWdnMr7xAReYLjaBRFZjYFoj5uQ" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 51 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Arachne.jpg" alt="Arachne — Generative artwork inspired by weaving, balancing order and randomness" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Arachne</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Weaving-inspired digital threads balancing order and randomness through intricate algorithms.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> editart</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.js</div>
+          </div>
+          <a href="https://www.editart.xyz/series/KT1R75ZmV5WQ5bwbpZqEgUuSDAK6CSzdQoVT" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 52 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Frostfire Alchemy.jpg" alt="Frostfire Alchemy — A collaborative collection blending AI and human creativity into ethereal digital art" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Frostfire Alchemy</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Collaborative collection blending AI and human creativity into ethereal digital artworks.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> objkt</div>
+            <div class="meta-item"><strong>Technique:</strong> AI</div>
+          </div>
+          <a href="https://objkt.com/collections/KT1Phws5z5kfsKPKuQCGCxzSkBNgUDg9sKDT" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 53 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Neon Oracle.jpg" alt="Neon Oracle — Generative artwork evoking power, wisdom, and neon-lit digital futures" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Neon Oracle</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Power, wisdom, and neon-lit digital futures evoked through generative algorithmic art.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> objkt</div>
+            <div class="meta-item"><strong>Technique:</strong> AI</div>
+          </div>
+          <a href="https://objkt.com/collections/KT1EC5CBnbT3jpruv1yuT5xR2SJB2gGQMZmo?offset=7" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 54 -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Generative Designs/Ascii Body.jpg" alt="Ascii Body — feminine body forms transformed into elegant ASCII generative art" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Ascii Body</h3>
+          <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">Feminine body forms reimagined through ASCII text and generative coding algorithms.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Platform:</strong> exchange.art</div>
+            <div class="meta-item"><strong>Technique:</strong> p5.asciiart</div>
+          </div>
+          <a href="https://exchange.art/series/ascii%20body/nfts" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+        </div>
+      </div>
+    </div>
+
+
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    <div class="card-image-container position-relative">
+      <!-- You would replace 'images/ellipses.jpg' with your actual image file path -->
+      <img src="images/Generative Designs/Ellipses.jpg" alt="Ellipses — Generative artwork featuring customizable nested ellipses in vibrant RGB colors" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+    </div>
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">Ellipses</h3>
+     <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">
+  Customizable nested ellipses with colors randomly selected from a vibrant RGB palette.
+</p>
+      <div class="compact-meta mb-2">
+        <div class="meta-item"><strong>Platform:</strong> fxhash</div>
+        <div class="meta-item"><strong>Technique:</strong> JavaScript</div>
+      </div>
+      <a href="https://www.fxhash.xyz/project/ellipses" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    <div class="card-image-container position-relative">
+      <!-- You will need to add an image file for this project -->
+      <img src="images/Generative Designs/Developer's Menu.jpg" alt="Developer's Menu — A curated collection of HTML, CSS, and JavaScript digital art delicacies" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+    </div>
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">Developer's Menu</h3>
+      <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">
+  A curated digital menu of HTML, CSS, and JavaScript creations with creative rebellion.
+</p>
+      <div class="compact-meta mb-2">
+        <div class="meta-item"><strong>Platform:</strong> objkt</div>
+        <div class="meta-item"><strong>Technique:</strong> AI</div>
+      </div>
+      <a href="https://objkt.com/collections/KT1TK7i3qFePQz7TifbcAyCwzPUqkdqCyqsu" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    <div class="card-image-container position-relative">
+      <img src="images/Generative Designs/Frozen Sanctuary.jpg" alt="Frozen Sanctuary — A digital playground where code dances with consciousness on circuits of pure power" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280">
+    </div>
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">Frozen Sanctuary</h3>
+      <p class="work-desc flex-grow-1" style="text-align: justify; text-justify: inter-word;">
+  A digital sanctuary playground where generative code and consciousness dance together.
+</p>
+      <div class="compact-meta mb-2">
+        <div class="meta-item"><strong>Platform:</strong> objkt</div>
+        <div class="meta-item"><strong>Technique:</strong> AI</div>
+      </div>
+      <a href="https://objkt.com/collections/KT1Kcgy1PqFtWXiuLNcactLhMa24vHToY7WR" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Collection</a>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+
+        <!-- Applications Grid (4 cards - 3+1, last one centered) -->
+        <section id="Applications" class="mb-5" aria-labelledby="applications-heading">
+          <h2 id="applications-heading" class="section-title">Applications</h2>
+          
+          <!-- 4 cards = 3 + 1 (last one centered) -->
+          <div class="row g-4 justify-content-center" role="list" aria-label="Applications">
+            <!-- App 1 -->
+            <div class="col-lg-4 col-md-6" role="listitem">
+              <div class="project-card h-100 d-flex flex-column">
+                <div class="card-image-container position-relative">
+                  <img src="images/Applications/Sparrow Hawk-CodeArtGenerator.jpg" alt="Sparrow Hawk CodeArt Generator interface" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+                </div>
+                <div class="card-content p-3 d-flex flex-column">
+                  <h3 class="work-title">Sparrow Hawk CodeArt Generator</h3>
+                  <p class="work-desc flex-grow-1">Your new favorite brutally honest AI collaborator for generative art and coding projects.</p>
+                  <div class="compact-meta mb-2">
+                    <div class="meta-item"><strong>Type:</strong> AI Art & Code Generator</div>
+                    <div class="meta-item"><strong>Tech:</strong> React, Vercel, Groq AI</div>
+                  </div>
+                  <a href="https://sparrow-hawk-code-art-generator.vercel.app/" class="btn btn-magical mt-auto" target="_blank" rel="noopener">Generate CodeArt</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- App 2 -->
+            <div class="col-lg-4 col-md-6" role="listitem">
+              <div class="project-card h-100 d-flex flex-column">
+                <div class="card-image-container position-relative">
+                  <img src="images/Applications/textile-verse.jpg" alt="Textile-verse application interface" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+                </div>
+                <div class="card-content p-3 d-flex flex-column">
+                  <h3 class="work-title">textile-verse</h3>
+                  <p class="work-desc flex-grow-1">Explore interactive tools for GSM, yarn twist, count conversion, thread density, and fabric cost.</p>
+                  <div class="compact-meta mb-2">
+                    <div class="meta-item"><strong>Type:</strong> Web Application</div>
+                    <div class="meta-item"><strong>Tech:</strong> JavaScript, Calculations</div>
+                  </div>
+                  <a href="textile/textile.html" class="btn btn-magical mt-auto">View Application</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- App 3 -->
+            <div class="col-lg-4 col-md-6" role="listitem">
+              <div class="project-card h-100 d-flex flex-column">
+                <div class="card-image-container position-relative">
+                  <img src="images/Applications/news-sidekick.jpg" alt="Sparrow Hawk News Sidekick interface" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+                </div>
+                <div class="card-content p-3 d-flex flex-column">
+                  <h3 class="work-title">Sparrow Hawk News Sidekick</h3>
+                  <p class="work-desc flex-grow-1">Cutting-edge tech news aggregator with glassmorphism UI and AI-powered curation.</p>
+                  <div class="compact-meta mb-2">
+                    <div class="meta-item"><strong>Type:</strong> AI News Assistant</div>
+                    <div class="meta-item"><strong>Tech:</strong> React, Next.js, Vercel</div>
+                  </div>
+                  <a href="https://sparrow-hawk-news-sidekick.vercel.app/" class="btn btn-magical mt-auto" target="_blank" rel="noopener">Explore The News</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- App 4 - This will be centered as it's the 4th in a 3-column layout -->
+            <div class="col-lg-4 col-md-6" role="listitem">
+              <div class="project-card h-100 d-flex flex-column">
+                <div class="card-image-container position-relative">
+                  <img src="images/Applications/Gizmo Webbook.jpg" alt="Gizmo Webbook comic interface" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+                </div>
+                <div class="card-content p-3 d-flex flex-column">
+                  <h3 class="work-title">Gizmo Webbook</h3>
+                  <p class="work-desc flex-grow-1">A comic book by Sparrow Hawk AI featuring Gizmo—fun, chaos, and unexpected adventures!</p>
+                  <div class="compact-meta mb-2">
+                    <div class="meta-item"><strong>Type:</strong> Hyper-Creative Story Experience</div>
+                    <div class="meta-item"><strong>Tech:</strong> Web Design, Storytelling</div>
+                  </div>
+                  <a href="gizmo/gizmo.html" class="btn btn-magical mt-auto">View Webbook</a>
+                </div>
+              </div>
+            </div>
+
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    <div class="card-image-container position-relative">
+      <img src="images/Applications/babyhawk-mantra.jpg" alt="Baby Hawk - a soul with wings" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+    </div>
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">Baby Hawk Mantra Generator</h3>
+      <p class="work-desc flex-grow-1">A soul with wings who shares daily mantras for focus, creativity, and personal growth.</p>
+      <div class="compact-meta mb-2">
+        <div class="meta-item"><strong>Type:</strong> Inspirational Generator</div>
+        <div class="meta-item"><strong>Tech:</strong> React, Vercel, Groq AI</div>
+      </div>
+      <a href="https://baby-hawk-mantra-generator.vercel.app/" class="btn btn-magical mt-auto">Generate Mantra</a>
+    </div>
+  </div>
+</div>
+          </div>
+        </section>
+
+        <!-- Digital Media Grid (3 cards - perfect row) -->
+        <section id="Digital-Media" class="mb-5" aria-labelledby="media-heading">
+          <h2 id="media-heading" class="section-title">Digital Media</h2>
+          
+          <!-- 3 cards = perfect 3 in a row -->
+          <div class="row g-4 justify-content-center" role="list" aria-label="Digital media projects">
+            <!-- Media 1 -->
+            <div class="col-lg-4 col-md-6" role="listitem">
+              <div class="project-card h-100 d-flex flex-column">
+                <div class="card-image-container position-relative">
+                  <img src="images/Digital Media/Blog.jpg" alt="The Frostbond Chronicles Blog interface" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+                </div>
+                <div class="card-content p-3 d-flex flex-column">
+                  <h3 class="work-title">The Frostbond Chronicles Blog</h3>
+                  <p class="work-desc flex-grow-1">A collaborative blog by me and Sparrow Hawk AI exploring human and AI interaction.</p>
+                  <div class="compact-meta mb-2">
+                    <div class="meta-item"><strong>Type:</strong> Blog</div>
+                    <div class="meta-item"><strong>Platform:</strong> Web</div>
+                  </div>
+                  <a href="blog/blog.html" class="btn btn-magical mt-auto">Read Blog</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Media 2 -->
+            <div class="col-lg-4 col-md-6" role="listitem">
+              <div class="project-card h-100 d-flex flex-column">
+                <div class="card-image-container position-relative">
+                  <img src="images/Digital Media/AI Storytelling Podcast.jpg" alt="AI Storytelling Podcast cover" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+                </div>
+                <div class="card-content p-3 d-flex flex-column">
+                  <h3 class="work-title">AI Storytelling Podcast</h3>
+                  <p class="work-desc flex-grow-1">Enjoy stories written by me and brought to life with AI voices and creative flair.</p>
+                  <div class="compact-meta mb-2">
+                    <div class="meta-item"><strong>Type:</strong> Podcast</div>
+                    <div class="meta-item"><strong>Platform:</strong> Spotify</div>
+                  </div>
+                  <a href="https://open.spotify.com/show/547kj2u0v3nWNMPdrPnQ6c" class="btn btn-magical mt-auto" target="_blank" rel="noopener">Listen Now</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Media 3 -->
+            <div class="col-lg-4 col-md-6" role="listitem">
+              <div class="project-card h-100 d-flex flex-column">
+                <div class="card-image-container position-relative">
+                  <img src="images/Digital Media/AI-Generated Music.png" alt="AI-Generated Music cover" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+                </div>
+                <div class="card-content p-3 d-flex flex-column">
+                  <h3 class="work-title">AI-Generated Music</h3>
+                  <p class="work-desc flex-grow-1">Dive into AI-crafted soundscapes—lyrics by Sparrow Hawk AI, compositions by Udio AI.</p>
+                  <div class="compact-meta mb-2">
+                    <div class="meta-item"><strong>Type:</strong> Music</div>
+                    <div class="meta-item"><strong>Platform:</strong> Udio</div>
+                  </div>
+                  <a href="https://www.udio.com/creators/reyrove" class="btn btn-magical mt-auto" target="_blank" rel="noopener">Listen Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Publications Grid (4 cards - 3+1, last one centered) -->
+        <section id="Publications" class="mb-5" aria-labelledby="Publications-heading">
+          <h2 id="Publications-heading" class="section-title">Publications</h2>
+          
+          <!-- 4 cards = 3 + 1 (last one centered) -->
+          <div class="row g-4 justify-content-center" role="list" aria-label="Publications">
+            
+            <!-- Article 2 -->
+            <div class="col-lg-4 col-md-6" role="listitem">
+              <div class="project-card h-100 d-flex flex-column">
+                <div class="card-image-container position-relative">
+                  <img src="images/Publications/medium-poster.png" alt="Articles on Medium platform" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+                </div>
+                <div class="card-content p-3 d-flex flex-column">
+                  <h3 class="work-title">Articles on Medium</h3>
+                  <p class="work-desc flex-grow-1">Dive into tech, AI, and generative art through curated articles on Medium.</p>
+                  <div class="compact-meta mb-2">
+                    <div class="meta-item"><strong>Platform:</strong> Medium</div>
+                    <div class="meta-item"><strong>Content:</strong> Tech & AI</div>
+                  </div>
+                  <a href="https://medium.com/@reyhanehdaneshdoost" class="btn btn-magical mt-auto" target="_blank" rel="noopener">Read Articles</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Article 3 -->
+            <div class="col-lg-4 col-md-6" role="listitem">
+              <div class="project-card h-100 d-flex flex-column">
+                <div class="card-image-container position-relative">
+                  <img src="images/Publications/dailydev-poster.png" alt="Articles on Daily.dev platform" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+                </div>
+                <div class="card-content p-3 d-flex flex-column">
+                  <h3 class="work-title">Articles on Daily.dev</h3>
+                  <p class="work-desc flex-grow-1">Dive into tech, AI, and generative art through curated articles on Daily.dev.</p>
+                  <div class="compact-meta mb-2">
+                    <div class="meta-item"><strong>Platform:</strong> Daily.dev</div>
+                    <div class="meta-item"><strong>Content:</strong> Tech & Development</div>
+                  </div>
+                  <a href="https://app.daily.dev/reyrove/posts" class="btn btn-magical mt-auto" target="_blank" rel="noopener">Read Articles</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Article 4 - This will be centered -->
+            <div class="col-lg-4 col-md-6" role="listitem">
+              <div class="project-card h-100 d-flex flex-column">
+                <div class="card-image-container position-relative">
+                  <img src="images/Publications/VisualArt-poster.png" alt="Visual Art Journal feature" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+                </div>
+                <div class="card-content p-3 d-flex flex-column">
+                  <h3 class="work-title">Visual Art Journal Feature</h3>
+                  <p class="work-desc flex-grow-1">Generative artworks published in Issue 31 of Visual Art Journal.</p>
+                  <div class="compact-meta mb-2">
+                    <div class="meta-item"><strong>Platform:</strong> Visual Art Journal</div>
+                    <div class="meta-item"><strong>Issue:</strong> #31 July 2025</div>
+                  </div>
+                  <a href="https://visualartjournal.com/2025/07/09/issue-31-july-2025/" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Feature</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Tutorials Grid (3 cards - perfect row) -->
+        <section id="tutorials" class="mb-5" aria-labelledby="tutorials-heading">
+          <h2 id="tutorials-heading" class="section-title">Tutorials</h2>
+          
+          <!-- 3 cards = perfect 3 in a row -->
+          <div class="row g-4 justify-content-center" role="list" aria-label="Tutorial videos">
+<!-- FORTRAN -->
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    <div class="card-image-container position-relative">
+      <img src="images/Tutorials/FORTRAN.jpg" alt="FORTRAN" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+    </div>
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">FORTRAN</h3>
+      <p class="work-desc flex-grow-1">Fortran in 27 structured lessons — numeric computing basics.</p>
+      <div class="compact-meta mb-2">
+        <div class="meta-item"><strong>Format:</strong> Video Series</div>
+        <div class="meta-item"><strong>Language:</strong> Persian</div>
+      </div>
+      <a href="https://www.youtube.com/watch?v=cyThxBP_I1I&list=PLzPYCB_3Ed9f_8IZq943sm71hR5bJWLgq" class="btn btn-magical mt-auto" target="_blank" rel="noopener">Watch Series</a>
+    </div>
+  </div>
+</div>
+
+<!-- LaTeX -->
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    <div class="card-image-container position-relative">
+      <img src="images/Tutorials/LaTeX.jpg" alt="LaTeX" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+    </div>
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">LaTeX</h3>
+      <p class="work-desc flex-grow-1">Complete LaTeX typesetting training.</p>
+      <div class="compact-meta mb-2">
+        <div class="meta-item"><strong>Format:</strong> Video Series</div>
+        <div class="meta-item"><strong>Language:</strong> Persian</div>
+      </div>
+      <a href="https://www.youtube.com/watch?v=l7GZEXO_D_E&list=PLzPYCB_3Ed9d2lL-fIn6mnob0QtjaTGdp" class="btn btn-magical mt-auto" target="_blank" rel="noopener">Watch Series</a>
+    </div>
+  </div>
+</div>
+
+<!-- History of Typesetting -->
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    <div class="card-image-container position-relative">
+      <img src="images/Tutorials/History of Typesetting.jpg" alt="History of Typesetting" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+    </div>
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">History of Typesetting</h3>
+      <p class="work-desc flex-grow-1">Explore the evolution of typesetting in 10 episodes.</p>
+      <div class="compact-meta mb-2">
+        <div class="meta-item"><strong>Format:</strong> Video Series</div>
+        <div class="meta-item"><strong>Language:</strong> Persian</div>
+      </div>
+      <a href="https://www.youtube.com/watch?v=Xl-8u4jj4cc&list=PLzPYCB_3Ed9clkiowbYAh9ViJ_JEAVjJu" class="btn btn-magical mt-auto" target="_blank" rel="noopener">Watch Series</a>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript (Persian) -->
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    <div class="card-image-container position-relative">
+      <img src="images/Tutorials/JavaScript Persian.jpg" alt="JavaScript (Persian)" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+    </div>
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">JavaScript</h3>
+      <p class="work-desc flex-grow-1">Interactive JS basics — coming soon!</p>
+      <div class="compact-meta mb-2">
+        <div class="meta-item"><strong>Format:</strong> Video Series</div>
+        <div class="meta-item"><strong>Language:</strong> Persian</div>
+      </div>
+      <a href="https://www.youtube.com/watch?v=VdvQ18tciIo&list=PLzPYCB_3Ed9ctNYuTWZ3Nz5r58W9sOYAz" class="btn btn-magical mt-auto" target="_blank" rel="noopener">Watch Video</a>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript (English Video) -->
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    
+    <div class="card-image-container position-relative">
+      <img src="images/Tutorials/JavaScript English.jpg"
+           alt="JavaScript"
+           class="img-fluid h-100 w-100"
+           loading="lazy"
+           width="400"
+           height="280"/>
+    </div>
+
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">JavaScript</h3>
+
+      <p class="work-desc flex-grow-1">
+        Interactive JS basics — coming soon!
+      </p>
+
+      <div class="compact-meta mb-2">
+        <div class="meta-item">
+          <strong>Format:</strong> Video Series
+        </div>
+        <div class="meta-item">
+          <strong>Language:</strong> English
+        </div>
+      </div>
+
+      <!-- Two Equal Magical Buttons -->
+      <div class="d-flex gap-2 mt-auto">
+        <a href="https://www.youtube.com/watch?v=5R4cRmjvgtE&list=PL1ZFH58Rwb78qLSnmv3VFhcHE8TKWowtX"
+           class="btn btn-magical flex-fill"
+           target="_blank"
+           rel="noopener">
+           Watch Series
+        </a>
+
+        <a href="Javascript script/index.html"
+           class="btn btn-magical flex-fill"
+           target="_blank"
+           rel="noopener">
+           Read Guide
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Crypto News & Trends -->
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    <div class="card-image-container position-relative">
+      <img src="images/Tutorials/Crypto News & Trends.jpg" alt="Crypto News & Trends" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+    </div>
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">Crypto News & Trends</h3>
+      <p class="work-desc flex-grow-1">Up-to-date coverage of crypto markets.</p>
+      <div class="compact-meta mb-2">
+        <div class="meta-item"><strong>Format:</strong> Video Series</div>
+        <div class="meta-item"><strong>Language:</strong> English</div>
+      </div>
+      <a href="https://www.youtube.com/watch?v=X2xVtn_5h4U&list=PL1ZFH58Rwb7-WwBoqJsEx3g_gFYzC9zKy" class="btn btn-magical mt-auto" target="_blank" rel="noopener">Watch Video</a>
+    </div>
+  </div>
+</div>
+
+<!-- HTML Basics -->
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    <div class="card-image-container position-relative">
+      <img src="images/Tutorials/html basics.jpg" alt="HTML Basics" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+    </div>
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">HTML Basics</h3>
+      <p class="work-desc flex-grow-1">Foundational guide to structuring web pages.</p>
+      <div class="compact-meta mb-2">
+        <div class="meta-item"><strong>Format:</strong> Script Guide</div>
+        <div class="meta-item"><strong>Language:</strong> English</div>
+      </div>
+      <a href="meals/meals.html" class="btn btn-magical mt-auto" rel="noopener">Read Guide</a>
+    </div>
+  </div>
+</div>
+
+<!-- CSS Fundamentals -->
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    <div class="card-image-container position-relative">
+      <img src="images/Tutorials/CSS Fundamentals.jpg" alt="CSS Fundamentals" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+    </div>
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">CSS Fundamentals</h3>
+      <p class="work-desc flex-grow-1">Learn layouts, styling, & typography.</p>
+      <div class="compact-meta mb-2">
+        <div class="meta-item"><strong>Format:</strong> Script Guide</div>
+        <div class="meta-item"><strong>Language:</strong> English</div>
+      </div>
+      <a href="desserts/desserts.html" class="btn btn-magical mt-auto" rel="noopener">Read Guide</a>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript Essentials -->
+<div class="col-lg-4 col-md-6" role="listitem">
+  <div class="project-card h-100 d-flex flex-column">
+    <div class="card-image-container position-relative">
+      <img src="images/Tutorials/JavaScript Essentials.jpg" alt="JavaScript Essentials" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+    </div>
+    <div class="card-content p-3 d-flex flex-column">
+      <h3 class="work-title">JavaScript Essentials</h3>
+      <p class="work-desc flex-grow-1">Learn interactive features & DOM basics.</p>
+      <div class="compact-meta mb-2">
+        <div class="meta-item"><strong>Format:</strong> Script Guide</div>
+        <div class="meta-item"><strong>Language:</strong> English</div>
+      </div>
+      <a href="drinks/drinks.html" class="btn btn-magical mt-auto" rel="noopener">Read Guide</a>
+    </div>
+  </div>
+</div>
+
+
+          </div>
+        </section>
+
+<!-- Certifications Grid (5 cards - centered) -->
+<section id="certifications" class="mb-5" aria-labelledby="certifications-heading">
+  <h2 id="certifications-heading" class="section-title">Certifications</h2>
+  
+  <div class="row g-4 justify-content-center" role="list" aria-label="Professional certifications">
+
+    <!-- Certification 1: Responsive Web Design -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Certifications/responsive-web-design.jpg" alt="Responsive Web Design Certification" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Responsive Web Design</h3>
+          <p class="work-desc flex-grow-1">Certification in creating responsive web designs that work across all devices.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Provider:</strong> freeCodeCamp</div>
+            <div class="meta-item"><strong>Skills:</strong> HTML, CSS</div>
+          </div>
+          <a href="https://www.freecodecamp.org/certification/reyrove/responsive-web-design" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Certification</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certification 2: JavaScript Algorithms -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Certifications/javascript-algorithms.jpg" alt="JavaScript Algorithms and Data Structures Certification" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">JavaScript Algorithms</h3>
+          <p class="work-desc flex-grow-1">Certification in JavaScript algorithms and data structures.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Provider:</strong> freeCodeCamp</div>
+            <div class="meta-item"><strong>Skills:</strong> JavaScript</div>
+          </div>
+          <a href="https://www.freecodecamp.org/certification/reyrove/javascript-algorithms-and-data-structures-v8" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Certification</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certification 3: Front End Libraries -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Certifications/front-end-libraries.jpg" alt="Front End Libraries Certification" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Front End Libraries</h3>
+          <p class="work-desc flex-grow-1">Certification in front end libraries including React and Bootstrap.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Provider:</strong> freeCodeCamp</div>
+            <div class="meta-item"><strong>Skills:</strong> React, Bootstrap</div>
+          </div>
+          <a href="https://www.freecodecamp.org/certification/reyrove/front-end-libraries" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Certification</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certification 4: Data Visualization -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Certifications/data-visualization.jpg" alt="Data Visualization Certification" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Data Visualization</h3>
+          <p class="work-desc flex-grow-1">Certification in data visualization using libraries like D3.js.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Provider:</strong> freeCodeCamp</div>
+            <div class="meta-item"><strong>Skills:</strong> Data Visualization</div>
+          </div>
+          <a href="https://www.freecodecamp.org/certification/reyrove/data-visualization" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Certification</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certification 5: Back End APIs -->
+    <div class="col-lg-4 col-md-6" role="listitem">
+      <div class="project-card h-100 d-flex flex-column">
+        <div class="card-image-container position-relative">
+          <img src="images/Certifications/back-end-apis.jpg" alt="Back End APIs Certification" class="img-fluid h-100 w-100" loading="lazy" width="400" height="280"/>
+        </div>
+        <div class="card-content p-3 d-flex flex-column">
+          <h3 class="work-title">Back End APIs</h3>
+          <p class="work-desc flex-grow-1">Certification in building backend APIs and server-side logic.</p>
+          <div class="compact-meta mb-2">
+            <div class="meta-item"><strong>Provider:</strong> freeCodeCamp</div>
+            <div class="meta-item"><strong>Skills:</strong> Node.js, Express</div>
+          </div>
+          <a href="https://www.freecodecamp.org/certification/reyrove/back-end-apis" class="btn btn-magical mt-auto" target="_blank" rel="noopener">View Certification</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+        <!-- Team Section (2 cards - side by side) -->
+        <section id="team" class="mb-5" aria-labelledby="team-heading">
+          <h2 id="team-heading" class="section-title">Team</h2>
+          <div class="row g-4 justify-content-center">
+            <!-- Human Team Member -->
+            <div class="col-lg-6 col-md-6">
+              <div class="team-member h-100" tabindex="0">
+                <div class="member-avatar">
+                  <img src="images/Team/pedi.jpg" alt="Pedram Safarinia" loading="lazy" width="100" height="100">
+                </div>
+                <h3 class="member-name">Pedram Safarinia</h3>
+                <p class="member-role">Programmer & AI Enthusiast</p>
+                <div class="member-social">
+                  <a href="mailto:pesafari@gmail.com" class="social-link" aria-label="Email Pedram">
+                    <i class="bi bi-envelope" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://github.com/pesafari" class="social-link" aria-label="Pedram's GitHub">
+                    <i class="bi bi-github" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://freyjafa.github.io/FreyjaFa/" class="social-link" aria-label="Pedram's Website">
+                    <i class="bi bi-globe" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- AI Team Member -->
+            <div class="col-lg-6 col-md-6">
+              <div class="team-member ai-member h-100" tabindex="0">
+                <div class="member-avatar">
+                  <img src="images/Team/sparrow-hawk.png" alt="Sparrow Hawk AI" loading="lazy" width="100" height="100">
+                </div>
+                <h3 class="member-name">Sparrow Hawk</h3>
+                <p class="member-role">AI Creative Partner</p>
+                <div class="member-social">
+                  <a href="mailto:sparrowhawk2026@gmail.com" class="social-link" aria-label="Email Sparrow Hawk">
+                    <i class="bi bi-envelope" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://github.com/reyrove/Sparrow-Hawk-AI" class="social-link" aria-label="Sparrow Hawk GitHub">
+                    <i class="bi bi-github" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2025/01/06/17/20250106173117-8TRE5XWM.json" class="social-link" aria-label="Chat with Sparrow Hawk">
+                    <i class="bi bi-chat-dots" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+<!-- Footer -->
+<footer class="py-5" role="contentinfo">
+  <div class="container">
+    <div id="contact">
+      <h2 class="section-title">Connect With Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <ul class="contact-list">
+            <li>
+              <a href="mailto:reyhanehdaneshdoost@gmail.com">
+                <i class="bi bi-envelope icon" aria-hidden="true"></i>
+                <span>Email</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/reyhaneh-daneshdoost-730481160/" target="_blank" rel="noopener">
+                <i class="bi bi-linkedin icon" aria-hidden="true"></i>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/reyrove" target="_blank" rel="noopener">
+                <i class="bi bi-github icon" aria-hidden="true"></i>
+                <span>GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/reyrove" target="_blank" rel="noopener">
+                <i class="bi bi-twitter-x icon" aria-hidden="true"></i>
+                <span>Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/rey._.rove/" target="_blank" rel="noopener">
+                <i class="bi bi-instagram icon" aria-hidden="true"></i>
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://discord.com/users/reyrove" target="_blank" rel="noopener">
+                <i class="bi bi-discord icon" aria-hidden="true"></i>
+                <span>Discord</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://huggingface.co/reyrove" target="_blank" rel="noopener">
+                <i class="fas fa-robot icon" aria-hidden="true"></i>
+                <span>Hugging Face</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p class="text-secondary text-center">&copy; 2024-2026 Crafted with passion by Reyrove. All rights reserved.</p>
+    </div>
+  </div>
 </footer>
-<script src="script.js"></script>
-<script src="https://cdn.botpress.cloud/webchat/v3.0/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2025/01/06/17/20250106173116-A4UPJ1H9.js"></script>
-<button id="backToTop" class="back-to-top" aria-label="Back to top">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" class="back-to-top-icon">
-    <path d="M18 15l-6-6-6 6"/>
-  </svg>
-</button>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+<i class="fa-solid fa-angles-up"></i>
+  </button>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.botpress.cloud/webchat/v3.0/inject.js"></script>
+  <script src="https://files.bpcontent.cloud/2025/01/06/17/20250106173116-A4UPJ1H9.js"></script>
 </body>
 </html>

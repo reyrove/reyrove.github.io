@@ -3,7 +3,7 @@ body {
   background-color: #f0f0ff;
   color: #333;
   padding: 20px;
-  background-image: url('../images/background.png'); 
+  background-image: url('../images/Applications/background.png'); 
   background-size: cover; 
   background-position: center; 
   background-attachment: fixed; 
@@ -16,6 +16,8 @@ body {
   background-color: #ffe9b2; 
   border-radius: 15px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  margin-bottom: 50px; /* Add space between each story */
+  padding-bottom: 30px; /* Optional: add padding inside each container */
 }
 
 h1 {
