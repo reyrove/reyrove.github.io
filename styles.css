@@ -297,13 +297,18 @@ body {
   flex-direction: column;
   margin: 0 auto;
   max-width: 100%;
-  min-height: 520px; 
+  min-height: 520px; /* Consistent height for all devices */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--card-shadow-hover);
+}
 
 .card-image-container {
   position: relative;
-  height: 280px;
+  height: 280px; /* Consistent height for all devices */
   overflow: hidden;
   background: #000;
   flex-shrink: 0;
@@ -315,14 +320,13 @@ body {
   object-fit: cover;
 }
 
-
-
 .card-content {
   padding: 1rem 1.25rem;
   display: flex;
   flex-direction: column;
   flex: 1;
   gap: 0.75rem;
+  min-height: 240px; /* Ensure consistent content area height */
 }
 
 .work-title {
@@ -619,21 +623,36 @@ footer .text-secondary {
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
 
+/* Mobile Responsive Adjustments */
 @media (max-width: 767px) {
-  .project-card {
-    min-height: 480px;
+  /* Adjust grid columns for better mobile layout */
+  .col-lg-4.col-md-6 {
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
-  .card-image-container {
-    height: 200px;
+  /* Adjust button sizing for mobile to fit better */
+  .btn-magical {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    min-width: 140px;
   }
   
-  .work-title {
-    font-size: 1.1rem;
-  }
-  
+  /* Improve text readability on mobile */
   .work-desc {
     font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  
+  .meta-item {
+    font-size: 0.8rem;
+  }
+  
+  .meta-item strong {
+    font-size: 0.8rem;
+    min-width: 65px;
   }
   
   .hero-title {
@@ -661,13 +680,18 @@ footer .text-secondary {
   .member-name {
     font-size: 1.1rem;
   }
+  
+  .contact-list {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .contact-list a {
+    justify-content: center;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-  .project-card {
-    min-height: 500px;
-  }
-  
   .hero-title {
     font-size: 2.5rem;
   }
@@ -678,10 +702,6 @@ footer .text-secondary {
 }
 
 @media (max-width: 575px) {
-  .project-card {
-    min-height: 440px;
-  }
-  
   .hero-buttons {
     flex-direction: column;
     gap: 1rem;
@@ -691,6 +711,10 @@ footer .text-secondary {
   .hero-buttons .btn {
     width: 100%;
     max-width: 280px;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
   }
 }
 
