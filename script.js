@@ -39,8 +39,6 @@ document.querySelectorAll('.nav-link').forEach(link => {
   });
 });
 
-
-
 // Artist Statement Toggle Functionality
 class CreativeStatement {
   constructor() {
