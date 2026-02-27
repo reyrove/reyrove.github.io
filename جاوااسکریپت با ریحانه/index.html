@@ -2124,4 +2124,2131 @@ const saveTasks = () => localStorage.setItem('tasks', JSON.stringify(tasks));</c
 </p>
 </footer>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جاوااسکریپت با ریحانه</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header></header>
+    
+     <!-- Navigation Menu -->
+    <div class="session-nav">
+        <h3>Jump to Session</h3>
+        <div class="session-buttons">
+            <a href="#session1" class="session-btn">1</a>
+  <a href="#session2" class="session-btn">2</a>
+  <a href="#session3" class="session-btn">3</a>
+  <a href="#session4" class="session-btn">4</a>
+  <a href="#session5" class="session-btn">5</a>
+  <a href="#session6" class="session-btn">6</a>
+  <a href="#session7" class="session-btn">7</a>
+  <a href="#session8" class="session-btn">8</a>
+  <a href="#session9" class="session-btn">9</a>
+  <a href="#session10" class="session-btn">10</a>
+  <a href="#session11" class="session-btn">11</a>
+  <a href="#session12" class="session-btn">12</a>
+  <a href="#session13" class="session-btn">13</a>
+  <a href="#session14" class="session-btn">14</a>
+  <a href="#session15" class="session-btn">15</a>
+  <a href="#session16" class="session-btn">16</a>
+  <a href="#session17" class="session-btn">17</a>
+  <a href="#session18" class="session-btn">18</a>
+  <a href="#session19" class="session-btn">19</a>
+  <a href="#session20" class="session-btn">20</a>
+  <a href="#session21" class="session-btn">21</a>
+  <a href="#session22" class="session-btn">22</a>
+  <a href="#session23" class="session-btn">23</a>
+  <a href="#session24" class="session-btn">24</a>
+        </div>
+    </div>
+
+    <div class="container">
+
+
+  <!-- ================= جلسه ۱ ================= -->
+  <h1 id="session1">جلسه ۱</h1>
+  <h1>ابزارهای توسعه‌دهنده جاوااسکریپت: ابرقدرت‌های کدنویسی شما ⚡</h1>
+
+  <section id="session1-intro">
+    <h2>مقدمه</h2>
+    <p>سلام رفقای آینده‌دار کدنویسی! 👋 خوش اومدین به کانال! من <strong>Reyrove</strong> هستم و امروز قراره بریم سراغ ابزارهایی که مسیر توسعهٔ جاوااسکریپت شما رو به یه سفر پرقدرت تبدیل می‌کنن.</p>
+    <p>قبل از شروع، <strong>اون دکمهٔ لایک رو بترکون، سابسکرایب کن</strong> و توی کامنت‌ها بنویس ابزار موردعلاقه‌ت برای کدنویسی چیه — بیاین با هم یه جعبه‌ابزار خفن برای دولوپرها بسازیم!</p>
+  </section>
+
+  <section id="code-editors">
+    <h2>ویرایشگرهای کد</h2>
+    <p>زمین بازی اصلیِ کدنویسی شما، جایی که جادو اتفاق می‌افته:</p>
+    <ul>
+      <li><strong>Visual Studio Code (VS Code)</strong> – فوق‌العاده قابل‌سفارشی‌سازی، با افزونه‌های مخصوص جاوااسکریپت، تایپ‌اسکریپت، ESLint، Prettier و غیره.</li>
+      <li><strong>Sublime Text</strong> – سبک و سریع با افزونه‌های زیاد برای توسعهٔ جاوااسکریپت.</li>
+    </ul>
+    <div class="tip">💡 نکتهٔ حرفه‌ای: VS Code محبوب جامعه‌ست! با افزونه‌ها و ترمینال داخلی خودش، زندگی رو راحت می‌کنه.</div>
+  </section>
+
+  <section id="package-managers">
+    <h2>مدیرهای پکیج</h2>
+    <p>ابزارهایی برای مدیریت کتابخانه‌ها و وابستگی‌های پروژه:</p>
+    <ul>
+      <li><strong>npm (Node Package Manager)</strong> – مدیر پکیج پیش‌فرض Node.js برای مدیریت وابستگی‌های پروژه‌های جاوااسکریپتی.</li>
+      <li><strong>Yarn</strong> – جایگزینی سریع و قابل‌اعتماد برای npm، مخصوص پروژه‌های بزرگ‌تر.</li>
+    </ul>
+    <div class="quick-tip">⚡ نکتهٔ سریع: با npm شروع کن، ولی برای پروژه‌های بزرگ‌تر سراغ Yarn برو!</div>
+  </section>
+
+  <section id="build-tools">
+    <h2>ابزارهای ساخت (Build Tools)</h2>
+    <p>ابزارهایی برای خودکارسازی وظایف و ساده‌سازی فرآیند ساخت:</p>
+    <ul>
+      <li><strong>Webpack</strong> – باندل‌کنندهٔ ماژول که فایل‌های جاوااسکریپت و سایر منابع رو پردازش و ترکیب می‌کنه.</li>
+      <li><strong>Parcel</strong> – باندل‌کننده بدون نیاز به پیکربندی؛ سریع و عالی برای پروژه‌های کوچک تا متوسط.</li>
+    </ul>
+  </section>
+
+  <section id="linters-formatters">
+    <h2>لینترها و فرمت‌کننده‌ها</h2>
+    <p>برای داشتن کدی تمیز و یکنواخت:</p>
+    <ul>
+      <li><strong>ESLint</strong> – ابزار بررسی کد جاوااسکریپت که خطاها رو شناسایی می‌کنه و استانداردهای کدنویسی رو enforce می‌کنه.</li>
+      <li><strong>Prettier</strong> – فرمت‌کنندهٔ معروف و سخت‌گیر برای داشتن استایل کدنویسی ثابت در کل پروژه.</li>
+    </ul>
+    <div class="tip">💡 نکتهٔ حرفه‌ای: ESLint + Prettier = کد تمیزِ بی‌نقص 😎</div>
+  </section>
+
+  <section id="debugging-tools">
+    <h2>ابزارهای دیباگ</h2>
+    <p>برای پیدا کردن و رفع باگ‌ها در کدتون:</p>
+    <ul>
+      <li><strong>Chrome DevTools</strong> – داخل مرورگر گوگل کروم تعبیه شده و ابزاری ضروری برای دیباگ سمت فرانت‌اند هست.</li>
+      <li><strong>Node.js Debugger</strong> – دیباگر خط فرمان برای Node.js که با IDEهایی مثل VS Code ادغام می‌شه.</li>
+    </ul>
+  </section>
+
+  <section id="testing-frameworks">
+    <h2>فریم‌ورک‌های تست</h2>
+    <p>برای اطمینان از اینکه کدت همونطوری که باید، کار می‌کنه:</p>
+    <ul>
+      <li><strong>Jest</strong> – فریم‌ورک تست جامع ساخته‌شده توسط فیسبوک.</li>
+      <li><strong>Mocha</strong> – فریم‌ورک تست انعطاف‌پذیر برای Node.js که معمولاً با کتابخانه‌های assertion استفاده می‌شه.</li>
+    </ul>
+  </section>
+
+  <section id="additional-tools">
+    <h2>ابزارهای فوق‌العاده دیگر</h2>
+    <ul>
+      <li><strong>Babel</strong> – کامپایلر جاوااسکریپت که کدهای مدرن رو به نسخه‌های سازگارتر با مرورگرها تبدیل می‌کنه.</li>
+      <li><strong>TypeScript</strong> – نسخهٔ پیشرفته‌ای از جاوااسکریپت با پشتیبانی از تایپ‌ها، برای کاهش خطاها قبل از اجرا.</li>
+      <li><strong>Git</strong> – سیستم کنترل نسخه برای مدیریت کد و همکاری تیمی.</li>
+    </ul>
+    <div class="quick-tip">⚡ نکتهٔ داغ: اول Git رو یاد بگیر — توی هر پروژه‌ای نجاتت می‌ده!</div>
+  </section>
+
+  <section id="session1-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم از جعبه‌ابزار توسعه‌دهندهٔ جاوااسکریپت شما! این ابزارها سرعت، قدرت، و بهره‌وری‌تون رو چند برابر می‌کنن.</p>
+    <div class="cta">
+      🎬 جلسه بعدی: راه‌اندازی ایستگاه نبرد توسعه‌ات در جلسه ۲!<br>
+      💻 ابزارهای پیشنهادی رو در وبسایتم ببین: 
+      <a href="https://reyrove.github.io/" target="_blank">وبسایت من</a>.<br>
+      📬 سوال یا پیشنهاد داری؟ در لینکدین باهام در ارتباط باش: 
+      <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">لینکدین من</a>.<br>
+      و یادت نره: لایک کن، سابسکرایب کن، و توی کامنت بگو ابزار موردعلاقه‌ت برای توسعه چیه! 💬
+    </div>
+  </section>
+
+
+<!-- ================= SESSION 2 ================= -->
+
+<h1 id="session2">جلسه ۲</h1>
+<h1>ایستگاه نبرد برنامه‌نویسی: مثل یه حرفه‌ای راهش بنداز!</h1>
+
+<section id="intro">
+  <h2>مقدمه</h2>
+  <p>سلام رفقای آینده‌ساز جاوااسکریپت! خوش اومدید دوباره به کانال! اگه تازه اومدید، من <strong>Reyrove</strong> هستم، و امروز قراره ایستگاه نبرد برنامه‌نویسی‌تون رو بسازیم تا بتونید مثل یه حرفه‌ای کد بزنید — بدون اینکه موهاتون رو بکنید 😅</p>
+  <p>قبل از اینکه بریم سر اصل مطلب، <strong>دکمه‌ی لایک رو بکوب، سابسکرایب کن،</strong> و توی کامنت بنویس که آماده‌ای سطح کد زدن‌ت رو ببری بالا — چون قول می‌دم چیزای خفنی در راهه!</p>
+</section>
+
+<section id="what-you-need">
+  <h2>چیزایی که نیاز داری</h2>
+  <p>قدم اول: چک‌لیست تجهیزات! برای ساخت یه ایستگاه برنامه‌نویسی، لازم نیست میلیونر باشی — فقط چندتا ابزار کلیدی می‌خوای:</p>
+  <ul>
+    <li><strong>ویرایشگر کد:</strong> VS Code (رایگان، سبک، و پر از افزونه‌های کاربردی)</li>
+    <li><strong>مرورگر:</strong> Chrome یا Firefox برای تست زنده‌ی کدها</li>
+    <li><strong>ترمینال / خط فرمان:</strong> ساده و دوست‌داشتنی، هنوز خبری از هک کردن نیست 😏</li>
+    <li><strong>افزونه‌ها:</strong> Prettier (مرتب‌کننده‌ی کد) و Live Server (نمایش لحظه‌ای تغییرات)</li>
+  </ul>
+  <div class="tip">💡 نکته حرفه‌ای: محیط کاری‌ت رو تمیز نگه دار. هیچ چیز مثل دسکتاپ پر از فایل‌های بی‌ربط نمی‌تونه تمرکزت رو نابود کنه.</div>
+</section>
+
+<section id="setup-vscode">
+  <h2>نصب و تنظیم VS Code</h2>
+  <p>قدم دوم: VS Code رو از <a href="https://code.visualstudio.com/" target="_blank">سایت رسمی</a> دانلود کن.</p>
+  <p>بعد از نصب:</p>
+  <ul>
+    <li>بازش کن و یه تم انتخاب کن — حالت تاریک؟ روشن؟ هرچی حس بهت میده!</li>
+    <li><strong>Prettier</strong> رو نصب کن: خودش کدتو تمیز و مرتب می‌کنه تا انگار از روی صفحه‌ی مجله دراومده 😎</li>
+    <li><strong>Live Server</strong> رو هم نصب کن: فقط یه کلیک، و تغییرات HTML/JS رو زنده تو مرورگر می‌بینی. جادوی واقعی!</li>
+  </ul>
+  <div class="quick-tip">⚡ نکته سریع: با کلید <code>Ctrl + ~</code> ترمینال رو مستقیم توی VS Code باز کن. خداحافظی با جابه‌جایی بین برنامه‌ها مثل انسان‌های اولیه!</div>
+</section>
+
+<section id="organizing-projects">
+  <h2>سازمان‌دهی پروژه‌ها</h2>
+  <p>قدم سوم، نظم‌دهی. هیچ چیز بدتر از گم شدن وسط جنگل فولدرها نیست:</p>
+  <ul>
+    <li>یه فولدر به اسم <strong>Projects</strong> بساز، جای راحت و دم‌دست</li>
+    <li>برای هر پروژه یه فولدر جدا بساز: مثل <em>ToDoApp</em>، <em>PortfolioSite</em> و غیره</li>
+    <li>هر پروژه رو با سه فایل شروع کن: <code>index.html</code>، <code>style.css</code>، و <code>script.js</code> — سه‌گانه‌ی مقدس 😇</li>
+  </ul>
+  <div class="tip">💡 نکته اضافه: فایل‌هات رو با اسم‌های واضح ذخیره کن. نه از اون <em>newfile1.js</em>ها 😬. خودِ آینده‌ت ازت ممنون میشه.</div>
+</section>
+
+<section id="optional-add-ons">
+  <h2>افزونه‌ها و تجهیزات اختیاری خفن</h2>
+  <p>اگه می‌خوای محیط برنامه‌نویسی‌ت رو به حالت گیمر حرفه‌ای ببری:</p>
+  <ul>
+    <li>دو تا مانیتور برای تقسیم صفحه بین کد و مرورگر</li>
+    <li>هدفون نویز کنسلینگ برای تمرکز مطلق</li>
+    <li>یه صندلی راحت... چون هیچ‌کس موقع کدنویسی وای نمی‌ایسته مگه اینکه عضو سیرک باشه 🤹‍♂️</li>
+  </ul>
+</section>
+
+<section id="session2-wrap-up">
+  <h2>جمع‌بندی</h2>
+  <p>و اینم از شما! ایستگاه برنامه‌نویسی‌ت رو مثل یه رئیس راه انداختی 💪</p>
+  <div class="cta">
+    🎬 قسمت بعدی: اولین کد جاوااسکریپتی‌ت رو می‌نویسیم (جلسه ۳)!<br>
+    💻 نکته‌ها و آموزش‌های بیشتر در سایت من: 
+    <a href="https://reyrove.github.io/" target="_blank">وب‌سایت من</a>.<br>
+    📬 سوال داری یا ایده؟ در لینکدین باهام در ارتباط باش:
+    <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">لینکدین من</a>.<br>
+    دکمه‌ی لایک رو بکوب، سابسکرایب کن، و توی کامنت بنویس: ایستگاه کدینگ ایده‌آل تو چیه؟ دو مانیتوره یا مینیمال و تمیز؟ 🤔
+  </div>
+</section>
+
+<!-- ================= SESSION 3 ================= -->
+<h1 id="session3">جلسه ۳</h1>
+<h1>سلام جاوااسکریپت! اولین کدت بدون اشک و استرس 😅</h1>
+
+<section id="js-intro">
+  <h2>مقدمه</h2>
+  <p>سلام به همه‌ی افسانه‌های آینده‌ی جاوااسکریپت! خوش اومدی دوباره به کانال! اگه تازه اومدی، من <strong>Reyrove</strong> هستم، و امروز قراره اولین قدم‌مون رو تو دنیای JavaScript برداریم — جایی که کدها باهات حرف می‌زنن (بدون اینکه بخوای لپ‌تاپ‌ت رو پرت کنی بیرون از پنجره 😆).</p>
+  <p>قبل از اینکه شروع کنیم، <strong>دکمه‌ی لایک رو بکوب، سابسکرایب کن،</strong> و توی کامنت بنویس اگه آماده‌ای اولین جادوی JS خودت رو ببینی — چون از اینجا تازه خوش‌گذرونی شروع میشه!</p>
+</section>
+
+<section id="where-js-lives">
+  <h2>جاوااسکریپت کجا زندگی می‌کنه؟</h2>
+  <p>دو تا گزینه‌ی اصلی داری:</p>
+  <ul>
+    <li>داخل فایل HTML خودت با استفاده از تگ <code>&lt;script&gt;</code>.</li>
+    <li>یا تو یه فایل جدا به اسم JavaScript که به HTML لینک میشه.</li>
+  </ul>
+  <p>فعلاً ساده پیش می‌ریم و همه‌چیز رو تو یه فایل HTML نگه می‌داریم — کمتر بالا و پایین بپری، بیشتر کیف کنی 😎</p>
+  <div class="tip">💡 نکته‌ی حرفه‌ای: همیشه ذخیره کن! خودِ آینده‌ت بهت عشق خواهد ورزید ❤️</div>
+</section>
+
+<section id="first-js-code">
+  <h2>نوشتن اولین کدت</h2>
+  <p><code>index.html</code> رو باز کن. لازم نیست کل HTML رو دستی بنویسی — فقط یه علامت <code>!</code> بنویس و <strong>Enter</strong> رو بزن. بوم! ساختار پایه‌ی HTML آماده‌ست 💥</p>
+  <p>حالا داخل تگ <code>&lt;body&gt;</code> اینو بنویس:</p>
+  <pre><code>&lt;script&gt;
+  console.log('Hello, JS!');
+&lt;/script&gt;</code></pre>
+  <p>• <code>console.log</code> یعنی پیام رو بنداز تو کنسول مرورگر.</p>
+  <p>• حالا کنسول رو باز کن تا جادو رو ببینی:</p>
+  <ul>
+    <li><strong>Chrome:</strong> کلیدهای <code>F12</code> یا <code>Ctrl + Shift + I</code> (در مک <code>Cmd + Opt + I</code>)</li>
+    <li><strong>Firefox:</strong> کلیدهای <code>Ctrl + Shift + K</code> (در مک <code>Cmd + Opt + K</code>)</li>
+  </ul>
+  <p>باید ببینی نوشته شده: <strong>Hello, JS!</strong> 🎉</p>
+</section>
+
+<section id="interactive-js">
+  <h2>تعامل با کاربر</h2>
+  <pre><code>&lt;script&gt;
+  alert('Hello, JS! Welcome to your first code.');
+&lt;/script&gt;</code></pre>
+  <p>• صفحه رو رفرش کن تا پیام پاپ‌آپ رو ببینی ✨</p>
+  <div class="tip">💡 نکته: از <code>alert()</code> فقط گاهی استفاده کن؛ <code>console.log</code> برای کار روزمره خیلی امن‌تر و خونسرده 😎</div>
+</section>
+
+<section id="variables-js">
+  <h2>آزمایش سریع: متغیرها</h2>
+  <pre><code>&lt;script&gt;
+  let name = 'Reyrove';
+  console.log(`Hello, ${name}! You are officially coding in JS!`);
+&lt;/script&gt;</code></pre>
+  <p>• فایل رو ذخیره کن و کنسول رو چک کن تا یه خوش‌آمد شخصی ببینی 💬</p>
+  <p>• تبریک! الان داری رشته‌ها (string) و متغیرها (variables) رو با هم ترکیب می‌کنی — جادوی پایه‌ی JS شروع شد! ✨</p>
+</section>
+
+<section id="session3-wrap-up">
+  <h2>جمع‌بندی</h2>
+  <p>و تمام! اولین کد جاوااسکریپتی‌ت اجرا شد 🎉 حالا مرورگر داره دقیقاً همون کاری رو می‌کنه که بهش گفتی — چقدر خفن شدی؟ 😎</p>
+  <div class="cta">
+    🎬 قسمت بعدی: متغیرها و ثابت‌ها در جلسه ۴!<br>
+    💻 تمرین‌ها و مثال‌های بیشتر در وب‌سایت من: <a href="https://reyrove.github.io/" target="_blank">وب‌سایت من</a>.<br>
+    📬 خروجی کنسول خودت رو تو لینکدین به اشتراک بذار:
+    <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">لینکدین من</a>.<br>
+    لایک رو بکوب، سابسکرایب کن، و بنویس که کنسول چی بهت گفت 😁
+  </div>
+</section>
+
+
+
+       <!-- ================= SESSION 4 ================= -->
+<h1 id="session4">جلسه ۴</h1>
+<h1>متغیرها و ثابت‌ها: بهترین دوستای جدیدت توی JS</h1>
+
+<section id="session4-intro">
+    <h2>مقدمه</h2>
+    <p>سلام قهرمانای آینده‌ی جاوااسکریپت! خوش اومدین! اگه تازه اومدی، من <strong>Reyrove</strong>‌ام و امروز قراره با بهترین دوستای جدیدت توی دنیای JS آشنا شی — متغیرها و ثابت‌ها!</p>
+    <p>قبل از اینکه شروع کنیم، <strong>اون دکمه‌ی لایک رو بترکون، سابسکرایب کن</strong> و تو کامنتا بنویس آماده‌ای اولین داده‌هات رو کنترل کنی یا نه؟ 😎 قول می‌دم آسون‌تر از چیزی باشه که فکر می‌کنی!</p>
+</section>
+
+<section id="what-are-variables">
+    <h2>متغیر چیه؟</h2>
+    <p>متغیرها مثل ظرفای کوچیکی‌ان توی کدت که اطلاعات رو نگه می‌دارن.</p>
+    <p>توی جاوااسکریپت، سه راه برای تعریف متغیر داریم:</p>
+    <ol>
+        <li><code>let</code> – روش مدرن، قابل تغییر.</li>
+        <li><code>const</code> – بعد از تعریف، دیگه تغییر نمی‌کنه.</li>
+        <li><code>var</code> – سبک قدیمی، کار می‌کنه ولی یه‌سری رفتارای خاص داره.</li>
+    </ol>
+    <pre><code>var oldSchool = 'I am a var!';
+let modern = 'I can change!';
+const forever = 'I stay the same!';
+console.log(oldSchool, modern, forever);</code></pre>
+    <div class="tip">💡 نکته: برای پروژه‌های جدید از <code>let</code> و <code>const</code> استفاده کن. <code>var</code> فقط برای خوندن کدهای قدیمی بدرد می‌خوره.</div>
+</section>
+
+<section id="variables-in-action">
+    <h2>متغیرها در عمل</h2>
+    <pre><code>let score = 0;
+score = score + 10; // you can update 'let'
+console.log('Your score is now ' + score);
+
+var oldScore = 5;
+oldScore = oldScore + 5; // also works, but has quirks
+console.log('Old school score: ' + oldScore);
+
+const MAX_SCORE = 100;
+console.log('The max score you can get is ' + MAX_SCORE);
+// MAX_SCORE = 50; // ⚠️ This would throw an error!</code></pre>
+    <ul>
+        <li><code>let</code> انعطاف‌پذیره.</li>
+        <li><code>var</code> یه‌کم عجیب رفتار می‌کنه (بعداً توضیح می‌دم).</li>
+        <li><code>const</code> دوست قفل‌شده‌ی توئه 😎</li>
+    </ul>
+    <p>🎉 این سه‌تا روش پایه‌ان که توی اکثر پروژه‌های اولیه به کارت میان!</p>
+</section>
+
+<section id="quick-demo">
+    <h2>دموی سریع</h2>
+    <p>حالا یه متغیر ساده بساز و یه پیام خوش‌آمد باهاش چاپ کن:</p>
+    <pre><code>let name = 'Reyrove';
+console.log('Hello, ' + name + '! Welcome to JS!');</code></pre>
+    <p>• با <code>let</code> می‌تونی مقدار name رو هر وقت خواستی عوض کنی.</p>
+    <p>• ولی اگه با <code>const</code> امتحانش کنی، کنسولت سرِت داد می‌زنه 😂</p>
+    <div class="tip">💡 نکته: <code>let</code> مثل کیف روزمره‌ات می‌مونه، <code>const</code> مثل گاوصندوقه، و <code>var</code> مثل یه جعبه‌ قدیمی که هنوز کار می‌کنه ولی باید حواست باشه چی میریزی توش.</div>
+</section>
+
+<section id="session4-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و تمام! حالا یاد گرفتی چجوری از متغیرها و ثابت‌ها استفاده کنی، و یه نگاهی هم به روش قدیمی‌تر <code>var</code> انداختی. دوستای جدیدت توی JS آماده‌ان که داده‌هات رو نگه دارن و کدت رو پویا کنن 💪</p>
+    <div class="cta">
+        🎬 جلسه‌ی بعد: آشنایی با انواع داده‌ها (Data Types)!<br>
+        💻 تمرین متغیرها رو می‌تونی از سایت من انجام بدی: 
+        <a href="https://reyrove.github.io/" target="_blank">وب‌سایت من</a>.<br>
+        📬 تجربه‌ات رو توی لینکدین به اشتراک بذار:
+        <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">پست لینکدین</a>.<br>
+        یادت نره لایک، سابسکرایب و یه کامنت خوشگل با اولین متغیری که ساختی بذاری! 💖
+    </div>
+</section>
+
+              <!-- ================= SESSION 5 ================= -->
+<h1 id="session5">جلسه ۵</h1>
+<h1>انواع داده‌ها: اعداد، رشته‌ها و چیزای عجیب</h1>
+
+<section id="session5-intro">
+    <h2>مقدمه</h2>
+    <p>سلام قهرمانای کدنویسی! من <strong>Reyrove</strong> هستم و امروز می‌خوایم با انواع داده‌ها توی جاوااسکریپت آشنا بشیم — همون دسته‌ای که باعث می‌شن کدت رفتار کنه… یا گاهی خرابکاری کنه 😎.</p>
+    <p>قبل از شروع، <strong>دکمه لایک رو بترکون، سابسکرایب کن</strong> و تو کامنت‌ها ایموجی مورد علاقتو بذار تا آماده باشیم راز جاوااسکریپت رو کشف کنیم!</p>
+</section>
+
+<section id="meet-data-types">
+    <h2>آشنایی با انواع داده</h2>
+    <p>انواع داده در واقع شخصیت مقادیرت هستن. به جاوااسکریپت می‌گن با چه نوع اطلاعاتی سروکار داره، تا نترکه 😅.</p>
+    <p>اصلی‌ترین انواع:</p>
+    <ol>
+        <li><strong>String</strong> – متن: <code>'Hello World!'</code></li>
+        <li><strong>Number</strong> – عدد: <code>42</code>, <code>3.14</code></li>
+        <li><strong>Boolean</strong> – درست/نادرست: <code>true</code> / <code>false</code></li>
+        <li><strong>Undefined</strong> – هنوز مقداری نداره</li>
+        <li><strong>Null</strong> – عمداً خالی</li>
+        <li><strong>Object</strong> – چیزای پیچیده، مثل آرایه‌ها یا چیزای با ویژگی</li>
+        <li><strong>Symbol</strong> – شناسه‌های یکتا (سطح پیشرفته)</li>
+    </ol>
+    <pre><code>let name = 'Reyrove'; // String
+let age = 28;         // Number
+let isCoder = true;   // Boolean
+let mystery;          // Undefined
+let emptyBox = null;  // Null
+console.log(name, age, isCoder, mystery, emptyBox);
+</code></pre>
+    <div class="tip">💡 نکته: شناخت نوع داده کمک می‌کنه از باگ‌های مخفی جاوااسکریپت جلوگیری کنی!</div>
+</section>
+
+<section id="strings-numbers">
+    <h2>رشته‌ها و اعداد</h2>
+    <p>رشته‌ها و اعداد عاشق ترکیب شدن:</p>
+    <pre><code>let greeting = 'Hello';
+let year = 2025;
+console.log(greeting + ', JS in ' + year + '!'); // Concatenation magic</code></pre>
+    <p>برای فهمیدن نوع داده، از <code>typeof</code> استفاده کن:</p>
+    <pre><code>console.log(typeof greeting); // "string"
+console.log(typeof year);     // "number"</code></pre>
+    <div class="tip">💡 نکته: جاوااسکریپت انعطاف‌پذیره، ولی گاهی ترکیب اشتباه انواع داده می‌تونه عجیب رفتار کنه.</div>
+</section>
+
+<section id="booleans-null-undefined">
+    <h2>Boolean، Null و Undefined</h2>
+    <p>Boolean مثل کلید روشن/خاموشه:</p>
+    <pre><code>let isOnline = true;
+let isAdmin = false;
+console.log(isOnline, isAdmin);
+</code></pre>
+    <p>• <code>undefined</code> = متغیر وجود داره ولی هنوز مقداری نداره.</p>
+    <p>• <code>null</code> = متغیر عمداً خالیه.</p>
+    <pre><code>let notSure;        // undefined
+let emptyBox = null; // empty on purpose
+console.log(notSure, emptyBox);
+</code></pre>
+    <div class="tip">💡 نکته: از null استفاده کن تا متغیر رو خالی کنی یا مشخص کنی که فعلاً هیچ چیزی توش نیست — مثل گذاشتنش تو یه جعبه دیجیتالی با برچسب 'هیچ‌چیز اینجا نیست'.</div>
+</section>
+
+<section id="session5-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم تیم داده‌های جاوااسکریپت تو: رشته‌ها، اعداد، Boolean، Null، Undefined و Object. اگه اینا رو مسلط شدی، کدت مثل یه توله سگ با آموزش خوب رفتار می‌کنه نه یه راکون وحشی 🐾.</p>
+    <div class="cta">
+        🎬 جلسه بعد: جادوی ریاضی JS با عملگرها در جلسه ۶!<br>
+        💻 برای مثال‌ها، cheat sheet و تمرین‌ها به وب‌سایت من سر بزن: <a href="https://reyrove.github.io/" target="_blank">reyrove.github.io</a>.<br>
+        📬 سوال، ایده یا همکاری؟ تو لینکدین با من تماس بگیر: <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">لینکدین من</a>.<br>
+        یادت نره لایک، سابسکرایب و کامنت بذاری که کدوم نوع داده برات عجیب‌ترین بود! 🚀
+    </div>
+</section>
+
+<!-- ================= SESSION 6 ================= -->
+<h1 id="session6">جلسه ۶</h1>
+<h1>جادوی ریاضی JS: عملگرهایی که واقعاً کار می‌کنن</h1>
+
+<section id="session6-intro">
+    <h2>مقدمه</h2>
+    <p>سلام قهرمانای کدنویسی! من <strong>Reyrove</strong> هستم و امروز می‌خوایم با عملگرها و عبارات توی جاوااسکریپت آشنا بشیم — همون ابزارای جادویی که باعث می‌شن کدت حساب و کتاب کنه، مقایسه کنه و تصمیم بگیره 😎.</p>
+    <p>قبل از شروع، <strong>لایک کن، سابسکرایب کن</strong> و ایموجی مورد علاقتو تو کامنت بذار تا آماده جادوی ریاضی JS بشیم!</p>
+</section>
+
+<section id="what-are-operators">
+    <h2>عملگرها چیا هستن؟</h2>
+    <p>عملگرها در واقع نمادهایی هستن که به JS می‌گن با مقادیرت چی کار کنه.</p>
+    <p>چند نوع اصلی داریم:</p>
+    <ol>
+        <li><strong>عملگرهای ریاضی</strong> – برای محاسبات: <code>+ - * / %</code></li>
+        <li><strong>عملگرهای انتساب</strong> – برای ذخیره مقادیر: <code>=, +=, -=, *=, /=</code></li>
+        <li><strong>عملگرهای مقایسه</strong> – برای مقایسه مقادیر: <code>==, ===, !=, !==, >, <, >=, <=</code></li>
+        <li><strong>عملگرهای منطقی</strong> – برای تصمیم‌گیری: <code>&&, ||, !</code></li>
+    </ol>
+    <p>مثال جادوی ریاضی:</p>
+    <pre><code>let x = 10;
+let y = 3;
+
+console.log(x + y); // 13
+console.log(x - y); // 7
+console.log(x * y); // 30
+console.log(x / y); // 3.3333…
+console.log(x % y); // 1 (remainder!)</code></pre>
+    <div class="tip">💡 نکته: % همون "modulus" هست — عالی برای بررسی زوج/فرد بودن عدد!</div>
+</section>
+
+<section id="assignment-shorthand">
+    <h2>انتساب و کوتاه‌نویسی</h2>
+    <p>عملگرهای انتساب مقدار رو تو متغیر ذخیره می‌کنن و می‌تونی کوتاهشون هم کنی:</p>
+    <pre><code>let score = 5;
+score += 10; // مثل score = score + 10
+score -= 2;  // مثل score = score - 2
+console.log(score); // 13</code></pre>
+    <div class="tip">💡 نکته: این کوتاه‌نویسی‌ها باعث می‌شن کدت تمیزتر و کوتاه‌تر باشه.</div>
+</section>
+
+<section id="comparison-logical">
+    <h2>مقایسه و عملگرهای منطقی</h2>
+    <p>عملگرهای مقایسه به JS کمک می‌کنن درست/نادرست تصمیم بگیره:</p>
+    <pre><code>console.log(5 > 3);  // true
+console.log(5 === '5'); // false (strict equality)
+console.log(5 == '5');  // true (loose equality)</code></pre>
+    <p>عملگرهای منطقی هم شرایط رو با هم ترکیب می‌کنن:</p>
+    <pre><code>let isAdult = true;
+let hasTicket = false;
+
+console.log(isAdult && hasTicket); // false
+console.log(isAdult || hasTicket); // true
+console.log(!isAdult);             // false</code></pre>
+    
+    <div class="tip">💡 نکته: عملگرهای منطقی عالی‌ان برای if و تصمیم‌گیری توی کدت.</div>
+</section>
+
+<section id="quick-demo">
+    <h2>دموی سریع</h2>
+    <p>بیاین یه ترکیب جادوی ریاضی انجام بدیم:</p>
+    <pre><code>let score = 50;
+let bonus = 20;
+let premium = true;
+
+// Calculations
+let total = score + bonus;
+let doubled = total * 2;
+let winner = doubled > 100;
+
+// Logical operations
+let elite = winner && premium;
+let nextLevel = winner || premium;
+let basicUser = !premium;
+
+// Results
+console.log('Score:', total);
+console.log('Doubled:', doubled);
+console.log('Winner?', winner);
+console.log('Elite?', elite);
+console.log('Next Level?', nextLevel);
+console.log('Basic?', basicUser);</code></pre>
+    <p>🎉 ببین! با عملگرها می‌تونی جمع، مقایسه، ترکیب و تصمیم‌گیری رو همزمان انجام بدی.</p>
+</section>
+
+<section id="session6-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>تبریک! قدرت عملگرهای جاوااسکریپت رو باز کردی — حالا می‌تونی کدت رو مثل یک حرفه‌ای حساب و کتاب و تصمیم‌گیری کنی! 🚀</p>
+    <div class="cta">
+        🎬 جلسه بعد: ماجراهای تغییر نوع داده در جلسه ۷!<br>
+        💻 فراموش نکن تمرین عملگرها رو تو وب‌سایت من انجام بدی: <a href="https://reyrove.github.io/" target="_blank">reyrove.github.io</a>.<br>
+        📬 سوال، ایده یا همکاری؟ تو لینکدین با من در تماس باش: <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">لینکدین من</a>.<br>
+        اگه این جلسه کمکت کرد سطحت رو بالا ببری، یه لایک و کامنت بذار — حمایتت باعث می‌شه محتوای کدنویسی بیشتری برات آماده کنم! 😎
+    </div>
+</section>
+
+
+      <!-- ================= SESSION 7 ================= -->
+<h1 id="session7">جلسه ۷</h1>
+<h1>ماجرای تغییر نوع داده: جاوااسکریپت هم نمی‌دونه چی کار کنه</h1>
+
+<section id="session7-intro">
+    <h2>مقدمه</h2>
+    <p>سلام قهرمانای کدنویسی! من <strong>Reyrove</strong> هستم و امروز می‌خوایم با Type Conversion توی جاوااسکریپت آشنا بشیم — همون داستان درام وقتی JS سعی می‌کنه بفهمه مقدار واقعاً چه نوعیه.</p>
+    <p>قبل از شروع، <strong>لایک کن، سابسکرایب کن</strong> و تو کامنت‌ها ایموجی مورد علاقتو بذار اگه تا حالا JS باهوش بازی کرده و گیج‌ت کرده 😎.</p>
+</section>
+
+<section id="what-is-type-conversion">
+    <h2>تغییر نوع داده چیه؟</h2>
+    <p>Type conversion یعنی JS یه مقدار رو از یه نوع به نوع دیگه تبدیل می‌کنه. گاهی خودش این کارو می‌کنه — بهش می‌گن type coercion — و گاهی هم خودت دستی انجام میدی.</p>
+    <p>مثال type coercion اتوماتیک:</p>
+    <pre><code>console.log('5' - 2); // 3, JS converts '5' to number
+console.log('5' + 2); // '52', JS converts 2 to string</code></pre>
+    <div class="tip">💡 نکته: JS گاهی شیطونه، پس همیشه قبل از محاسبه یا مقایسه نوع داده‌ت رو چک کن.</div>
+</section>
+
+<section id="manual-type-conversion">
+    <h2>تغییر نوع دستی</h2>
+    <p>می‌تونی به JS بگی دقیقاً چه نوعی می‌خوای:</p>
+    <pre><code>let str = '123';
+let num = Number(str); // convert string to number
+console.log(num + 1);  // 124
+
+let bool = Boolean(0);  // false
+let str2 = String(42);  // '42'</code></pre>
+    <p>• Number(), String(), Boolean() قهرمانای تغییر نوع دستی شما هستن.</p>
+    <div class="tip">💡 نکته: با typeof دوباره چک کن:
+        <pre><code>console.log(typeof num);  // number
+console.log(typeof str2); // string</code></pre>
+    </div>
+</section>
+
+<section id="common-type-conversion-drama">
+    <h2>درام‌های رایج Type Conversion</h2>
+    <p>این قسمت جالب/عجیب می‌شه:</p>
+    <pre><code>console.log('10' - '4');   // 6 (numbers, coercion happens)
+console.log('10' + '4');   // '104' (strings, concatenation)
+console.log(true + 1);     // 2 (true becomes 1)
+console.log(false + 10);   // 10 (false becomes 0)</code></pre>
+    <div class="tip">💡 نکته: همیشه مراقب + باش — وقتی حتی یه رشته باشه، ترجیح می‌ده رشته بسازه. درام تضمینی!</div>
+</section>
+
+<section id="session7-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم Type Conversion تو JS — گاهی مفید، گاهی پر از آشوب، همیشه درام 😎.</p>
+    <div class="cta">
+        🎬 جلسه بعد: String Theory… ولی به سبک JS در جلسه ۸!<br>
+        💻 متدها و مثال‌های رشته‌ای رو تو وب‌سایت من ببین: <a href="https://reyrove.github.io/" target="_blank">وب‌سایت من</a>.<br>
+        📬 متد رشته‌ای مورد علاقتو تو لینکدین به اشتراک بذار: <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">لینکدین من</a>.<br>
+        یادت نره لایک کنی، سابسکرایب کنی و کامنت بذاری با ترفند رشته‌ای مورد علاقت!
+    </div>
+</section>
+
+<!-- ================= SESSION 8 ================= -->
+<h1 id="session8">جلسه ۸</h1>
+<h1>نظریه رشته‌ها… ولی با حال و هوای JS</h1>
+
+<section id="session8-intro">
+    <h2>مقدمه</h2>
+    <p>سلام قهرمانای کدنویسی! من <strong>Reyrove</strong> هستم و امروز می‌خوایم با رشته‌ها در JS آشنا بشیم — یعنی همه چیزی که فکر می‌کردی درباره متن می‌دونی، ولی JS یه عالمه برنامه دیگه داره 😎.</p>
+    <p>قبل از شروع، <strong>لایک کن، سابسکرایب کن</strong> و تو کامنت‌ها ایموجی مورد علاقتو بذار اگه عاشق بازی با متن تو کدی!</p>
+</section>
+
+<section id="whats-a-string">
+    <h2>رشته چیه؟</h2>
+    <p>رشته در واقع یه مقدار متنیه. هر چیزی داخل کوتیشن—تکی، دوتایی یا backticks—رشته محسوب می‌شه:</p>
+    <pre><code>let single = 'Hello';
+let double = "World";
+let template = `JS is cool!`;</code></pre>
+    <div class="tip">💡 نکته: از backticks برای template literals استفاده کن — خیلی قوی هست برای ترکیب متن و متغیرها.</div>
+    <pre><code>let name = 'Reyrove';
+console.log(`Hello, ${name}!`); // Hello, Reyrove!</code></pre>
+</section>
+
+<section id="string-methods">
+    <h2>متدهای رشته‌ای</h2>
+    <p>رشته‌ها ابزارای داخلی دارن برای بریدن، دستکاری و تغییر:</p>
+    <pre><code>let phrase = 'JavaScript is awesome';
+
+// طول رشته
+console.log(phrase.length); // 21
+
+// حروف بزرگ و کوچک
+console.log(phrase.toUpperCase()); // 'JAVASCRIPT IS AWESOME'
+console.log(phrase.toLowerCase()); // 'javascript is awesome'
+
+// دسترسی به کاراکترها
+console.log(phrase[0]); // 'J'
+
+// بریدن رشته - یک بخش از رشته رو برمی‌گردونه
+console.log(phrase.slice(0, 10)); // 'JavaScript'
+
+// جایگزینی متن
+console.log(phrase.replace('awesome', 'amazing')); // 'JavaScript is amazing'</code></pre>
+    <div class="tip">💡 نکته: رشته‌ها immutable هستن، پس اکثر متدها یه رشته جدید برمی‌گردونن و رشته اصلی تغییر نمی‌کنه.</div>
+</section>
+
+<section id="concatenation-template-literals">
+    <h2>ترکیب و Template Literals</h2>
+    <p>رشته‌ها رو حرفه‌ای ترکیب کن:</p>
+    <pre><code>let firstName = 'Reyrove';
+let lastName = 'Coder';
+
+// روش قدیمی
+console.log(firstName + ' ' + lastName); // 'Reyrove Coder'
+
+// Template literals
+console.log(`${firstName} ${lastName} rocks JS!`); // 'Reyrove Coder rocks JS!'</code></pre>
+    <div class="tip">💡 نکته: Template literals می‌تونن expressions هم بگیرن، نه فقط متغیرها:</div>
+    <pre><code>console.log(`Next year, I will be ${2025 + 1} years old.`); // 2026</code></pre>
+</section>
+
+<section id="session8-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم رشته‌ها در عمق — متن‌ها رو دستکاری، ترکیب و برش بده مثل یه جادوگر JS 🪄.</p>
+    <div class="cta">
+        🎬 جلسه بعد: عددهای جادویی به سبک JS در جلسه ۹!<br>
+        💻 تمرین و cheat sheet رشته‌ای رو تو وب‌سایت من ببین: <a href="https://reyrove.github.io/" target="_blank">reyrove.github.io</a>.<br>
+        📬 سوال، همکاری یا فقط geek out؟ تو لینکدین با من در تماس باش: <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">لینکدین من</a>.<br>
+        لایک، سابسکرایب و کامنت یادت نره، و ترفند رشته‌ای مورد علاقتو بهم نشون بده! 🚀
+    </div>
+</section>
+
+<!-- ================= SESSION 9 ================= -->
+<h1 id="session9">جلسه ۹</h1>
+<h1>عددبازی مثل یه جادوگر JS</h1>
+
+<section id="session9-intro">
+    <h2>مقدمه</h2>
+    <p>سلام قهرمانای کدنویسی! من <strong>Reyrove</strong> هستم و امروز می‌خوایم با Numbers و Math در JS آشنا بشیم — یعنی چطور مثل یه جادوگر واقعی با عددها کار کنیم 🧙‍♂️.</p>
+    <p>قبل از شروع، <strong>لایک کن، سابسکرایب کن</strong> و ایموجی مورد علاقتو تو کامنت بذار اگه عاشق عددبازی هستی!</p>
+</section>
+
+<section id="number-basics">
+    <h2>مبانی عدد</h2>
+    <p>تو JS، عدد همون عدده. عدد کامل، اعشاری، حتی بزرگ — نیازی به integer vs float نیست.</p>
+    <pre><code>let age = 25;          // integer
+let price = 19.99;     // float
+let bigNum = 1e6;      // 1,000,000
+console.log(age, price, bigNum);
+</code></pre>
+    <div class="tip">💡 نکته: با typeof نوع متغیرت رو چک کن:</div>
+    <pre><code>console.log(typeof age); // 'number'</code></pre>
+</section>
+
+<section id="math-operators">
+    <h2>عملگرهای ریاضی</h2>
+    <p>ریاضی تو JS ساده‌س — همون عملگرایی که قبلاً دیدیم:</p>
+    <pre><code>let x = 10;
+let y = 3;
+
+console.log(x + y); // 13
+console.log(x - y); // 7
+console.log(x * y); // 30
+console.log(x / y); // 3.3333…
+console.log(x % y); // 1 (remainder!)</code></pre>
+    <div class="tip">💡 نکته: % عالیه برای بررسی زوج/فرد بودن اعداد.</div>
+</section>
+
+<section id="math-object">
+    <h2>Math Object</h2>
+    <p>JS یه Math object داره با همه توابع جادویی که نیاز داری:</p>
+    <pre><code>// Math.round() - رند به نزدیک‌ترین عدد صحیح
+console.log(Math.round(4.6));  // 5
+console.log(Math.round(4.4));  // 4
+
+// Math.floor() - رند به پایین
+console.log(Math.floor(4.6));  // 4
+console.log(Math.floor(4.1));  // 4
+
+// Math.ceil() - رند به بالا
+console.log(Math.ceil(4.1));   // 5
+console.log(Math.ceil(4.6));   // 5
+
+// Math.sqrt() - جذر
+console.log(Math.sqrt(16));    // 4
+console.log(Math.sqrt(25));    // 5
+
+// Math.pow() - توان
+console.log(Math.pow(2, 3));   // 8
+console.log(Math.pow(5, 2));   // 25
+
+// Math.random() - عدد تصادفی بین 0 و 1
+console.log(Math.random());    // مثلا 0.723, 0.156, ...</code></pre>
+    <div class="tip">💡 نکته: Math.random() + Math.floor() = عالی برای تاس و اعداد تصادفی.</div>
+</section>
+
+<section id="quick-demo">
+    <h2>دموی سریع</h2>
+    <p>بیاین همه چیزو ترکیب کنیم:</p>
+    <pre><code>let score = Math.floor(Math.random() * 100); // random score 0–99
+console.log(`Your magical score is: ${score}`);
+
+if(score % 2 === 0){
+    console.log('Even wizard score! ⚡');
+} else {
+    console.log('Odd wizard score! 🧙‍♂️');
+}</code></pre>
+    <p>🎉 ببین! حالا رسماً مثل یه جادوگر JS عددبازی می‌کنی.</p>
+</section>
+
+<section id="session9-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم Numbers و Math در JS — از عملگرهای پایه تا قدرت‌های جادویی Math object.</p>
+    <div class="cta">
+        🎬 جلسه بعد: آرایه‌ها ۱۰۱ در جلسه ۱۰!<br>
+        💻 تمرین و cheat sheet‌ها رو تو وب‌سایت من ببین: <a href="https://reyrove.github.io/" target="_blank">reyrove.github.io</a>.<br>
+        📬 سوال، همکاری یا ایده؟ تو لینکدین با من در تماس باش: <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">لینکدین من</a>.<br>
+        یادت نره لایک، سابسکرایب و کامنت بذاری با ترفند عدد مورد علاقت! 🚀
+    </div>
+</section>
+
+
+<!-- ================= SESSION 10 ================= -->
+<h1 id="session10">جلسه ۱۰</h1>
+<h1>آرایه‌ها ۱۰۱: داده‌های شما، قوانین شما</h1>
+
+<section id="session10-intro">
+    <h2>مقدمه</h2>
+    <p>سلام قهرمانای کدنویسی! من <strong>Reyrove</strong> هستم و امروز می‌خوایم با آرایه‌ها در JS آشنا بشیم — یعنی بهترین راه برای مدیریت لیست‌های داده.</p>
+    <p>قبل از شروع، <strong>لایک کن، سابسکرایب کن</strong> و ایموجی مورد علاقتو تو کامنت بذار اگه عاشق نظم دادن به داده‌ها تو کد هستی!</p>
+</section>
+
+<section id="whats-an-array">
+    <h2>آرایه چیه؟</h2>
+    <p>آرایه‌ها در واقع لیست مقادیر هستن. می‌تونن عدد، رشته، بولین، حتی آرایه یا آبجکت دیگه داشته باشن:</p>
+    <pre><code>let fruits = ['apple', 'banana', 'cherry'];
+let mixed = [1, 'hello', true, [2,3]];
+console.log(fruits, mixed);
+</code></pre>
+    <div class="tip">💡 نکته: آرایه‌ها صفر ایندکس هستن، یعنی اولین آیتم در index 0 قرار داره:</div>
+    <pre><code>console.log(fruits[0]); // 'apple'
+console.log(fruits[2]); // 'cherry'</code></pre>
+</section>
+
+<section id="array-methods">
+    <h2>متدهای آرایه</h2>
+    <p>JS کلی روش برای کار با آرایه‌ها میده:</p>
+    <pre><code>let numbers = [10, 20, 30, 40];
+
+// اضافه و حذف
+numbers.push(50);       // [10,20,30,40,50]
+numbers.pop();          // حذف 50
+
+// اضافه در اول آرایه
+numbers.unshift(5);     // [5,10,20,30,40]
+
+// حذف اولین آیتم
+numbers.shift();        // حذف 5
+
+// طول آرایه
+console.log(numbers.length); // 4
+
+// پیدا کردن ایندکس
+console.log(numbers.indexOf(30)); // 2</code></pre>
+    <div class="tip">💡 نکته: آرایه‌ها mutable هستن، پس می‌تونی مستقیم تغییرشون بدی!</div>
+</section>
+
+<section id="looping-through-arrays">
+    <h2>حلقه زدن روی آرایه‌ها</h2>
+    <p>می‌تونی به این شکل روی آرایه‌ها حلقه بزنی:</p>
+    <pre><code>for(let i = 0; i < numbers.length; i++){
+    console.log(numbers[i]);
+}
+
+// با for...of (خفن‌تر)
+for(let num of numbers){
+    console.log(num);
+}</code></pre>
+    <div class="tip">💡 نکته: for...of عالیه وقتی فقط میخوای مقادیر رو داشته باشی، نه ایندکس‌ها.</div>
+</section>
+
+<section id="quick-demo">
+    <h2>دموی سریع</h2>
+    <p>بیاین همه چیزو با هم ترکیب کنیم:</p>
+    <pre><code>let tasks = ['code', 'sleep', 'repeat'];
+tasks.push('eat'); 
+console.log("Today's tasks:");
+for(let task of tasks){
+    console.log(`- ${task}`);
+}</code></pre>
+    <p>🎉 ببین! حالا تو اصول آرایه‌ها رو بلدی و می‌تونی داده‌هات رو کنترل کنی مثل یه باس.</p>
+</section>
+
+<section id="session10-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم آرایه‌ها ۱۰۱ — ذخیره، دسترسی و مدیریت لیست‌ها مثل یه حرفه‌ای.</p>
+    <div class="cta">
+        🎬 جلسه بعد: Objects Unboxed در جلسه ۱۱!<br>
+        💻 تمرین و cheat sheet‌ها رو تو وب‌سایت من ببین: <a href="https://reyrove.github.io/" target="_blank">reyrove.github.io</a>.<br>
+        📬 سوال، همکاری یا ایده؟ تو لینکدین با من در تماس باش: <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">لینکدین من</a>.<br>
+        یادت نره لایک، سابسکرایب و کامنت بذاری با خفن‌ترین ترفند آرایه‌ای که بلدی! 🚀
+    </div>
+</section>
+
+<!-- ================= SESSION 11 ================= -->
+<h1 id="session11">جلسه ۱۱</h1>
+<h1>آبجکت‌ها آنباکس میشن: اسرار کلید-مقدار</h1>
+
+<section id="session11-intro">
+    <h2>مقدمه</h2>
+    <p>سلام قهرمانای کدنویسی! من <strong>Reyrove</strong> هستم و امروز می‌خوایم با آبجکت‌ها در JS آشنا بشیم — همون سس مخفی پشت تقریباً همه چیز تو JS.</p>
+    <p>قبل از شروع، <strong>لایک کن، سابسکرایب کن</strong> و تو کامنت‌ها بهترین آبجکت دنیای واقعی خودتو بذار — من که ماگ قهوه‌م ☕.</p>
+</section>
+
+<section id="whats-an-object">
+    <h2>آبجکت چیه؟</h2>
+    <p>آبجکت‌ها مثل ظرف‌هایی هستن که داده‌ها رو به شکل key-value نگه می‌دارن. مثل جعبه‌های برچسب‌خورده — به هر property یه اسم می‌دی (کلید) و مقدارشو توش می‌ذاری.</p>
+    <pre><code>let person = {
+    name: 'Reyrove',
+    age: 28,
+    isCoder: true
+};</code></pre>
+    <div class="tip">💡 کلیدها معمولاً رشته هستن، مقادیر می‌تونن هر چیزی باشن — عدد، رشته، آرایه، حتی آبجکت دیگه.</div>
+</section>
+
+<section id="accessing-data">
+    <h2>دسترسی به داده‌ها</h2>
+    <p>می‌تونی دو روش مقادیر رو بگیری:</p>
+    <pre><code>console.log(person.name);   // 'Reyrove' (dot notation)
+console.log(person['age']); // 28 (bracket notation)</code></pre>
+    <div class="tip">💡 نکته: bracket notation ضروریه وقتی کلیدت تو یه متغیر باشه یا فاصله داشته باشه.</div>
+</section>
+
+<section id="adding-changing-deleting">
+    <h2>اضافه، تغییر و حذف</h2>
+    <p>آبجکت‌ها منعطف هستن — می‌تونی ویژگی اضافه، بروزرسانی یا حذف کنی:</p>
+    <pre><code>// اضافه کردن
+person.job = 'Developer';
+console.log(person.job); // 'Developer'
+
+// بروزرسانی
+person.age = 26;
+console.log(person.age); // 26
+
+// حذف
+delete person.isCoder;
+console.log(person.isCoder); // undefined
+
+// وضعیت نهایی آبجکت
+console.log(person); // { name: 'Reyrove', age: 26, job: 'Developer' }</code></pre>
+    <div class="tip">💡 حتی با const می‌تونی آبجکت‌ها رو تغییر بدی — فقط reference همون می‌مونه.</div>
+</section>
+
+<section id="nested-objects-quick-demo">
+    <h2>آبجکت‌های تو در تو و دموی سریع</h2>
+    <p>آبجکت‌ها می‌تونن آبجکت دیگه هم داشته باشن — سبک Inception:</p>
+    <pre><code>let user = {
+    username: 'coder123',
+    contact: {
+        email: 'hello@example.com',
+        phone: '123-456'
+    }
+};
+
+console.log(user.contact.email); // 'hello@example.com'</code></pre>
+    <p>🎯 ببین! حالا می‌تونی داده‌های ساختاریافته ذخیره کنی مثل یه حرفه‌ای.</p>
+</section>
+
+<section id="session11-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم اصول آبجکت‌ها — ذخیره، دسترسی و مدیریت داده‌ها به سبک key-value مثل یه dev واقعی JS.</p>
+    <div class="cta">
+        🎬 جلسه بعد: if/else ساده در جلسه ۱۲!<br>
+        💻 تمرین و cheat sheet‌ها رو تو وب‌سایت من ببین: <a href="https://reyrove.github.io/" target="_blank">reyrove.github.io</a>.<br>
+        📬 سوال یا همکاری؟ تو لینکدین با من در تماس باش: <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">لینکدین من</a>.<br>
+        یادت نره لایک، سابسکرایب و کامنت بذاری با روش مورد علاقت تو استفاده از آبجکت‌ها!
+    </div>
+</section>
+
+<!-- ================= SESSION 12 ================= -->
+<h1 id="session12">جلسه ۱۲</h1>
+<h1>تصمیم‌گیری: if/else </h1>
+
+<section id="session12-intro">
+    <h2>مقدمه</h2>
+    <p>سلام قهرمانای کدنویسی! من <strong>Reyrove</strong> هستم و امروز می‌خوایم یاد بگیریم چطور JS واقعاً فکر کنه — با قدرت if، else و else if.</p>
+    <p>قبل از شروع تصمیم‌گیری، <strong>لایک کن، سابسکرایب کن</strong> و سخت‌ترین تصمیمی که امروز گرفتی تو کامنت بذار — من که قهوه یا قهوه! ☕</p>
+</section>
+
+<section id="the-if-statement">
+    <h2>دستور if</h2>
+    <p>if به کد اجازه میده فقط وقتی یه شرط true هست اجرا بشه:</p>
+    <pre><code>let age = 20;
+
+if(age >= 18){
+    console.log("You're an adult!");
+}</code></pre>
+    <div class="tip">💡 شرط داخل () باید true یا false برگردونه.</div>
+</section>
+
+<section id="if-else">
+    <h2>if...else</h2>
+    <p>وقتی نیاز به انتخاب یا/یا داری:</p>
+    <pre><code>let isRaining = true;
+
+if(isRaining){
+    console.log('Grab an umbrella ☔');
+} else {
+    console.log('Enjoy the sunshine ☀️');
+}</code></pre>
+</section>
+
+<section id="else-if">
+    <h2>else if</h2>
+    <p>برای چند احتمال مختلف از else if استفاده کن:</p>
+    <pre><code>let score = 85;
+
+if(score >= 90){
+    console.log('Grade: A');
+} else if(score >= 75){
+    console.log('Grade: B');
+} else {
+    console.log('Grade: C or lower');
+}</code></pre>
+    <div class="tip">💡 JS از بالا به پایین اجرا می‌کنه، پس ترتیب مهمه.</div>
+</section>
+
+<section id="quick-demo">
+    <h2>دموی سریع</h2>
+    <p>بیاین یه مثال واقعی بسازیم:</p>
+    <pre><code>let hour = 14;
+
+if(hour < 12){
+    console.log('Good morning!');
+} else if(hour < 18){
+    console.log('Good afternoon!');
+} else {
+    console.log('Good evening!');
+}</code></pre>
+    <p>🎯 ببین — برنامه‌ت حالا می‌تونه بسته به وضعیت واکنش متفاوت داشته باشه.</p>
+</section>
+
+<section id="session12-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم if، else و else if — قلب تصمیم‌گیری کدت.</p>
+    <div class="cta">
+        🎬 جلسه بعد: وقتی if/else خسته‌کننده میشه در جلسه ۱۳!<br>
+        💻 برای مثال‌ها و تمرین‌های بیشتر، وب‌سایت من رو ببین: <a href="https://reyrove.github.io/" target="_blank">reyrove.github.io</a>.<br>
+        📬 سوال یا همکاری؟ تو لینکدین با من در تماس باش: <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">لینکدین من</a>.<br>
+        لایک، سابسکرایب و کامنت یادت نره با مثال واقعی استفاده از if/else! 🚀
+    </div>
+</section>
+
+
+<!-- ================= SESSION 13 ================= -->
+<h1 id="session13">جلسه ۱۳</h1>
+<h1>Switch It Up: وقتی if/else خسته‌کننده میشه</h1>
+
+<section id="session13-intro">
+    <h2>مقدمه</h2>
+    <p>سلام قهرمانای کدنویسی! من <strong>Reyrove</strong> هستم و امروز می‌خوایم کمی switch کنیم — literally 😎.</p>
+    <p>اگه if/else هات شبیه یه جنگل درهم و برهم شدن، switch statement اینجاست که نجاتت بده.</p>
+    <p>قبل از سوئیچ کردن، <strong>لایک کن، سابسکرایب کن</strong> و ایموجی مورد علاقتو بذار — من ⚡ انتخاب کردم چون امروز قراره الکتریکی باشه.</p>
+</section>
+
+<section id="why-use-switch">
+    <h2>چرا از switch استفاده کنیم؟</h2>
+    <p>Switch وقتی عالیه که میخوای یه مقدار رو با چند حالت مختلف مقایسه کنی — به جای نوشتن چندین else if:</p>
+    <pre><code>let day = 'Monday';
+
+if(day === 'Monday'){
+    console.log('Ugh… coffee first.');
+} else if(day === 'Tuesday'){
+    console.log('Still coffee.');
+} else if(day === 'Friday'){
+    console.log('Party time!');
+} else {
+    console.log('Just another day.');
+}</code></pre>
+    <p>خب، کمی شلوغ به نظر میرسه، نه؟ بیا راه بهترشو ببینیم…</p>
+</section>
+
+<section id="basic-switch-syntax">
+    <h2>سینتکس پایه switch</h2>
+    <pre><code>let day = 'Friday';
+
+switch(day){
+    case 'Monday':
+        console.log('Ugh… coffee first.');
+        break;
+    case 'Tuesday':
+        console.log('Still coffee.');
+        break;
+    case 'Friday':
+        console.log('Party time!');
+        break;
+    default:
+        console.log('Just another day.');
+}</code></pre>
+    <div class="tip">💡 break جلوی اجرای موارد بعدی رو میگیره. اگه یادت بره، JS “fall through” می‌کنه و بیشتر از چیزی که میخوای اجرا میشه.</div>
+</section>
+
+<section id="grouping-cases">
+    <h2>گروه‌بندی caseها</h2>
+    <p>می‌تونی چند case رو با هم گروه‌بندی کنی:</p>
+    <pre><code>let color = 'red';
+
+switch(color){
+    case 'red':
+    case 'blue':
+        console.log('Primary color!');
+        break;
+    case 'green':
+        console.log('Secondary color!');
+        break;
+    default:
+        console.log('Color unknown.');
+}</code></pre>
+</section>
+
+<section id="quick-demo">
+    <h2>دموی سریع</h2>
+    <p>مثال واقعی — منوی ساده:</p>
+    <pre><code>let option = 2;
+
+switch(option){
+    case 1:
+        console.log('Start Game');
+        break;
+    case 2:
+        console.log('Load Game');
+        break;
+    case 3:
+        console.log('Exit');
+        break;
+    default:
+        console.log('Invalid option');
+}</code></pre>
+</section>
+
+<section id="session13-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم switch — راه مرتب و تمیز برای مدیریت چند شرط بدون غرق شدن تو if/else.</p>
+</section>
+
+<!-- ================= SESSION 14 ================= -->
+<h1 id="session14">جلسه ۱۴</h1>
+<h1>Loops که تو رو دیوانه نمی‌کنه</h1>
+
+<section id="session14-intro">
+    <h2>مقدمه</h2>
+    <p>سلام بچه‌های کدنویسی! من <strong>Reyrove</strong> هستم و امروز می‌خوایم با حلقه‌ها آشنا بشیم — یعنی اینکه کد خودش کار تکراری رو انجام بده تا تو لازم نباشه.</p>
+</section>
+
+<section id="why-loops">
+    <h2>چرا حلقه‌ها؟</h2>
+    <p>حلقه‌ها یعنی اتوماسیون. به جای کپی-پیست کردن کد صد بار، به JS میگی: “این کارو تا وقتی من نگفتم متوقف نشو، تکرار کن.” 🚀</p>
+</section>
+
+<section id="the-for-loop">
+    <h2>حلقه for</h2>
+    <p>کلاسیک‌ترین حلقه. وقتی تعداد دفعات مشخصی داری عالیه:</p>
+    <pre><code>for(let i = 1; i <= 5; i++){
+    console.log('Loop number ' + i);
+}</code></pre>
+</section>
+
+<section id="the-while-loop">
+    <h2>حلقه while</h2>
+    <p>وقتی نمی‌دونی دقیقاً چند بار تکرار میشه، تا وقتی شرط trueه:</p>
+    <pre><code>let count = 0;
+
+while(count < 3){
+    console.log('Counting… ' + count);
+    count++;
+}</code></pre>
+</section>
+
+<section id="the-for-of-loop">
+    <h2>حلقه for…of</h2>
+    <p>برای آرایه‌ها، for…of روشی راحت و مدرن:</p>
+    <pre><code>let fruits = ['🍎', '🍌', '🍇'];
+
+for(let fruit of fruits){
+    console.log(fruit);
+}</code></pre>
+</section>
+
+<section id="quick-demo">
+    <h2>دموی سریع</h2>
+    <p>مثال: چاپ لیست خرید:</p>
+    <pre><code>let shoppingList = ['Milk', 'Eggs', 'Bread'];
+
+for(let item of shoppingList){
+    console.log('Buy: ' + item);
+}</code></pre>
+</section>
+
+<section id="session14-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم حلقه‌ها — for، while، و for…of — کلید کمتر تکرار کردن و کد قوی‌تر.</p>
+</section>
+
+<!-- ================= SESSION 15 ================= -->
+<h1 id="session15">جلسه ۱۵</h1>
+<h1>توابع: جادوهای قابل استفاده در JS</h1>
+
+<section id="session15-intro">
+    <h2>مقدمه</h2>
+    <p>سلام جادوگرای کدنویسی! 🧙‍♂️ من <strong>Reyrove</strong> هستم و امروز با توابع آشنا میشیم — جادوهای قابل استفاده دوباره در JS.</p>
+</section>
+
+<section id="whats-a-function">
+    <h2>تابع چیه؟</h2>
+    <p>توابع برنامه‌های کوچیک داخل برنامه هستن. می‌تونی کد رو بسته‌بندی کنی و هر وقت خواستی دوباره استفاده کنی — مثل copy-paste هوشمند.</p>
+</section>
+
+<section id="declaring-a-function">
+    <h2>تعریف تابع</h2>
+    <pre><code>function greet(){
+    console.log('Hello, world!');
+}
+
+greet(); // اجرا میشه</code></pre>
+</section>
+
+<section id="functions-with-parameters">
+    <h2>توابع با پارامتر</h2>
+    <pre><code>function greet(name){
+    console.log('Hello, ' + name + '!');
+}
+
+greet('Alice');
+greet('Bob');</code></pre>
+</section>
+
+<section id="functions-with-return">
+    <h2>توابع با return</h2>
+    <pre><code>function add(a, b){
+    return a + b;
+}
+
+let sum = add(5, 10);
+console.log(sum); // 15</code></pre>
+</section>
+
+<section id="arrow-functions">
+    <h2>Arrow Functions</h2>
+    <pre><code>const multiply = (x, y) => x * y;
+console.log(multiply(3, 4)); // 12</code></pre>
+</section>
+
+<section id="session15-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم توابع — جادوهای قابل استفاده و شخصی‌سازی شده در JavaScript.</p>
+</section>
+
+
+<!-- ================= SESSION 16 ================= -->
+<h1 id="session16">جلسه ۱۶</h1>
+<h1>Scope Creeps & Hoisting Surprises: رازهای JS فاش شد</h1>
+
+<section id="session16-intro">
+    <h2>مقدمه</h2>
+    <p>پست… JS اسرار داره. 🤫 امروز درباره scope و hoisting صحبت می‌کنیم—چیزایی که مبتدی‌ها رو بیشتر گیج می‌کنه تا پیتزا با آناناس.</p>
+</section>
+
+<section id="what-is-scope">
+    <h2>Scope چیه؟</h2>
+    <p>Scope مشخص می‌کنه متغیرها کجا زندگی می‌کنن و چه کسی می‌تونه بهشون دسترسی داشته باشه.</p>
+    <ul>
+        <li>Global → متغیر همه جا قابل دسترس.</li>
+        <li>Function → فقط داخل تابع قابل دسترس.</li>
+        <li>Block → با let و const فقط داخل { }.</li>
+    </ul>
+    <pre><code>let globalVar = "I'm everywhere!";
+
+function myFunc(){
+    let localVar = 'I exist only here!';
+    console.log(globalVar); // works
+    console.log(localVar);  // works
+}
+
+console.log(globalVar); // works
+console.log(localVar);  // ❌ error</code></pre>
+</section>
+
+<section id="the-var-throwback">
+    <h2>قدیمی‌های var</h2>
+    <p>var فقط function-scoped هست، نه block-scoped:</p>
+    <pre><code>if(true){
+    var oldSchool = 'Still here…';
+}
+console.log(oldSchool); // Works! 😱</code></pre>
+</section>
+
+<section id="hoisting-explained">
+    <h2>Hoisting چیه؟</h2>
+    <p>JS دکلراسیون‌ها رو میاره بالا—ولی فقط دکلراسیون، نه مقداردهی.</p>
+    <pre><code>console.log(hoistedVar); // undefined
+var hoistedVar = 'Hello!';</code></pre>
+    <pre><code>// JS میخونه مثل:
+var hoistedVar;
+console.log(hoistedVar); // undefined
+hoistedVar = 'Hello!';</code></pre>
+</section>
+
+<section id="hoisting-with-functions">
+    <h2>Hoisting با توابع</h2>
+    <pre><code>sayHi(); // works!
+function sayHi(){ console.log('Hi!'); }
+
+sayBye(); // ❌ error
+const sayBye = function(){ console.log('Bye!'); }</code></pre>
+</section>
+
+<section id="session16-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم scope و hoisting—حالا می‌دونی چرا بعضی متغیرها مثل بازی قایم‌موشک رفتار می‌کنن. 👻</p>
+</section>
+
+<!-- ================= SESSION 17 ================= -->
+<h1 id="session17">جلسه ۱۷</h1>
+<h1>DOM Invasion: JS با HTML ملاقات می‌کنه</h1>
+
+<section id="session17-intro">
+    <h2>مقدمه</h2>
+    <p>سلام قهرمانای کدنویسی! امروز با DOM آشنا می‌شیم—پل بین JS و HTML.</p>
+</section>
+
+<section id="what-even-is-the-dom">
+    <h2>DOM چیه؟</h2>
+    <p>DOM مثل یه درخت بزرگه که HTMLت رو نشون میده. JS می‌تونه برگ‌ها رو برداره، تغییر بده، یا حتی ایجاد کنه. 🌳</p>
+</section>
+
+<section id="accessing-elements">
+    <h2>دسترسی به عناصر</h2>
+    <pre><code>&lt;p id="greeting"&gt;Hello!&lt;/p&gt;</code></pre>
+    <pre><code>let greet = document.getElementById('greeting');
+console.log(greet);
+
+let greet = document.querySelector('#greeting');</code></pre>
+</section>
+
+<section id="changing-stuff">
+    <h2>تغییر محتوا و استایل</h2>
+    <pre><code>greet.textContent = 'Hi there!';
+greet.style.color = 'blue';
+greet.style.fontSize = '24px';</code></pre>
+</section>
+
+<section id="creating-adding-elements">
+    <h2>ایجاد و اضافه کردن عنصر</h2>
+    <pre><code>let newPara = document.createElement('p');
+newPara.textContent = "I'm new here!";
+document.body.appendChild(newPara);</code></pre>
+</section>
+
+<section id="quick-demo">
+    <h2>دموی سریع</h2>
+    <pre><code>&lt;button id="addBtn"&gt;Add Item&lt;/button&gt;
+&lt;ul id="list"&gt;&lt;/ul&gt;
+
+let btn = document.getElementById('addBtn');
+let list = document.getElementById('list');
+btn.addEventListener('click', () => {
+    let li = document.createElement('li');
+    li.textContent = 'New item!';
+    list.appendChild(li);
+});</code></pre>
+</section>
+
+<section id="session17-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم اولین نگاهت به DOM—JS بالاخره با HTML ملاقات کرد و کنترلش رو گرفت.</p>
+</section>
+
+<!-- ================= SESSION 18 ================= -->
+<h1 id="session18">جلسه ۱۸</h1>
+<h1>Event-ually… کنترل همه چیز در DOM</h1>
+
+<section id="session18-intro">
+    <h2>مقدمه</h2>
+    <p>سلام قهرمانای کدنویسی! امروز با Eventها کار می‌کنیم—کلید زنده کردن وبسایتت.</p>
+</section>
+
+<section id="whats-an-event">
+    <h2>Event چیه؟</h2>
+    <p>یه event یعنی اتفاقی روی صفحه—مثل کلیک، کی‌استروک یا حرکت موس 🪰. JS می‌تونه گوش بده و واکنش بده.</p>
+</section>
+
+<section id="the-classic-event-listener">
+    <h2>Event Listener کلاسیک</h2>
+    <pre><code>&lt;button id="magicBtn"&gt;Click me!&lt;/button&gt;
+
+let btn = document.getElementById('magicBtn');
+btn.addEventListener('click', () => {
+    console.log('Button was clicked!');
+    console.log('Magic activated! ✨');
+});</code></pre>
+</section>
+
+<section id="more-event-types">
+    <h2>انواع event بیشتر</h2>
+    <ul>
+        <li>mouseover → ورود موس به عنصر</li>
+        <li>keydown → فشردن کلید</li>
+        <li>submit → ارسال فرم</li>
+        <li>scroll → اسکرول صفحه</li>
+    </ul>
+</section>
+
+<section id="passing-event-info">
+    <h2>اطلاعات event</h2>
+    <pre><code>btn.addEventListener('click', (event) => {
+    console.log(event);
+    console.log('Clicked at: ', event.clientX, event.clientY);
+});</code></pre>
+</section>
+
+<section id="removing-events">
+    <h2>حذف event</h2>
+    <pre><code>function sayHi(){
+    console.log('Hi once!');
+    btn.removeEventListener('click', sayHi);
+}
+btn.addEventListener('click', sayHi);</code></pre>
+</section>
+
+<section id="session18-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و اینم DOM events—راز وبسایت‌های زنده و واکنش‌گرا.</p>
+</section>
+
+<!-- ================= SESSION 19 ================= -->
+<h1 id="session19">جلسه ۱۹</h1>
+<h1>Forms: فرم بساز، خراب نکن</h1>
+
+<section id="session19-intro">
+    <h2>مقدمه</h2>
+    <p>سلام کدنویسای افسانه‌ای! امروز فرم‌ها رو می‌سازیم که واقعاً کار کنن، بدون اجازه دادن به کسی که Banana@Banana ثبت‌نام کنه. 🍌</p>
+</section>
+
+<section id="basic-html-form">
+    <h2>فرم پایه HTML</h2>
+    <pre><code>&lt;form id="signupForm"&gt;
+    &lt;input type="text" id="username" placeholder="Username" required&gt;
+    &lt;input type="email" id="email" placeholder="Email" required&gt;
+    &lt;button type="submit"&gt;Sign Up&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+</section>
+
+<section id="handling-form-submit">
+    <h2>دستکاری ارسال فرم</h2>
+    <pre><code>let form = document.getElementById('signupForm');
+form.addEventListener('submit', (event) =&gt; {
+    event.preventDefault(); // جلوگیری از رفرش خودکار
+    console.log('Form submitted!');
+});</code></pre>
+</section>
+
+<section id="adding-validation">
+    <h2>Validation ساده</h2>
+    <pre><code>if(username.value.length &lt; 3){
+    alert('Username must be at least 3 characters.');
+    return;
+}
+
+if(!email.value.includes('@')){
+    alert('Please enter a valid email.');
+    return;
+}</code></pre>
+</section>
+
+<section id="real-time-validation">
+    <h2>Validation زنده</h2>
+    <pre><code>username.addEventListener('input', () =&gt; {
+    username.style.borderColor = username.value.length &lt; 3 ? 'red' : 'green';
+});</code></pre>
+</section>
+
+<section id="bonus-custom-messages">
+    <h2>پیام‌های سفارشی و باحال</h2>
+    <pre><code>email.addEventListener('input', () =&gt; {
+    if(!email.value.includes('@')) email.setCustomValidity('Um… emails usually have an @ symbol? 🍵');
+    else email.setCustomValidity('');
+});</code></pre>
+</section>
+
+<section id="session19-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>فرم‌ها بدون مشکل و با Validation عالی! 🌟</p>
+</section>
+
+<!-- ================= SESSION 20 ================= -->
+<h1 id="session20">جلسه ۲۰</h1>
+<h1>To-Do List واقعی </h1>
+
+<section id="session20-intro">
+    <h2>مقدمه</h2>
+    <p>امروز اولین اپلیکیشن واقعی JS خودمون رو می‌سازیم—To-Do List که واقعاً کار کنه. 🎉</p>
+</section>
+
+<section id="the-setup">
+    <h2>Setup HTML</h2>
+    <pre><code>&lt;div id="app"&gt;
+  &lt;h1&gt;My To-Do List&lt;/h1&gt;
+  &lt;input type="text" id="taskInput" placeholder="Add a task..."&gt;
+  &lt;button id="addBtn"&gt;Add&lt;/button&gt;
+  &lt;ul id="taskList"&gt;&lt;/ul&gt;
+&lt;/div&gt;</code></pre>
+</section>
+
+<section id="grabbing-elements">
+    <h2>Grab عناصر</h2>
+    <pre><code>let taskInput = document.getElementById('taskInput');
+let addBtn = document.getElementById('addBtn');
+let taskList = document.getElementById('taskList');</code></pre>
+</section>
+
+<section id="adding-tasks">
+    <h2>اضافه کردن کار</h2>
+    <pre><code>addBtn.addEventListener('click', () =&gt; {
+    let taskText = taskInput.value;
+    if(taskText.trim() === '') return;
+
+    let li = document.createElement('li');
+    li.textContent = taskText;
+    taskList.appendChild(li);
+    taskInput.value = '';
+});</code></pre>
+</section>
+
+<section id="marking-tasks-done">
+    <h2>تیک زدن کار انجام شده</h2>
+    <pre><code>li.addEventListener('click', () =&gt; {
+    li.style.textDecoration = 'line-through';
+});</code></pre>
+</section>
+
+<section id="deleting-tasks">
+    <h2>حذف کار</h2>
+    <pre><code>let deleteBtn = document.createElement('button');
+deleteBtn.textContent = '❌';
+li.appendChild(deleteBtn);
+
+deleteBtn.addEventListener('click', (e) =&gt; {
+    e.stopPropagation();
+    li.remove();
+});</code></pre>
+</section>
+
+<section id="mini-recap">
+    <h2>جمع‌بندی کوتاه</h2>
+    <p>اضافه کردن، تیک زدن، حذف کردن کارها. تبریک، اولین اپلیکیشن JS خودتو ساختی! 🎉</p>
+</section>
+
+<section id="session20-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>حالا آماده‌ایم تا مرحله بعدی: ذخیره کارها بعد از رفرش صفحه با localStorage. 💾</p>
+</section>
+
+<!-- ================= SESSION 21 ================= -->
+<h1 id="session21">جلسه ۲۱</h1>
+<h1>دیتا به‌صورت فوری: JSON و localStorage مثل یک حرفه‌ای</h1>
+
+<section id="session21-intro">
+    <h2>مقدمه</h2>
+    <p>سلام به همه افسانه‌های کدنویسی! من <strong>Reyrove</strong> هستم و امروز یاد می‌گیریم که برنامه‌هایمان چیزها را به خاطر بسپارند!</p>
+    <p>شما کارهایی به اپ To-Do خود اضافه می‌کنید… بعد صفحه را رفرش می‌کنید… و بوم. همه چیز پاک شد. مثل تصمیمات سال نو شما. 🥲</p>
+    <p>دیگر نه. امروز با استفاده از JSON و localStorage، برنامه شما مثل یک دوست وفادار همه چیز را به خاطر خواهد سپرد. <strong>لایک را بزنید، سابسکرایب کنید،</strong> و نظر بدهید: اگر مرورگر شما می‌توانست فقط یک چیز را برای همیشه به یاد بسپارد، آن چه بود؟ (برای من: سفارش قهوه ☕).</p>
+</section>
+
+<section id="whats-localstorage">
+    <h2>localStorage چیست؟</h2>
+    <p>localStorage مثل یک هارد کوچک داخل مرورگر شماست. داده‌ها را به صورت key-value ذخیره می‌کند و حتی بعد از رفرش هم می‌ماند. مثال:</p>
+  <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;localStorage Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h2&gt;localStorage Demo&lt;/h2&gt;
+    &lt;p&gt;Open your browser console to see the output.&lt;/p&gt;
+    &lt;p&gt;Try refreshing the page - the data will persist!&lt;/p&gt;
+
+    &lt;script&gt;
+        // Store data in localStorage
+        localStorage.setItem('username', 'Reyrove');
+        
+        // Retrieve data from localStorage
+        let savedUsername = localStorage.getItem('username');
+        
+        // Display in console
+        console.log(savedUsername); // Reyrove
+        
+        // Show in alert too
+        alert('Saved username: ' + savedUsername);
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    <p>آره—خیلی راحت است.</p>
+</section>
+
+<section id="but-wait-json">
+    <h2>اما صبر کنید… JSON</h2>
+    <p>مشکل: localStorage فقط رشته ذخیره می‌کند.</p>
+    <p>راه حل: JSON—JavaScript Object Notation. راهی است که اشیاء را به رشته تبدیل کرده و دوباره برگردانیم.</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;JSON & localStorage Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h2&gt;Storing Objects with JSON&lt;/h2&gt;
+    &lt;p&gt;Open your browser console to see the output.&lt;/p&gt;
+    &lt;p&gt;Try refreshing the page - the object data will persist!&lt;/p&gt;
+
+    &lt;script&gt;
+        // Store object data in localStorage using JSON
+        let user = { name: 'Rey', age: 28 };
+        localStorage.setItem('user', JSON.stringify(user));
+        
+        // Retrieve and parse the data back to object
+        let savedUser = JSON.parse(localStorage.getItem('user'));
+        
+        // Display in console
+        console.log(savedUser); // Complete object
+        console.log(savedUser.name); // Rey
+        console.log(savedUser.age); // 28
+        
+        // Show in alert too
+        alert('Saved user: ' + savedUser.name + ', Age: ' + savedUser.age);
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    <p>به JSON مثل یک چمدان فکر کنید که داده‌ها را مرتب بسته‌بندی می‌کند.</p>
+</section>
+
+<section id="saving-to-do-list">
+    <h2>ذخیره لیست To-Do</h2>
+    <p>بیایید این را به اپ To-Do خود اضافه کنیم. هر بار که یک تسک اضافه می‌کنیم، کل لیست را ذخیره می‌کنیم:</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;To-Do List&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="app"&gt;
+  &lt;h1&gt;My To-Do List&lt;/h1&gt;
+  &lt;input type="text" id="taskInput" placeholder="Add a task..."&gt;
+  &lt;button id="addBtn"&gt;Add&lt;/button&gt;
+  &lt;ul id="taskList"&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;script&gt;
+  let taskInput = document.getElementById('taskInput');
+  let addBtn = document.getElementById('addBtn');
+  let taskList = document.getElementById('taskList');
+
+  // store tasks
+  let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+
+  function saveTasks() {
+      localStorage.setItem('tasks', JSON.stringify(tasks));
+  }
+
+  function renderTasks() {
+      taskList.innerHTML = ''; // clear existing list
+      tasks.forEach((task, index) =&gt; {
+          let li = document.createElement('li');
+          li.textContent = task.text;
+          if (task.done) li.style.textDecoration = 'line-through';
+
+          li.addEventListener('click', () =&gt; {
+              task.done = !task.done;
+              saveTasks();
+              renderTasks();
+          });
+
+          let deleteBtn = document.createElement('button');
+          deleteBtn.textContent = '❌';
+          li.appendChild(deleteBtn);
+
+          deleteBtn.addEventListener('click', (e) =&gt; {
+              e.stopPropagation(); // avoid marking done
+              tasks.splice(index, 1);
+              saveTasks();
+              renderTasks();
+          });
+
+          taskList.appendChild(li);
+      });
+  }
+
+  addBtn.addEventListener('click', () =&gt; {
+      let taskText = taskInput.value;
+      if(taskText.trim() === '') return;
+
+      tasks.push({ text: taskText, done: false });
+      saveTasks();
+      renderTasks();
+
+      taskInput.value = '';
+  });
+
+  // Load saved tasks on startup
+  renderTasks();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    <p>حالا داریم اهداف زندگیمان را پشتیبان می‌گیریم. ✅  
+    هر بار که تسکی اضافه، کامل یا حذف می‌کنیم، کل لیست در <code>localStorage</code> مرورگر ذخیره می‌شود.  
+    یعنی حتی بعد از رفرش یا بازگشت بعدی هم تسک‌ها باقی می‌مانند. مثل یک مینی کلود شخصی—ولی داخل مرورگر شما. ☁️</p>
+</section>
+
+<section id="loading-data-back">
+    <h2>بارگذاری دوباره داده‌ها</h2>
+    <p>در بارگذاری صفحه، داده‌ها را دوباره می‌گیریم:</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;To-Do List&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="app"&gt;
+  &lt;h1&gt;My To-Do List&lt;/h1&gt;
+  &lt;input type="text" id="taskInput" placeholder="Add a task..."&gt;
+  &lt;button id="addBtn"&gt;Add&lt;/button&gt;
+  &lt;ul id="taskList"&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;script&gt;
+  let taskInput = document.getElementById('taskInput');
+  let addBtn = document.getElementById('addBtn');
+  let taskList = document.getElementById('taskList');
+
+  let tasks = [];
+
+  function saveTasks() {
+      localStorage.setItem('tasks', JSON.stringify(tasks));
+  }
+
+  // render ONE task
+  function renderTask(task, index) {
+      let li = document.createElement('li');
+      li.textContent = task.text;
+      if (task.done) li.style.textDecoration = 'line-through';
+
+      li.addEventListener('click', () =&gt; {
+          task.done = !task.done;
+          saveTasks();
+          refreshList();
+      });
+
+      let deleteBtn = document.createElement('button');
+      deleteBtn.textContent = '❌';
+      li.appendChild(deleteBtn);
+
+      deleteBtn.addEventListener('click', (e) =&gt; {
+          e.stopPropagation();
+          tasks.splice(index, 1);
+          saveTasks();
+          refreshList();
+      });
+
+      taskList.appendChild(li);
+  }
+
+  // refresh entire list
+  function refreshList() {
+      taskList.innerHTML = '';
+      tasks.forEach((task, index) =&gt; renderTask(task, index));
+  }
+
+  addBtn.addEventListener('click', () =&gt; {
+      let taskText = taskInput.value;
+      if(taskText.trim() === '') return;
+
+      let newTask = { text: taskText, done: false };
+      tasks.push(newTask);
+      saveTasks();
+      renderTask(newTask, tasks.length - 1);
+
+      taskInput.value = '';
+  });
+
+  // 🔮 Load saved tasks on startup
+  let saved = JSON.parse(localStorage.getItem('tasks'));
+  if (saved) {
+      tasks = saved;
+      tasks.forEach((task, index) =&gt; renderTask(task, index));
+  }
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    <p>حالا تسک‌ها بعد از رفرش هم باقی می‌مانند. 🪄 مثل جادو.</p>
+<p><strong>چرا؟</strong><br>
+هر بار که یک تسک اضافه یا حذف می‌کنیم، آرایه <code>tasks</code> کل ذخیره می‌شود (با <code>JSON.stringify()</code>).  
+سپس وقتی صفحه دوباره بارگذاری می‌شود، داده‌ها از <code>localStorage</code> گرفته می‌شوند (با <code>JSON.parse()</code>) و لیست با فراخوانی <code>renderTask()</code> دوباره ساخته می‌شود.  
+پس «جادو» در واقع حافظه مرورگر است که بین رفرش‌ها چیزها را به یاد می‌آورد. 📦</p>
+</section>
+
+<section>
+      <h2>۱. منطق رندرینگ (بزرگترین تفاوت)</h2>
+      <p>این تغییر اصلی معماری است.</p>
+
+      <h3>ذخیره لیست To-Do (بلوک اول کد)</h3>
+      <ul>
+        <li>از یک تابع <code>renderTasks()</code> استفاده می‌کند.</li>
+        <li>این تابع کل لیست را پاک کرده (<code>taskList.innerHTML = ''</code>) و سپس دوباره می‌سازد در هر تغییر (اضافه، حذف، علامت زدن).</li>
+        <li><strong>مزیت:</strong> نوشتن ساده. <strong>عیب:</strong> برای لیست‌های طولانی کمتر بهینه است چون مرورگر کار بیشتری انجام می‌دهد.</li>
+      </ul>
+
+      <h3>بارگذاری دوباره داده‌ها (بلوک دوم کد)</h3>
+      <ul>
+        <li>رندر را به دو تابع تقسیم می‌کند: <code>renderTask(task, index)</code> و <code>refreshList()</code>.</li>
+        <li><code>renderTask(task, index)</code> فقط HTML یک تسک را می‌سازد و event listener هایش را وصل می‌کند.</li>
+        <li><code>refreshList()</code> رندر کامل است که روی تمام تسک‌ها حلقه می‌زند و <code>renderTask</code> را صدا می‌زند.</li>
+        <li><strong>بهبود کلیدی:</strong> در هندلر <code>addBtn</code> فقط تسک جدید اضافه می‌شود <code>renderTask(newTask, tasks.length - 1)</code> و کل لیست دوباره ساخته نمی‌شود.</li>
+        <li><strong>مزیت:</strong> افزودن کمی بهینه‌تر است. <strong>عیب:</strong> کد کمی پیچیده‌تر.</li>
+      </ul>
+
+      <p><em>واقعیت:</em> برای یک اپ To-Do کوچک، تفاوت عملکرد ناچیز است. روش دوم فقط مدولارتر و آینده‌نگرتر است.</p>
+</section>
+
+<section id="updating-with-every-change">
+    <h2>به‌روزرسانی با هر تغییر</h2>
+    <p>هر وقت یک تسک اضافه، حذف یا تیک زده می‌شود، فقط <code>saveTasks()</code> را فراخوانی کنید. به این ترتیب، <code>localStorage</code> همیشه جدیدترین داده‌ها را دارد. دیگر هیچ بهانه‌ای برای نادیده گرفتن تسک‌ها باقی نمی‌ماند. 😅</p>
+</section>
+
+<section id="mini-recap">
+    <h2>خلاصه کوچک</h2>
+    <p>پس: localStorage = حافظه دائم. JSON = مترجمی که به ما اجازه می‌دهد داده پیچیده را به رشته تبدیل کنیم. با هم؟ آنها غیرقابل توقف هستند.</p>
+</section>
+
+<section id="session21-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و این بود، شما رسماً اپ خود را به یک اپ واقعی با داده‌های پایدار ارتقا دادید.</p>
+    <div class="cta">
+        🎬 جلسه بعد: ترفندهای مدرن JS که واقعاً استفاده خواهید کرد در جلسه ۲۲!<br>
+        💻 کد کامل To-Do List با localStorage در وبسایت من: <a href="https://reyrove.github.io/" target="_blank">reyrove.github.io</a>.<br>
+        📬 برای همکاری یا سوال، من را در LinkedIn پیدا کنید: <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">LinkedIn من</a>.<br>
+        فراموش نکنید لایک، سابسکرایب و کامنت بگذارید که خنده‌دارترین چیزی که در localStorage ذخیره می‌کنید چه خواهد بود. (برای من: لیست «ادامه دیدن» Netflix تا دیگر قضاوتم نکند 👀).
+    </div>
+</section>
+
+<!-- ================= SESSION 22 ================= -->
+<h1 id="session22">جلسه ۲۲</h1>
+<h1>ES6+ استایل: ترفندهای مدرن JS که واقعاً استفاده می‌کنید</h1>
+
+<section id="session22-intro">
+    <h2>مقدمه</h2>
+    <p>سلام به همه افسانه‌های کدنویسی! من <strong>Reyrove</strong> هستم و امروز سطح بازی جاوااسکریپت خودمون رو ارتقا می‌دیم!</p>
+    <p>آیا هنوز با تلفن‌های چرخشی پیام می‌دادید؟ 📞 نه. همین با JS قدیمی. کار می‌کند، ولی ویژگی‌های ES6+ مثل ارتقا از گوشی قدیمی به آیفون است. شیک‌تر، سریع‌تر، باحال‌تر.</p>
+    <p>قبل از اینکه ترفندهای مدرن JS رو نشون بدیم، <strong>لایک، سابسکرایب،</strong> و نظر بدید: یک چیز قدیمی که هنوز بهش چسبیدید چیه؟ (برای من؟ سی‌دی‌های سوخته. قضاوت نکنید 😅)</p>
+</section>
+
+<section id="let-const-var">
+    <h2>let و const > var</h2>
+    <p>اول: var رو کنار بذارید. ما let و const رو قبلاً دیدیم، اما ES6 اونا رو استاندارد کرد.</p>
+    <ul>
+        <li>let = متغیر قابل تغییر</li>
+        <li>const = متغیر ثابت</li>
+        <li>var = همون ex سمی که دیگه تماس نمی‌گیری 🚩</li>
+    </ul>
+</section>
+
+<section id="arrow-functions">
+    <h2>Arrow Functions</h2>
+    <p>چرا function تایپ کنیم مثل سال ۲۰۰۵؟ از arrow function استفاده کنید:</p>
+<pre><code>// Old way
+function greet(name) {
+  return 'Hello ' + name;
+}
+
+// ES6 way - Arrow Function
+const greet = (name) => `Hello ${name}`;
+
+// Test both functions
+console.log(greet('Rey')); // Hello Rey</code></pre>
+    <p>تایپ کمتر، استایل بیشتر.</p>
+</section>
+
+<section id="template-literals">
+    <h2>Template Literals</h2>
+    <p>دیگه نیازی به رشته + رشته نیست. الان از backtick استفاده می‌کنیم:</p>
+    <pre><code>let user = 'Rey';
+console.log(`Welcome back, ${user}!`);</code></pre>
+    <p>تمیزتر، زیباتر و مناسب برای استایل دادن.</p>
+</section>
+
+<section id="destructuring">
+    <h2>Destructuring</h2>
+    <p>قبلاً گرفتن داده‌ها سخت بود. الان می‌تونیم destructure کنیم:</p>
+    <pre><code>let user = { name: 'Rey', age: 28 };
+let { name, age } = user;
+console.log(name, age);</code></pre>
+    <p>بووووم. باز کردن فوری. با آرایه‌ها هم همین‌طور کار می‌کنه.</p>
+</section>
+
+<section id="spread-rest-operators">
+    <h2>Spread & Rest Operators</h2>
+    <p>می‌خوای چیزها رو کپی یا ادغام کنی؟ از spread (...) استفاده کن:</p>
+    <pre><code>let arr = [1, 2, 3];
+let newArr = [...arr, 4, 5]; 
+console.log(newArr); // [1, 2, 3, 4, 5]</code></pre>
+    <p>و rest (...) برای جمع کردن باقی‌مانده‌هاست:</p>
+    <pre><code>function sum(...nums){
+  return nums.reduce((a, b) => a + b);
+}
+console.log(sum(1,2,3,4)); // 10</code></pre>
+    <p>خیلی کارآمد.</p>
+</section>
+
+<section id="default-params-modules">
+    <h2>Default Params & Modules</h2>
+    <p>• Default params:</p>
+    <pre><code>function greet(name = 'stranger'){
+  console.log(`Hey ${name}`);
+}
+greet(); // Hey stranger</code></pre>
+    <p>• Modules: کد خودتون رو به فایل‌ها تقسیم کنید و import/export کنید. (دیگه اسکریپت‌های بزرگ و بهم ریخته نیست 🍝).</p>
+</section>
+
+<section id="mini-recap">
+    <h2>خلاصه کوچک</h2>
+    <p>خلاصه: let و const، arrow functions، template literals، destructuring، spread/rest، default params، و modules. این‌ها فقط ترفند نیستند—استاندارد مدرن هستند.</p>
+</section>
+
+<section id="session22-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و این هم ES6+ در عمل. باور کن—این‌ها رو یاد بگیر و دیگه به JS قدیمی نگاه نکن.</p>
+    <div class="cta">
+        🎬 جلسه بعد: پیدا کردن باگ مخفی در جلسه ۲۳!<br>
+        💻 Cheat sheet + مثال‌ها روی وبسایت من: <a href="https://reyrove.github.io/" target="_blank">reyrove.github.io</a>.<br>
+        📬 برای همکاری یا سوال، در LinkedIn با من تماس بگیر: <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">LinkedIn من</a>.<br>
+        فراموش نکن لایک، سابسکرایب و کامنت بذاری که به نظرت کدوم ویژگی ES6 بهترینه. (برای من؟ Template literals 💅).
+    </div>
+</section>
+
+<!-- ================= SESSION 23 ================= -->
+<h1 id="session23">جلسه ۲۳</h1>
+<h1>دیباگ بدون اشک: باگ مخفی رو پیدا کن</h1>
+
+<section id="session23-intro">
+    <h2>مقدمه</h2>
+    <p>سلام به همه افسانه‌های کدنویسی! من <strong>Reyrove</strong> هستم و امروز دنبال باگ‌ها می‌گردیم!</p>
+    <p>کد می‌نویسی، همه چیز درست به نظر میاد، اجرا می‌کنیش… بوم—خطا 😭</p>
+    <p>به دنیای دیباگ خوش آمدید، یعنی شکار باگ قبل از اینکه باگ شما رو شکار کنه. بمون، <strong>لایک، سابسکرایب،</strong> و نظر بده: عجیب‌ترین باگی که تا حالا دیدی چی بود؟ (برای من یه بار خودش درست شد… که ترسناک‌تر از خود باگه 🫠).</p>
+</section>
+
+<section id="read-error-message">
+    <h2>خواندن پیام خطا</h2>
+    <p>اولین قانون: وحشت نکن.</p>
+    <p>پیام‌های خطا ترسناک به نظر می‌رسند اما دقیقاً می‌گویند چه مشکلی هست.</p>
+    <p>مثال:</p>
+    <pre><code>console.log(myVar);
+➡️ 'ReferenceError: myVar is not defined'</code></pre>
+    <p>ترجمه: شما سعی کردید چیزی که وجود ندارد را استفاده کنید. ساده است.</p>
+</section>
+
+<section id="console-log-bff">
+    <h2>Console.log دوست صمیمی شماست</h2>
+    <p>قدیمی اما کارآمد:</p>
+    <pre><code>let x = 10;
+console.log('x is:', x);</code></pre>
+    <p>console.log را مثل نان ریزانه بریز تا بفهمی کجا کد خراب می‌شود.</p>
+    <p>نکته حرفه‌ای: می‌تونی چند چیز رو همزمان log کنی:</p>
+    <pre><code>console.log({ x, y, user });</code></pre>
+    <p>این بهت یک آبجکت تمیز برای بررسی می‌دهد.</p>
+</section>
+
+<section id="dev-tools">
+    <h2>ابزارهای توسعه</h2>
+    <p>F12 بزن (یا راست‌کلیک → Inspect) برای باز کردن DevTools.</p>
+    <p>به تب Console برای خطاها برو، و تب Sources برای توقف و قدم زدن در کد.</p>
+    <p>یک breakpoint بگذار (روی شماره خط کلیک کن)، رفرش کن و کدت متوقف می‌شود تا خط به خط ببینی چی می‌گذره. حسش مثل کدنویسی ماتریکس با اسلومو 🕶️.</p>
+</section>
+
+<section id="common-bugs">
+    <h2>باگ‌های رایج</h2>
+    <ol>
+        <li>اشتباه تایپی: userNmae به جای userName 🤦</li>
+        <li>کروشه یا پرانتز گم شده:
+            <pre><code>if (x > 5 { console.log(x); } // nope</code></pre>
+        </li>
+        <li>اسکوپ اشتباه: متغیرهای داخل تابع بیرون وجود ندارند.</li>
+        <li>آشفتگی آسنکرون: سعی کردی از داده قبل از آماده شدن استفاده کنی.</li>
+    </ol>
+</section>
+
+<section id="pro-debugging-tricks">
+    <h2>ترفندهای حرفه‌ای دیباگ</h2>
+    <ul>
+        <li>از console.table() برای نمایش آرایه‌ها/آبجکت‌ها به شکل مرتب استفاده کن.</li>
+        <li>debugger; در کد، DevTools را متوقف می‌کند.</li>
+        <li>پیام خطا را گوگل کن—۹۰٪ احتمال داره کسی StackOverflow قبلاً گریه کرده باشه 😅</li>
+    </ul>
+</section>
+
+<section id="mini-recap">
+    <h2>خلاصه کوچک</h2>
+    <p>دیباگ = خواندن خطا ➝ console.log ➝ DevTools ➝ رفع ➝ رقص پیروزی 🎉</p>
+</section>
+
+<section id="session23-wrap-up">
+    <h2>جمع‌بندی</h2>
+    <p>و این هم دیباگ بدون اشک—تو کدتو خراب نمی‌کنی، کدت داره تو رو آموزش می‌ده. 💪</p>
+    <div class="cta">
+        🎬 جلسه بعد: تبریک! داشبورد همه‌کاره JS خودتو بساز در جلسه ۲۴!<br>
+        💻 لیست خطاهای رایج JS + رفعشون روی وبسایت من: <a href="https://reyrove.github.io/" target="_blank">reyrove.github.io</a>.<br>
+        📬 برای همکاری یا کمک دیباگ، DM بده در LinkedIn: <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">LinkedIn من</a>.<br>
+        فراموش نکن لایک، سابسکرایب و کامنت بذاری که خنده‌دارترین باگی که داشتی چی بود. (برای من: یه بار = نوشتم به جای === و یک ساعت داد زدم به صفحه 🤡).
+    </div>
+</section>
+
+<!-- ================= SESSION 24 ================= -->
+<h1 id="session24">جلسه 24</h1>
+<h1>آفرین! داشبورد خفن JS خودتو بساز و وب رو به تسخیر دربیار.</h1>
+
+<section id="session24-intro">
+    <h2>شروع کار</h2>
+    <p>آفرین! از 23 جلسه جهنم JS سربلند بیرون اومدی 🪄. از همون 'Hello JS' اولت تا ES6 خفن، باگ‌های کابوسی، جادوی DOM، فرم‌ها، localStorage - حالا همه قدرت‌های عالی رو داری تا اپ‌های واقعی بسازی.</p>
+    <p>قبل از اینکه بریم جلو، <strong>حتما لایک و سابسکرایب کن</strong> و توی کامنتا بگو کدوم جلسه برات جذاب‌تر بود. بیا سفر JSت رو جشن بگیریم!</p>
+</section>
+
+<section id="recap">
+    <h2>یادآوری فشرده</h2>
+    <p>یه مرور سریع از چیزایی که یاد گرفتی:</p>
+    
+    <h3>متغیرها و ثابت‌ها</h3>
+    <pre><code>let username = 'Reyrove'; // You can change it anytime
+const maxTasks = 10;      // Constant, cannot be changed</code></pre>
+    
+    <h3>انواع داده</h3>
+    <pre><code>const task = { title: 'Learn JS', done: false }; // Object
+let score = 100; // Number
+let active = true; // Boolean
+let name = "Code Master"; // String</code></pre>
+    
+    <h3>آرایه‌ها</h3>
+    <pre><code>let tasks = [task]; // Store multiple tasks in an array
+tasks.push({ title: 'Practice Loops', done: false });</code></pre>
+    
+    <h3>توابع و قابلیت‌های ES6</h3>
+    <pre><code>const toggleDone = index => tasks[index].done = !tasks[index].done; // Arrow function + toggle status</code></pre>
+    
+    <h3>DOM و ایونت‌ها</h3>
+    <pre><code>document.getElementById('taskForm').addEventListener('submit', e => e.preventDefault()); // Prevent form reload</code></pre>
+    
+    <h3>localStorage و JSON</h3>
+    <pre><code>localStorage.setItem('tasks', JSON.stringify(tasks)); // Save array of objects in localStorage</code></pre>
+    
+    <p>همه اینا قراره داشبورد خفنمون رو قدرتمند کنن.</p>
+</section>
+
+<section id="mega-project">
+    <h2>پروژه نهایی - کد کامل با توضیح</h2>
+    
+    <h3>ساختار HTML:</h3>
+    <pre><code>&lt;form id="taskForm"&gt;
+  &lt;input type="text" id="title" placeholder="Task Title" required /&gt;
+  &lt;textarea id="desc" placeholder="Task Description" required&gt;&lt;/textarea&gt;
+  &lt;select id="priority"&gt;
+    &lt;option value="Low"&gt;Low&lt;/option&gt;
+    &lt;option value="Medium"&gt;Medium&lt;/option&gt;
+    &lt;option value="High"&gt;High&lt;/option&gt;
+  &lt;/select&gt;
+  &lt;button type="submit"&gt;Add Task&lt;/button&gt;
+&lt;/form&gt;
+&lt;div id="taskList"&gt;&lt;/div&gt;</code></pre>
+    <p>چی به چیه:</p>
+    <ul>
+        <li>&lt;form&gt; فیلدهای ورودی برای تسک‌ها</li>
+        <li>&lt;input&gt; برای عنوان تسک</li>
+        <li>&lt;textarea&gt; برای توضیحات</li>
+        <li>&lt;select&gt; برای انتخاب اولویت</li>
+        <li>&lt;button&gt; برای اضافه کردن</li>
+        <li>&lt;div id="taskList"&gt; جاییش که تسک‌ها نشون داده میشن</li>
+    </ul>
+    
+    <h3>کد JS:</h3>
+    <pre><code>// Grab DOM elements
+const taskForm = document.getElementById('taskForm'); // The form element
+const taskList = document.getElementById('taskList'); // Container to display tasks
+
+// Load tasks from localStorage or start with an empty array
+let tasks = JSON.parse(localStorage.getItem('tasks')) || [];</code></pre>
+    <p>چطوری کار میکنه:</p>
+    <ul>
+        <li>getElementById المان‌ها رو میگیره که بتونیم روشون کار کنیم</li>
+        <li>JSON.parse(localStorage.getItem('tasks')) تسک‌های ذخیره شده رو میاره</li>
+        <li>|| [] مطمئن میشه اگه چیزی ذخیره نشده، آرایه خالی داشته باشیم</li>
+    </ul>
+    
+    <h3>تابع نمایش تسک‌ها:</h3>
+    <pre><code>const renderTasks = () => {
+  taskList.innerHTML = ''; // Clear old tasks
+
+  tasks.forEach((task, index) => {
+    const { title, desc, priority, done } = task; // Object destructuring
+
+    const taskDiv = document.createElement('div'); // Create task container
+    taskDiv.className = `task ${done ? 'done' : ''}`; // Add class 'done' if completed
+
+    taskDiv.innerHTML = `
+      &lt;h3&gt;${title}&lt;/h3&gt;
+      &lt;p&gt;${desc}&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;Priority:&lt;/strong&gt; ${priority}&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;Status:&lt;/strong&gt; ${done ? 'Done ✅' : 'Pending ⏳'}&lt;/p&gt;
+      &lt;button onclick="toggleDone(${index})"&gt;Toggle Done&lt;/button&gt;
+      &lt;button onclick="deleteTask(${index})"&gt;Delete&lt;/button&gt;
+    `;
+
+    taskList.appendChild(taskDiv); // Add task to DOM
+  });
+};</code></pre>
+    <p>کارایی که میکنه:</p>
+    <ul>
+        <li>هر بار که رندر میکنه، لیست قبلی رو پاک میکنه</li>
+        <li>روی آرایه تسک‌ها حلقه میزنه</li>
+        <li>برای هر تسک یه &lt;div&gt; درست میکنه</li>
+        <li>تسک رو تجزیه میکنه که راحت‌تر بشه باهاش کار کرد</li>
+        <li>دکمه‌ها با index صدا میزنن که تسک درست رو تغییر بدن</li>
+    </ul>
+    
+    <h3>توابع اضافه کردن، تغییر وضعیت، حذف و ذخیره:</h3>
+    <pre><code>const addTask = task => { tasks = [...tasks, task]; saveTasks(); renderTasks(); };
+const toggleDone = index => { tasks[index].done = !tasks[index].done; saveTasks(); renderTasks(); };
+const deleteTask = index => { tasks.splice(index, 1); saveTasks(); renderTasks(); };
+const saveTasks = () => localStorage.setItem('tasks', JSON.stringify(tasks));</code></pre>
+    <p>هر کدوم چیکار میکنن:</p>
+    <ul>
+        <li>addTask با spread operator تسک جدید اضافه میکنه</li>
+        <li>toggleDone وضعیت done رو برعکس میکنه</li>
+        <li>deleteTask تسک رو از آرایه حذف میکنه</li>
+        <li>saveTasks آرایه رو توی localStorage ذخیره میکنه</li>
+    </ul>
+    
+    <h3>ارسال فرم:</h3>
+    <pre><code>taskForm.addEventListener('submit', e => {
+  e.preventDefault(); // Stop page reload
+
+  const title = document.getElementById('title').value.trim();
+  const desc = document.getElementById('desc').value.trim();
+  const priority = document.getElementById('priority').value;
+
+  if(!title || !desc){ alert('Please fill in all fields!'); return; }
+
+  addTask({ title, desc, priority, done: false });
+  taskForm.reset(); // Clear form
+});</code></pre>
+    <p>مراحل کار:</p>
+    <ul>
+        <li>جلوی ریلود صفحه رو میگیره</li>
+        <li>مقادیر ورودی رو میخونه</li>
+        <li>چک میکنه که فیلدها پر باشن</li>
+        <li>addTask رو صدا میزنه</li>
+        <li>فرم رو خالی میکنه</li>
+    </ul>
+    
+    <h3>نمایش اولیه:</h3>
+    <pre><code>renderTasks(); // Show saved tasks on page load</code></pre>
+    <p>کارکرد:</p>
+    <ul>
+        <li>همون اول تسک‌های ذخیره شده رو نشون میده</li>
+    </ul>
+</section>
+
+<section id="next-steps">
+    <h2>قدم‌های بعدی</h2>
+    <p>حالا که این داشبورد خفن رو ساختی، میتونی:</p>
+    <ol>
+        <li>اپ‌های بیشتری بسازی: ماشین حساب، بازی، سایت‌های تعاملی</li>
+        <li>فریمورک‌ها رو یاد بگیری: React, Vue, Node.js</li>
+        <li>توی پروژه‌های اوپن سورس مشارکت کنی</li>
+        <li>باگ‌گیری کنی، آزمایش کنی و قابلیت‌های جدید اضافه کنی</li>
+    </ol>
+    <p>مهارت‌های JS تو مثل چوب جادو عمل میکنن 🪄. برو و اینترنت رو فتح کن!</p>
+</section>
+
+<section id="session24-wrap-up">
+    <h2>جمع‌بندی نهایی</h2>
+    <p>و اینم از سفر کامل جاوااسکریپت - از صفر تا ساختن یه داشبورد کامل!</p>
+    <div class="cta">
+        🎉 آفرین که تموم 24 جلسه رو تموم کردی!<br>
+        💻 برای کدهای بیشتر و آموزش‌ها، سایت من رو چک کن: <a href="https://reyrove.github.io/" target="_blank">reyrove.github.io</a><br>
+        📬 سوالی داری یا میخوای همکاری کنی؟ تو لینکدین بهم پیام بده: <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7357186806821326848/" target="_blank">لینکدین من</a><br>
+        یادت نره لایک و سابسکرایب کنی و توی کامنتا بنویسی با این قدرت‌های جدید JS چی میخوای بسازی!<br><br>
+        کیبوردت چوب جادوته، JS جادوته... حالا برو طلسم بنداز و آنلاین بدرخش 💥!
+    </div>
+</section>
+    </div>
+    </div>
+        <footer>
+  <p>
+    .Built by <span>Reyrove</span>.  
+    Keep experimenting, keep debugging, and remember: <em>console.log() is your bestie</em>
+</p>
+  <div class="mt-4">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">MDN Docs</a> |
+    <a href="https://javascript.info/" target="_blank">Modern JS</a> |
+    <a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/" target="_blank">ECMAScript Spec</a>
+  </div>
+<p>
+    &copy; .2025 Reyrove. All rights totally reserved, guarded by my coffee-fueled JavaScript army ☕💻  
+</p>
+</footer>
+</body>
 </html>
