@@ -29,7 +29,7 @@ const PROJECTS = [
     category: "TOOLS",
     tags: "tools",
     visual: "visual-thread",
-    image: "images/work/Textile-Quote-Generator.jpg",
+    image: "images/work/textile-quote-generator.jpg",
     alt: "Textile Quote Generator — Reyrove project",
     mark: "TQ",
     desc: "Generates textile-related quotes and wisdom.",
