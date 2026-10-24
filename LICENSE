@@ -1,0 +1,222 @@
+LICENSE
+
+Copyright © 2026 Reyhaneh Daneshdoost (Reyrove). All rights reserved.
+
+Reyrove® is a trademark of Reyhaneh Daneshdoost.
+
+===============================================================================
+1. SCOPE
+===============================================================================
+
+This LICENSE governs all files, assets, and content in this repository (the
+"Work"), including but not limited to:
+
+  - Source code: index.html, styles.css, script.js, and any other HTML, CSS,
+    or JavaScript files
+  - Brand assets: the Reyrove® logotype (inline SVG and favicon.svg), the name
+    "Reyrove" and the mark "Reyrove®", the tagline "From Fibers to Functions",
+    and the color/typography system as a distinctive visual identity
+  - Images: Reyrove.png, Reyrove-og.png, apple-touch-icon.png, and all files
+    under images/work/ and images/tutorials/
+  - Written content: all prose, project descriptions, tutorial notes, writing
+    entries, timeline text, and the manifesto
+  - Structured data: JSON-LD blocks and metadata authored for this site
+  - Configuration: site.webmanifest and any other project files
+
+All rights not expressly granted in this LICENSE are reserved by the copyright
+holder.
+
+===============================================================================
+2. BRAND AND TRADEMARK NOTICE
+===============================================================================
+
+"Reyrove" and "Reyrove®" are trademarks of Reyhaneh Daneshdoost.
+
+The Reyrove logotype, the woven-thread SVG mark, the tagline "From Fibers to
+Functions", and the overall visual identity (dark charcoal ground, gold thread
+palette, serif-display + mono-label pairing) are proprietary brand assets.
+
+You may NOT:
+
+  - Use the name "Reyrove", "Reyrove®", or "From Fibers to Functions" as the
+    name of your own site, product, service, collection, or project
+  - Reproduce, modify, or redistribute the logotype or favicon as your own
+    branding
+  - Use the brand assets in a way that suggests affiliation, endorsement, or
+    sponsorship by Reyhaneh Daneshdoost
+  - Register any confusingly similar name, logo, or domain
+
+Quoting the brand name in editorial, critical, or reference contexts (e.g.,
+"This portfolio by Reyrove...") is permitted, provided it is accurate and not
+misleading.
+
+===============================================================================
+3. CODE LICENSE — LIMITED PERMISSION
+===============================================================================
+
+The code structure (HTML markup, CSS rules, and JavaScript logic) may be
+studied, learned from, and adapted for personal, educational, or non-commercial
+use ONLY under the following conditions:
+
+  1. Complete replacement of branding and content. You must remove or replace:
+       - All Reyrove branding, the logotype, the favicon, and the tagline
+       - The name "Reyhaneh Daneshdoost" and "Reyrove" everywhere they appear
+       - All images, project descriptions, tutorial entries, writing entries,
+         and prose
+       - All trademark references and the copyright metadata pointing to Reyrove
+
+  2. Attribution. If you publish a site substantially derived from this code
+     structure, include a visible credit such as:
+       "Site structure inspired by Reyrove (reyrove.github.io)."
+
+  3. No trademark use. Your derivative work must not use the Reyrove name or
+     logo in any way that could imply endorsement or origin.
+
+  4. No commercial resale of the code as-is. You may not sell, sublicense, or
+     redistribute the code as a template, theme, starter, or product without
+     the express written permission of the copyright holder.
+
+If you are unsure whether your intended use is permitted, contact the copyright
+holder first.
+
+===============================================================================
+4. CONTENT LICENSE — NO REUSE WITHOUT PERMISSION
+===============================================================================
+
+All non-code content is strictly protected and may NOT be reproduced,
+distributed, modified, or used in any form without prior written permission.
+This includes:
+
+  - All artwork, generative outputs, and project images (including everything
+    in images/work/)
+  - All tutorial thumbnails and written notes (including everything in
+    images/tutorials/)
+  - All prose — including the manifesto, timeline, about quote, and contact copy
+  - All project titles, descriptions, and cataloguing metadata
+  - The Reyrove.png and Reyrove-og.png images
+  - The SVG logotype's path data and gradient definitions
+  - The site's JSON-LD structured data as authored
+
+You may NOT:
+
+  - Copy, mirror, or rehost any image or written content
+  - Use any artwork in AI training datasets without explicit written consent
+  - Use project images in your own portfolio, gallery, article, or product
+  - Claim authorship of any generative work, tutorial, or article
+
+You MAY:
+
+  - Link to any page or asset on the live site
+  - Quote short excerpts for criticism, review, scholarship, or news reporting,
+    with clear attribution and a link back
+  - Share links to specific projects or posts on social media
+
+===============================================================================
+5. AI TRAINING AND DATASET USE — EXPLICITLY PROHIBITED
+===============================================================================
+
+Use of any content in this repository — code, images, prose, logotype, or
+structured data — to train, fine-tune, or otherwise develop machine learning
+models, generative AI systems, or datasets is prohibited without prior written
+permission.
+
+This includes:
+
+  - Scraping or crawling for dataset construction
+  - Inclusion in image-caption or code-instruction datasets
+  - Fine-tuning or retrieval-augmented generation against this content
+  - Training of generative models on the logotype, artwork, or written text
+
+Educational and research uses of the code structure for learning web
+development are permitted under Section 3, but must not involve redistribution
+or model training.
+
+===============================================================================
+6. THIRD-PARTY COMPONENTS
+===============================================================================
+
+This site uses the following third-party resources, each governed by its own
+license:
+
+  - Playfair Display, Inter, DM Mono (Google Fonts) — SIL Open Font License 1.1
+  - Botpress webchat (embedded via CDN) — Botpress Terms of Service
+  - Schema.org vocabulary — Creative Commons Attribution-ShareAlike 3.0
+
+The copyright holder makes no claim over these third-party components. Where
+third-party assets are embedded (e.g., the Botpress scripts), their respective
+terms apply.
+
+===============================================================================
+7. NO WARRANTY
+===============================================================================
+
+The Work is provided "as is", without warranty of any kind, express or implied,
+including but not limited to the warranties of merchantability, fitness for a
+particular purpose, and non-infringement. In no event shall the copyright
+holder be liable for any claim, damages, or other liability arising from, out
+of, or in connection with the Work or its use.
+
+===============================================================================
+8. ENFORCEMENT
+===============================================================================
+
+Unauthorized use of the Reyrove® trademark, brand assets, artwork, or written
+content may result in a request for takedown, a DMCA notice, or other legal
+action. The copyright holder reserves all rights and remedies available under
+applicable law.
+
+===============================================================================
+9. REQUESTING PERMISSION
+===============================================================================
+
+For licensing inquiries, collaborations, commercial use, or permission
+requests, contact:
+
+  Reyhaneh Daneshdoost
+  Email:    reyhanehdaneshdoost@gmail.com
+  Website:  https://reyrove.github.io/
+  GitHub:   https://github.com/reyrove
+
+Please include:
+
+  - What you'd like to use
+  - Where and how it will be used
+  - Whether the use is commercial, educational, or personal
+
+===============================================================================
+10. SUMMARY (NON-BINDING)
+===============================================================================
+
+  Component                 | Allowed                          | Not Allowed
+  --------------------------+----------------------------------+----------------------------
+  Code structure            | Study, learn from, adapt for     | Resell as template;
+                            | personal/non-commercial use      | redistribute with Reyrove
+                            | WITH full rebranding + credit    | branding; commercial use
+                            |                                  | without permission
+  --------------------------+----------------------------------+----------------------------
+  Logotype / favicon /      | Reference in editorial/critical  | Any use as your own branding;
+  brand name                | context with clear attribution   | implied affiliation;
+                            |                                  | registration of similar marks
+  --------------------------+----------------------------------+----------------------------
+  Images (art, project,     | Link to live assets; short       | Copy, rehost, reuse in your
+  tutorial thumbnails)      | quoted excerpts with attribution | portfolio, use in AI training
+  --------------------------+----------------------------------+----------------------------
+  Written content (prose,   | Quote short excerpts with        | Reproduce in full, republish,
+  descriptions)             | attribution and link             | use in AI training
+  --------------------------+----------------------------------+----------------------------
+  AI training               | —                                | All uses without explicit
+                            |                                  | written consent
+  --------------------------+----------------------------------+----------------------------
+  Third-party fonts,        | Per their respective licenses    | Per their respective licenses
+  Botpress, Schema.org      |                                  |
+  --------------------------+----------------------------------+----------------------------
+
+This summary is provided for convenience only and has no legal force. The
+binding terms are Sections 1–9 above.
+
+===============================================================================
+
+© 2026 Reyhaneh Daneshdoost (Reyrove). All rights reserved.
+Reyrove® is a trademark of Reyhaneh Daneshdoost.
+
+Last updated: 2026
