@@ -1,0 +1,14 @@
+{
+  "name": "Reyrove",
+  "short_name": "Reyrove",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#0f0e0c",
+  "background_color": "#0f0e0c",
+  "display": "standalone"
+}
