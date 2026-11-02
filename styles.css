@@ -554,24 +554,6 @@ main {
   background: linear-gradient(0deg, rgba(22, 15, 32, .85), transparent);
 }
 
-.hero-note {
-  position: absolute;
-  z-index: 4;
-  left: 6vw;
-  right: 6vw;
-  bottom: 24px;
-  display: flex;
-  align-items: center;
-  gap: 22px;
-  color: rgba(220, 204, 232, .7);
-  font: 9px var(--mono);
-  letter-spacing: .14em;
-}
-
-.hero-note > span:first-child {
-  color: var(--violet);
-}
-
 @keyframes hero-portrait-in {
   from { opacity: 0; transform: translateY(calc(-50% + 20px)); }
   to   { opacity: 1; transform: translateY(-50%); }
